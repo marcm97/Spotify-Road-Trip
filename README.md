@@ -6,7 +6,7 @@
 * song name; spotify uri
 
 ## TODO
-*[ ] need to improve quality of queries
+* [ ] need to improve quality of queries
     * ~1000/10000 songs weren't able to be queried from spotify
     * try out the fuzzy wuzzy api?
 
