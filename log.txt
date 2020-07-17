@@ -1,0 +1,19 @@
+July 4th:
+- formulated overall direction: create an interface where user inputs start and end location of roadtrip, and gets a curated playlist of songs about places that one would be passing 
+- broke the problem into subtasks
+    - create a bag of songs that we can pull from - each songs should have attributes like place, duration, popularity....
+    - understand Spotify's API and how to create a playlist programmatically
+    - understand google map's API and how to get a list of cities that would be passed
+
+
+July 11th:
+- A couple of road blocks emerged:
+    - the songs that were scraped from wiki were heavily skewed towards bigger cities like NYC, LA;
+    Possible solns: use Lyrics.com's API https://www.lyrics.com/api.php to get better "quality of songs which better represent the USA
+                    to do this, we could get the biggest cities in each state and query those cities in lyrics.com's api
+    -google map's api only directions - so for example, there are stretches through the midwest which are a straight road (in one instance we noticed directions being provided only after 1000 mile gap
+    Possible soln: if there are any gaps greater than 100 miles(say) then average out the lat and log of the neighbouring 2 points and see if it works somewhat. the way we envision the playlist forming is that, each song is tagged with a lat and long, and every 100 or so miles we can randomly(maybe using popularity? as weights) pick songs. So we dont really need the lat and long to be exact along the path
+    
+- bugs:
+    - duplicates songs
+    - song length and uri correspond to different songs which messes up the length of the playlist
