@@ -13,8 +13,7 @@
 ## Open Questions
 * instead of csv, with 10,000+ songs would a db be better?
 * Figure out how to extract places from route:
-    * Look at `html_instructions`? Maybe just use lat, longs along route to query Places API? Or maybe there's some 
-    standard way to do this - need to keep looking.
+    * Using `reverse_geocode` is extremely slow - need to find a better way
 
 ## Notes
 * Spotify authentication
