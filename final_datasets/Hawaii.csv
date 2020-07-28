@@ -1,0 +1,739 @@
+,song_city,song_state,song_artist,song_name,uris,duration_ms,popularity,date
+0,Hawaii,Hawaii,The Beach Boys,Hawaii,spotify:track:2coG8jl7JVo7hg0XNAay4a,122000,33,1963-09-16
+1,Hawaii,Hawaii,The Queers,Hawaii,spotify:track:1jpNcapYk21W4spk2mZNmG,115146,7,1995
+2,Hawaii,Hawaii,Luciano,Hawaii,error,error,error,error
+3,Hawaii,Hawaii,The Strokes,Hawaii,spotify:track:3UUwbJd2j4RORlalTUhaDk,113893,50,1969
+4,Hawaii,Hawaii,Böri W 232,Hawaii Gömleğim,spotify:track:2e7Ocowfy0CV284vSElvng,272307,2,2020-06-20
+5,Hawaii,Hawaii,The Beach Boys,Kona Coast,spotify:track:0Ssa0ARgI7geS93afHwySv,153240,14,1978-10-02
+6,Hawaii,Hawaii,The Beach Boys,Melekalikimaka [Previously Unreleased Track],error,error,error,error
+7,Hawaii,Hawaii,Elvis Presley,"Paradise, Hawaiian Style",spotify:track:2JmQ5hKHB057YAM6OiFgIE,159773,21,1966-06-01
+8,Hawaii,Hawaii,Elvis Presley,Paradise,spotify:track:2JmQ5hKHB057YAM6OiFgIE,159773,21,1966-06-01
+9,Hawaii,Hawaii,Bing Crosby,Hawaiian Paradise,spotify:track:4XX6dh71QovW20nZetzcrt,159813,5,1956-01-01
+10,Hawaii,Hawaii,Bing Crosby,Mele Kalikimaka [2:57],error,error,error,error
+11,Hawaii,Hawaii,The Andrews Sisters,Mele Kalikimaka [Merry Christmas],spotify:track:04vLj9QUXoKdRlsp3gkURo,175333,45,1945-01-01
+12,Hawaii,Hawaii,The Andrews Sisters,Mele Kalikimaka [2:53],error,error,error,error
+13,Hawaii,Hawaii,The Andrews Sisters,Mele Kalikimaka,spotify:track:04vLj9QUXoKdRlsp3gkURo,175333,45,1945-01-01
+14,Hawaii,Hawaii,Ziggy Marley,Beach In Hawaii,spotify:track:7nCQ6Q6HJeHnwDHydc7x05,224413,55,2006-07-02
+15,Hawaii,Hawaii,Katy Perry,Harleys in Hawaii,spotify:track:5nCthAh3jt4xKuLJAifAaR,185815,72,2019-10-16
+16,Hawaii,Hawaii,Jake Owen,Mele Kalikimaka,spotify:track:0Ni5W9CIR6nfffwDaRyBrw,172853,6,2014-10-27
+17,Hawaii,Hawaii,Zooey Deschanel,Mele Kalikimaka,spotify:track:04mhhxg9fNzKSY1yNWr5FZ,183943,25,2019-11-29
+18,Hawaii,Hawaii,TUBE,憧れのハワイ航路,error,error,error,error
+19,Hawaii,Hawaii,Brian Wilson,In Blue Hawaii,spotify:track:1ngUF3oN23p4tpR0cWpnXN,179560,22,2004-09-27
+20,Honolulu1,Hawaii,ABBA,Happy Hawaii,spotify:track:1uvdgJ6KVIfzxAuEfDPyhv,265760,29,1976
+21,Honolulu1,Hawaii,Case,Not Your Friend,spotify:track:3Tzff5nOHwe1AjbWKUd8Ia,274333,33,2001-01-01
+22,Honolulu1,Hawaii,Fugees,Vocab,spotify:track:7oSVxGokmrvwMRdM6rcYsC,240360,46,2003-03-25
+23,Honolulu1,Hawaii,Lil' Flip,I Can Do Dat,spotify:track:7myPmGUKJJKtASZSVaim8w,218213,36,2000-01-16
+24,Honolulu1,Hawaii,Smokey Robinson,International Baby,spotify:track:4VDOXcMSFPXQtyuu57JzJV,250360,2,1982-01-01
+25,Honolulu1,Hawaii,Defari,Bomb Tree,spotify:track:09TE6bnHguNPFUU5iS5scL,252426,4,2002-04-30
+26,Honolulu1,Hawaii,"Max ""Good Luck"" Matluck",Honolulu,spotify:track:4vszduXEiPqq2YQV1aoTtd,152133,35,1995-03-15
+27,Honolulu1,Hawaii,Norma Jean,Honolulu Queen,spotify:track:5HkLHM7Sb7TP0fdy4xlUoL,166133,0,2019-03-29
+28,Honolulu1,Hawaii,Young Thug,The War,spotify:track:2o1dvKh58G11C51Y9EgBs3,216470,70,2020-03-27
+29,Honolulu1,Hawaii,Eels,"Going to Your Funeral, Pt. 1",error,error,error,error
+30,Honolulu1,Hawaii,Burton Cummings,Crazy If You Mess with the Gods,spotify:track:3InGit5JpovQ3KRrvkbrbf,229960,1,2008-01-01
+31,Honolulu1,Hawaii,Poi Dog Pondering,Aloha Honolulu,spotify:track:4IhJrXAam7huN1bGeSBXKh,207266,11,1989
+32,East Honolulu,Hawaii,Fugees,Vocab,spotify:track:7oSVxGokmrvwMRdM6rcYsC,240360,46,2003-03-25
+33,Pearl City,Hawaii,The Fall,Pearl City,spotify:track:4suo5HXUsuxWRLMW6cX3Fa,167186,6,1995-04-10
+34,Pearl City,Hawaii,The Fall,Pearl City [Live],spotify:track:7JjMhKqjab2tAuq8OtRwi4,217946,2,2003-04-28
+35,Pearl City,Hawaii,Rita Wilson,Big City Small Town Girl,spotify:track:6ISssLZ1jWKp2ExvvFlvNX,206302,14,2019-03-29
+36,Pearl City,Hawaii,Belle & Sebastian,I Want the World to Stop,spotify:track:57KtBT18nGAa3lfbpYsMnF,273640,35,2010-10-12
+37,Pearl City,Hawaii,Marc Almond,The Very Last Pearl,spotify:track:4FhGh71jEznWV1mkUIf6ss,285137,11,1989-01-30
+38,Pearl City,Hawaii,Infernal,Self Control,spotify:track:4lZktVLW9IcnGXdSJGxJTf,218133,40,2006-09-21
+39,Pearl City,Hawaii,TQ,If the World Was Mine,spotify:track:4lZktVLW9IcnGXdSJGxJTf,218133,40,2006-09-21
+40,Pearl City,Hawaii,Memphis Slim,Mother Earth,spotify:track:65KOk1XdFDUWRArUHZdafh,801733,13,1970-04
+41,Pearl City,Hawaii,Riot 99,New York City Girl,spotify:track:7tz8i9ULZZy5U1th2KkGgT,158197,0,2019-11-19
+42,Pearl City,Hawaii,Keith LeBlanc,Mother Earth,spotify:track:1tIrS9uf1dC40vHEouihLl,339711,5,2010-06-14
+43,Pearl City,Hawaii,Gov't Mule,Mother Earth,spotify:track:5sSAV6wGhrgFRcLxxExXiM,420400,12,2016-08-05
+44,Pearl City,Hawaii,Tab Benoit,Mother Earth,spotify:track:4lalX6QKiVVNX43OJkv2MX,229040,11,2006-01-01
+45,Pearl City,Hawaii,Mario,18,spotify:track:2hPEPTIjmN2GeLxEeFs4oH,226066,20,2004-12-06
+46,Pearl City,Hawaii,Jude Cole,Walls That Bend,spotify:track:2reh1RCZxlfA0ekq477Jdf,226546,8,1987
+47,Pearl City,Hawaii,Tommy february6,PINK ARMY,error,error,error,error
+48,Pearl City,Hawaii,Nas,If I Ruled the World (Imagine That),spotify:track:5PQmSHzWnlgG4EBuIqjac2,282373,69,1996-07-02
+49,Pearl City,Hawaii,Nas,If I Ruled the World,spotify:track:5PQmSHzWnlgG4EBuIqjac2,282373,69,1996-07-02
+50,Pearl City,Hawaii,T.I.,My Girl,spotify:track:4RkHeBEelNIvSm4pjJFKbI,322480,34,2006-06-27
+51,Pearl City,Hawaii,Tom Petty,Depot Street,error,error,error,error
+52,Pearl City,Hawaii,Rod Stewart,Dynamite,spotify:track:6k0bcRpTmVqWb3QADavu5S,260893,19,1988
+53,Pearl City,Hawaii,Dr. Demento,The Smoke Off,spotify:track:40iDT2ud52aJeqqNVQUrEv,132806,36,2019-07-17
+54,Pearl City,Hawaii,Shel Silverstein,The Smoke Off,spotify:track:1nOqFDZ69Rn2qulp0Hxq8k,370626,15,2011-01-01
+55,Pearl City,Hawaii,Juelz Santana,Imagine,spotify:track:4KPWlVUAmvYADctvAEV6jF,306460,43,2020-05-29
+56,Pearl City,Hawaii,London Symphony Orchestra,One Night in Bangkok,spotify:track:0XvTKBEM9tLqJHdZs5s2eB,195893,24,2009-06-12
+57,Pearl City,Hawaii,Steve Vai,One Night in Bangkok,spotify:track:0XvTKBEM9tLqJHdZs5s2eB,195893,24,2009-06-12
+58,Pearl City,Hawaii,The Golden Palominos,The Ambitions Are,spotify:track:7tmz4839jMuI1pBr0ploDu,503760,6,1996
+59,Pearl City,Hawaii,Ces Cru,Ghetto Celebrity,spotify:track:1SoAkrrJM4ANM6sKTl5Bfp,215700,30,2017-02-10
+60,Pearl City,Hawaii,Do or Die,Lil' Ghetto Boy,spotify:track:7pshG71ijxQ1C9dKO7bzDf,254240,30,2013-08-15
+61,Pearl City,Hawaii,Avenged Sevenfold,Beast And The Harlot,spotify:track:6FVYwnVrnAEIRnY3bHJb46,343600,61,2005-06-06
+62,Pearl City,Hawaii,Laura Nyro,Tom Cat Goodby,spotify:track:3Ez8mIU7s3vVlgFCFDS32s,326440,14,1969
+63,Pearl City,Hawaii,Hanoi Rocks,Back to Mystery City,spotify:track:2XWa85NyOfrtIxw5Qwr67r,296960,9,1992-01-01
+64,Pearl City,Hawaii,Eve,Be Me,spotify:track:0Tjdbd83LEAWrA0atsXMDJ,146733,52,1991-05-13
+65,Pearl City,Hawaii,Destroyer,Streethawk I,spotify:track:4SJQKShZ9WtLrNdjP8a0cb,146320,29,2001
+66,Pearl City,Hawaii,Murray Head,One Night in Bangkok,spotify:track:6erBowZaW6Ur3vNOWhS2zM,236066,57,1980
+67,Pearl City,Hawaii,Crooked,Survive,spotify:track:54nnZSkyVEb5Fabr7105nE,230452,25,2016-05-27
+68,Pearl City,Hawaii,The Joy Formidable,Running Hands with the Night,spotify:track:7qzNsX8XSeYdQ9Elv1D7ab,416053,7,2016-04-08
+69,Pearl City,Hawaii,Randy Montana,"1,000 Faces",spotify:track:5wnev4mkgSI6XS1bYLOKS5,241520,22,2010-01-01
+70,Pearl City,Hawaii,T.I.,End of the Road,spotify:track:6hDwMBN64ATHmPqf5FH5N6,257920,13,2004-08-24
+71,Pearl City,Hawaii,The Waifs,Fisherman's Daughter,spotify:track:7HYLU7M7kYRSSbiuvKye49,283680,34,2003-01-01
+72,Pearl City,Hawaii,Murray Head,One Night In Bangkok,spotify:track:6erBowZaW6Ur3vNOWhS2zM,236066,57,1980
+73,Pearl City,Hawaii,Wu-Block,Cocaine Central,spotify:track:7qLd8OundIXzSJKVEWBMd7,216146,11,2012-11-27
+74,Pearl City,Hawaii,The Offspring,Half-Truism,spotify:track:7xm8RWCCBYvEVx1VyErDa3,205946,52,2008-06-17
+75,Pearl City,Hawaii,ToneroOfficial,Lick,spotify:track:7mRj2e1onNZ8KWiWsrtWcn,195474,0,2018-03-09
+76,Pearl City,Hawaii,Pete Townshend,Affirmation,spotify:track:2mShHUby3nlmZmrbtASxQB,267346,6,2001-06-02
+77,Pearl City,Hawaii,Redman,How U Like Dat,spotify:track:5zgLYm8woVH4mB8JfPcDJ9,135480,13,2007-01-01
+78,Pearl City,Hawaii,Laura Nyro,Money,spotify:track:1nXgpywQmv9TMkzfdEBNSy,300133,12,1976
+79,Pearl City,Hawaii,Ellis Paul,Beautiful World,spotify:track:0w6WVeMUasY8I5RRkNTsPa,170533,0,2002-04-17
+80,Pearl City,Hawaii,Lone Star Ridaz,City of Houston,spotify:track:4GCv39qxROsqPfqDhkSWY4,233666,13,2002-02-28
+81,Pearl City,Hawaii,"Russell Lee, Lone Star Ridaz",City of Houston,spotify:track:4GCv39qxROsqPfqDhkSWY4,233666,13,2002-02-28
+82,Pearl City,Hawaii,Esperanza Spalding,To Tide Us Over,spotify:track:4gMeccaaAyjY8NCaZvaJM9,293333,27,2019-05-10
+83,Pearl City,Hawaii,Machines of Loving Grace,Limiter,spotify:track:2JvkMFTeu7CDM70t2Zjc2i,281493,12,1993-01-01
+84,Pearl City,Hawaii,Mike Tyson,One Night in Bangkok,spotify:track:55pqwGha6nQ9yUmpUV7Jpf,205840,18,2011-05-24
+85,Pearl City,Hawaii,Cannibal Ox,Gotham (Ox City),spotify:track:71YVHYos9OiV9sS9ZdMlqk,274654,8,2015-03-03
+86,Pearl City,Hawaii,Tommy Körberg,One Night in Bangkok,error,error,error,error
+87,Pearl City,Hawaii,Fler,SLIDE,spotify:track:4bJOdzeNCGUJRh57g0e8fk,171293,42,2020-03-20
+88,Pearl City,Hawaii,2Pac,Late Night,spotify:track:790WxhEMOf46NMaLhva5qV,399320,8,2012-03-13
+89,Pearl City,Hawaii,Jan Werner,One Night in Bangkok,spotify:track:4RnaKi5baIaaVUlzvH1w15,272733,2,1998-01-01
+90,Pearl City,Hawaii,Janelle Monáe,Django Jane,spotify:track:56RfNBJGUgL1ZFCB1KEJrQ,190288,53,2018-04-27
+91,Pearl City,Hawaii,Faster Pussycat,City Has No Heart,spotify:track:6RuwTaqh7CsHSB1WtZ82ew,259386,16,1987-07-01
+92,Pearl City,Hawaii,Robey,One Night in Bangkok,spotify:track:6AWht7rs160cnbKeUKzlTS,222632,13,2011-05-13
+93,Pearl City,Hawaii,Kenny G,Auld Lang Syne [Millennium Mix],spotify:track:7HfHWf7ML7RZLHSgUbGrGb,472026,17,1999-11-15
+94,Pearl City,Hawaii,"Lil Wayne, Zoey Dollaz",What's Next,spotify:track:5Fa59Lot9sq5X16iqJSTdX,158746,39,2019-10-25
+95,Pearl City,Hawaii,A Few Good Men,I Can Sing About Heaven,spotify:track:26KkJTfEY82kPCi8V4uSwi,145031,23,2017-06-24
+96,Pearl City,Hawaii,Chess,One Night in Bangkok,spotify:track:0XvTKBEM9tLqJHdZs5s2eB,195893,24,2009-06-12
+97,Pearl City,Hawaii,A*Teens,One Night in Bangkok,spotify:track:1gf44iGnvfjqTpHyczAMHj,211493,18,2003-01-01
+98,Pearl City,Hawaii,Loretta Lynn,Blue Kentucky Girl,spotify:track:2mqXqQnxcFq5tmG98kUQZw,163640,44,1965-01-01
+99,Pearl City,Hawaii,Bob Dylan,Gotta Serve Somebody,spotify:track:760420tYNmNjFgi8bWvbop,324800,47,1979-08-20
+100,Pearl City,Hawaii,John Denver,I Guess He'd Rather Be in Colorado,spotify:track:1gisi15k1VZkJUH3zej0AC,126506,44,1971
+101,Pearl City,Hawaii,Al Jarreau,Sweet Potato Pie,spotify:track:0d1SbpuN5yVN79NyAb0YuU,193826,24,1975
+102,Pearl City,Hawaii,OutKast,Ova da Wudz,spotify:track:1SrDDrw3ZMElLdnTjvWJOg,227533,43,1996-08-27
+103,Pearl City,Hawaii,Shirley Caesar,Gotta Serve Somebody,spotify:track:5vkiWFw58VrwqEdNuYuBsD,347933,7,2003-04-01
+104,Pearl City,Hawaii,Smashing Pumpkins,Bodies,spotify:track:4A0f5CrcOYRVwihIQkcHdP,252200,46,1995
+105,Pearl City,Hawaii,Chet Baker,Batter Up,spotify:track:0Bt9JpLID00VR7la6hqPXE,175200,6,1998-01-01
+106,Pearl City,Hawaii,Dolly Parton,There,spotify:track:6oizwmD5yHvlQUw0xvirrY,223347,61,2019-10-04
+107,Pearl City,Hawaii,Russ Freeman,Batter Up,spotify:track:0Bt9JpLID00VR7la6hqPXE,175200,6,1998-01-01
+108,Pearl City,Hawaii,Snoop Dogg,Boss Life,spotify:track:4UprL40OVADveANAtCNrIa,202680,51,2006-01-01
+109,Pearl City,Hawaii,UGK,Cocaine,spotify:track:1UhlAqlzjaIv9vAIkloLPd,223826,30,1992-09-11
+110,Pearl City,Hawaii,Nate Dogg,Special,spotify:track:0AFxQBihcXLnNZ5QHPZSJ9,237453,43,2005
+111,Pearl City,Hawaii,Logic,Lord Willin',spotify:track:4q6oNFTjZmJqkIgPdp8iR1,208666,59,2015-11-13
+112,Pearl City,Hawaii,Bob Dylan,False Prophet,spotify:track:0JBFlDivbkrskU7oYnjdIU,360013,60,2020-06-19
+113,Pearl City,Hawaii,AMG,Get 2getha Again,spotify:track:4BBifkYa7CA6COpZVugRRy,280426,26,1998-11-23
+114,Pearl City,Hawaii,Birdman,Leather So Soft,spotify:track:2QUVk7QscEdZiHi7zs4ycM,291413,51,2006-01-01
+115,Pearl City,Hawaii,Trina,I Got a Bottle,spotify:track:1knOsYvkIduhdJk0bsw8x7,212266,23,2008-01-01
+116,Pearl City,Hawaii,Sbn3,2021's,spotify:track:5azrvXC3yTtjCuz9G594kJ,141635,1,2018-02-23
+117,Pearl City,Hawaii,Chronic Future,"New York, NY",spotify:track:6WL9Fm5M0qXozdAzhp9YsH,186760,22,2004-01-01
+118,Pearl City,Hawaii,Priests,Nicki,spotify:track:6xUiSrfHyzwYCVsxxfrc2P,220979,19,2017-01-27
+119,Pearl City,Hawaii,Nelly,Batter Up,spotify:track:0hAwVLbutn8MvkpYYexBlj,328000,21,2020-07-17
+120,Pearl City,Hawaii,Mariah Carey,One and Only,spotify:track:1sBYBkxkGUJ9ifckB6N8HH,194706,38,2005-01-01
+121,Pearl City,Hawaii,Willie Nelson,Gotta Serve Somebody,spotify:track:6Fvqad61idnGCv9tJkMKv2,487623,32,2018-09-28
+122,Pearl City,Hawaii,Everlast,Sad Girl,spotify:track:2OuCH7EINe0Ni7Kc53PGYp,274906,30,2013-08-27
+123,Pearl City,Hawaii,Princess Nokia,Brick City,spotify:track:24KoIpgWtURFwbD1GhIKZM,158000,35,2017-09-08
+124,Pearl City,Hawaii,Ludacris,Walk Thru My Hood,error,error,error,error
+125,Pearl City,Hawaii,Dolly Parton,Everyday Hero,spotify:track:1PUlJ8iPly2XJiHXkkxiet,271306,10,1987-11-23
+126,Pearl City,Hawaii,"Tracy T, Pusha T, Rick Ross",Choices,spotify:track:1SkT59KmsWQNTLyj1KTfwR,196128,12,2017-02-24
+127,Pearl City,Hawaii,Eric B. & Rakim,Casualties of War,spotify:track:2nXSfOUS7BmPhLRV6ehiml,242973,27,1992-01-01
+128,Pearl City,Hawaii,David Allan Coe,Bootlegger King,spotify:track:5Dz0go3pS8Txfgaccn375p,227160,1,1972
+129,Pearl City,Hawaii,Jazze Pha,Contract,spotify:track:1TB2N2RZ6348hjL5PGp8DN,201470,31,2019-05-31
+130,Pearl City,Hawaii,Akon,Soul Survivor,spotify:track:0Ss50OU9tCozI7JIywkv14,280013,65,2005
+131,Pearl City,Hawaii,Eric B. & Rakim,Casualties of War [Radical Radio Edit],spotify:track:7aLmwyVAj16SLlHFjypUsc,249400,17,2005-01-01
+132,Pearl City,Hawaii,Scotty McCreery,In Between,spotify:track:2IuazAsyvbb3fFZb0Uvsmk,221600,71,2018-01-12
+133,Pearl City,Hawaii,The Philosopher Kings,No Woman Around,spotify:track:3TdKQCw6DFZkGTKzFpBkam,212826,4,1994
+134,Pearl City,Hawaii,Sizzla,Can't Cool Can't Quench,spotify:track:09X4vtwfVz3Vodjl9t0zHf,251400,14,1999
+135,Pearl City,Hawaii,Cypress Hill,Ez Come Ez Go,spotify:track:2Fmaxdf7jQGM04XKSOOE55,244906,18,2005-12-13
+136,Pearl City,Hawaii,Nas,You Can't Kill Me,spotify:track:73IfCQJQLWkOk2PpoX3fPZ,194986,18,2006-12-19
+137,Pearl City,Hawaii,Rick Springfield,Orpheus in the Underworld,spotify:track:2HsImbV0ojgC55hrIRoA2y,607757,9,2018-01-26
+138,Pearl City,Hawaii,The Four Freshmen,Maxine,spotify:track:5NfaG4ET2C1J2Rrw4GgcQt,249000,0,1992-10-25
+139,Pearl City,Hawaii,Asher Roth,Party Girl,spotify:track:30vaYdXtB20QrniKjJ2B7m,260266,42,2012-01-01
+140,Pearl City,Hawaii,Mary Chapin Carpenter,I Guess He'd Rather Be in Colorado,spotify:track:4iBHzL9VSEzPcCWq8OZEY3,194733,18,2013-04-02
+141,Pearl City,Hawaii,Diplo,Dirty Vibe,spotify:track:2OYJZRxTzcF4gLb6na9p0G,216315,38,2015-09-15
+142,Pearl City,Hawaii,Cousin Stizz,Meds,spotify:track:4MvtFU5zkOz49RZbz6yQW5,182240,33,2019-08-14
+143,Pearl City,Hawaii,B.S.H. (Bass Sultan Hengzt),Bester Mann,spotify:track:7HwGPJ1CVwgDe9gNSAgL9r,193805,20,2019-01-25
+144,Pearl City,Hawaii,D-Bo,Not 4 Sale,spotify:track:0lDQ17pfh6OVL2jj6TMGV0,215289,0,2018-03-30
+145,Pearl City,Hawaii,Nines,Make It Last,spotify:track:2gSvBkD1K6vYghp32hH8YH,225145,35,2017-02-10
+146,Pearl City,Hawaii,Caroline Jones,Country Girl,spotify:track:5GhYy5gWUSxeQY9Np2VqgM,209133,30,2018-03-30
+147,Pearl City,Hawaii,Clutch,Child of the City,spotify:track:4SqD2j4uNoYPEi0kOVCAqJ,232053,22,2007
+148,Pearl City,Hawaii,The Kooks,Sofa Song,spotify:track:0Vfgpl5VpDBQexEPYUqaQK,133253,35,2006-01-01
+149,Pearl City,Hawaii,Cameo,Don't Be So Cool,spotify:track:3mtj8841LKg5RAt2ExHRKC,254040,13,1981-12-14
+150,Pearl City,Hawaii,Carman,The Third Heaven,spotify:track:2vCCgcOYpmUTxjxhvMn3Im,469533,8,1993-12-07
+151,Pearl City,Hawaii,Donald Fagen,Maxine,spotify:track:7fW59TD8pQRSobXp3BslSd,229733,39,1982-10-29
+152,Pearl City,Hawaii,Ghostface Killah,Underwater,spotify:track:2GCuhz1qTztWsO5UFXgkEG,123400,21,2006-01-01
+153,Pearl City,Hawaii,Mountain,My Lady,spotify:track:5aiscSAW60QnaOfox1pgpu,273466,14,1971
+154,Pearl City,Hawaii,Red Sovine,Bootlegger King,spotify:track:1rbjqcLek49ctda1Rtg0ID,223200,17,2005
+155,Pearl City,Hawaii,K-Solo,Let's Go,spotify:track:0T1OPX9tWhNmoAC8rHL7xO,143168,4,2018-11-28
+156,Pearl City,Hawaii,Laurie Anderson,Blue Lagoon,spotify:track:6fKgvGkjN7GUBbs60BAwWZ,578506,4,1984
+157,Pearl City,Hawaii,Ultramagnetic MC's,Ultra Reunion,spotify:track:0pqtn2mO8Nnc8L3jG1Wil2,205240,1,2006
+158,Pearl City,Hawaii,Shelby Lynne,Some of That True Love,error,error,error,error
+159,Pearl City,Hawaii,Talib Kweli,State of Grace,spotify:track:5uc9yW6HhMDFtoPeFNmxxJ,354697,16,2013-12-15
+160,Pearl City,Hawaii,David Wilcox,Which Way the Wind Blows,spotify:track:4mH32NSvJ7o1YzNyaQmf61,235040,1,1989-01-01
+161,Pearl City,Hawaii,Da Brat,Where The Party At [Dupri Remix],spotify:track:3GvZf2Tgmo5ijHuzXmxaGG,232706,33,1997
+162,Pearl City,Hawaii,The Shins,September,spotify:track:5X1cvJi4Ja7zEYvNwA0LXZ,213293,36,2012-03-16
+163,Pearl City,Hawaii,Kevin Gates,Making Love,spotify:track:4Uw7NtaXY0xJrbR9qiaN4H,422400,37,2019-11-08
+164,Pearl City,Hawaii,The Waterboys,Malediction,spotify:track:6rAojt0gtgVgFWoZJKbxRH,256813,6,2000-09-25
+165,Pearl City,Hawaii,O.C.,Get Away,spotify:track:62tBqHIXChqpGfdjA3JaA2,302851,44,2020-07-16
+166,Pearl City,Hawaii,Fat Joe,We Run This Sh*t,spotify:track:4EtPOiMN71eV2YpcTt8GLO,237466,11,2002-11-12
+167,Pearl City,Hawaii,Paul Oakenfold,Weak Become Heroes,error,error,error,error
+168,Pearl City,Hawaii,Twista,Mobster's Anthem,spotify:track:3oHs1oRnbu2dl4KYcKavP7,307400,32,1997
+169,Pearl City,Hawaii,Fat Joe,We Run This Shit,spotify:track:4EtPOiMN71eV2YpcTt8GLO,237466,11,2002-11-12
+170,Pearl City,Hawaii,Skyzoo,Luxury,spotify:track:4UcBZecSlEnhynSSIrDObh,222147,18,2015-06-17
+171,Pearl City,Hawaii,Kevin Gates,Makin' Love,spotify:track:313P2oFum86ikac8z3yN2s,219671,43,2014-12-15
+172,Pearl City,Hawaii,Chingy,Nike Aurr's & Crispy Tee's,spotify:track:4fCY3CdFoEKiAGS6aNOEuu,226853,13,2006-01-01
+173,Pearl City,Hawaii,Random Axe,Another One,spotify:track:12EGi8wTiKWtq6Dvt7a5b1,197920,7,2011-06-14
+174,Pearl City,Hawaii,Skizzy Mars,Do You There,spotify:track:0MuqFuh4MerIiFsYWuEFaP,287666,53,2015-02-03
+175,Pearl City,Hawaii,Frankie J,Ménage à Trois,spotify:track:4jN5sBRPTtAwDi3f28qePs,282346,2,2007-08-07
+176,Pearl City,Hawaii,Tre+6,99 Problems,error,error,error,error
+177,Pearl City,Hawaii,NOFX,I'm A Transvest-lite,spotify:track:2ssdHYSXT8ZmeneV8DjJG7,136946,33,2016-10-07
+178,Pearl City,Hawaii,Westside Connection,Slow Motion,spotify:track:49uLRd7UPp09dWcBcPKHBx,208744,0,2019-01-28
+179,Pearl City,Hawaii,Z-Ro,3rd Coast,spotify:track:7MqvRIqr0fhCzLkubaYg8n,215533,14,2000-10-10
+180,Pearl City,Hawaii,Skyzoo,The Aura,spotify:track:6dFoOfEjIKMcFEbiwznpfc,261312,11,2014-05-27
+181,Pearl City,Hawaii,The National,All Dolled-Up in Straps,spotify:track:342LDqu1qxqr2eh5KGJ1ee,251000,31,2004-07-20
+182,Pearl City,Hawaii,JME,Been the Man,spotify:track:36I3sETuZvd4dhQzBVIcnw,236746,44,2015-12-14
+183,Pearl City,Hawaii,Kevin Gates,Luca Brasi Freestyle,spotify:track:5XeP8WpyHwaZICxhmf0egF,244699,47,2018-09-28
+184,Pearl City,Hawaii,"Kehlani, Saweetie",ICY GRL [Bae Mix],spotify:track:6MP5WAK2U7gKWldflqhPCr,148117,59,2018-04-28
+185,Pearl City,Hawaii,YoungBoy Never Broke Again,New Money,spotify:track:0MZZDyq9AwXLCtLTcpS9TR,193236,31,2017-11-17
+186,Pearl City,Hawaii,The Streets,Weak Become Heroes [Ashley Beedle's Love Bug Vocal],spotify:track:5lvdSCoiTFRlkNDtTG8HeU,494880,12,2002-03-18
+187,Pearl City,Hawaii,The Streets,Weak Become Heroes [Album Version],error,error,error,error
+188,Pearl City,Hawaii,Haystak,The Bottom,spotify:track:3CLD0xpUDC2UxhHcfuDSF1,240533,14,2000-08-08
+189,Pearl City,Hawaii,"Elohim, Casey Veggies",All That Gold,spotify:track:11zTrrksNgW8Q2fYmsKQVi,195306,27,2016-05-20
+190,Pearl City,Hawaii,Marillion,Chelsea Monday [Live],spotify:track:4fiu5m28kMU82DMu4KEkHd,480640,21,1988-11-28
+191,Pearl City,Hawaii,Dr. Dog,The World May Never Know,spotify:track:5RXwS2p2yXqGtBEW91sV8C,182674,33,2005-03-15
+192,Pearl City,Hawaii,Funkdoobiest,Superhoes,spotify:track:7fjdGYrSJ2AepOQ7YKy2rs,231760,43,1995
+193,Pearl City,Hawaii,Cradle of Filth,Beauty Slept in Sodom,spotify:track:4ZWGbMyLmfFORlB6ZCGiGD,392293,23,1996-09-26
+194,Pearl City,Hawaii,John Schneider,Country Girls,spotify:track:1ooBgxG5dZEF5yJPpPzomN,191800,24,1984-01-01
+195,Pearl City,Hawaii,Sham 69,Hersham Boys,spotify:track:79JfsmEPNIABOIsHc49XzD,203840,28,1998
+196,Pearl City,Hawaii,Chris Cornell,I Am the Highway,spotify:track:0sT86uFdDw1mfkOGYT01bQ,296706,50,2011-01-01
+197,Pearl City,Hawaii,Big Boi,85,spotify:track:1eYyfFDQJGRhQ55jlbtqrG,269693,48,1999
+198,Pearl City,Hawaii,B.G.,Represent,spotify:track:2A04oMKGN5wLVBKFpNUedX,291085,19,2015-11-15
+199,Pearl City,Hawaii,Masta Ace,Take a Walk,spotify:track:5zcRPNrvp8agDQbBMewzRt,307133,46,2005-02-15
+200,Pearl City,Hawaii,Hieroglyphics,Soweto,spotify:track:4gPcPRx8JXs4WuhszmxQZs,235320,32,2011-01-04
+201,Pearl City,Hawaii,k-os,Heaven Only Knows,spotify:track:7oC1Re5KCCMms35bIL37rp,235040,14,2002-01-01
+202,Pearl City,Hawaii,Nappy Roots,Roun' the Globe [Collipark Remix],error,error,error,error
+203,Pearl City,Hawaii,YoungBloodZ,85,spotify:track:1eYyfFDQJGRhQ55jlbtqrG,269693,48,1999
+204,Pearl City,Hawaii,Nappy Roots,Roun' the Globe,spotify:track:15ysm6oaBXHmNVFD5oZNUq,243533,28,2003-08-21
+205,Pearl City,Hawaii,Run the Jewels,Run the Jewels,spotify:track:2HLj3bbq6NIxKAK3GzStU5,210626,57,2013-06-26
+206,Pearl City,Hawaii,Action Bronson,Actin Crazy,spotify:track:3clX2NMmjaAHmBjeTSa9vV,239466,56,2015-03-23
+207,Pearl City,Hawaii,Drumcorps,Open Arms,spotify:track:22jLvlDrMOUSlXe2LQLEcW,235826,8,2015-10-30
+208,Pearl City,Hawaii,Rhonda Vincent,Till They Came Home,spotify:track:0rQ1oo7IgVpjt6IPRxNCJ5,248533,9,2006-01-01
+209,Pearl City,Hawaii,Shadow,Menage a Trois,spotify:track:4jN5sBRPTtAwDi3f28qePs,282346,2,2007-08-07
+210,Pearl City,Hawaii,Eric Burdon,Gotta Serve Somebody,spotify:track:7dbTHBWXJ0FhixbE9ZTry2,296000,12,2012-01-24
+211,Pearl City,Hawaii,Audioslave,I Am The Highway,spotify:track:3bwAS8cN7Xtzvv5UurJOOX,334906,66,2002-11-17
+212,Pearl City,Hawaii,South Park Mexican,Valley,spotify:track:1ETdBL4rca52Jz0Kk7QZAn,606733,13,1999-11-23
+213,Pearl City,Hawaii,YoungBloodZ,85/Billy Dee Interlude,spotify:track:1eYyfFDQJGRhQ55jlbtqrG,269693,48,1999
+214,Pearl City,Hawaii,Paris,Awol,spotify:track:01Yss5f6n12i23wx7M5trv,232066,15,2003-09-23
+215,Pearl City,Hawaii,Dres,Damn Right,error,error,error,error
+216,Pearl City,Hawaii,Daize,Intro,error,error,error,error
+217,Pearl City,Hawaii,Blac,Intro,spotify:track:0SSaZNYFCW6XMYrdY8dy6p,203746,24,2018-09-07
+218,Pearl City,Hawaii,Smino,WE GOT THE BISCUITS,spotify:track:1fJL0EgvPrLIltnF0d3CbR,269244,42,2018-11-08
+219,Pearl City,Hawaii,Bruce Cockburn,When You Give It Away,spotify:track:5ad510lNd6iBaxdaWChZ8j,293560,7,2007-01-01
+220,Pearl City,Hawaii,Gravediggaz,Bloodshed,spotify:track:7CMJ29CjArUjXioyEDyMER,288573,13,2015-12-25
+221,Pearl City,Hawaii,Jim Jones,Shotgun Fire,spotify:track:3g5FhtQpU3kgcqqxLTmd7q,236200,7,2004-08-24
+222,Pearl City,Hawaii,Z-Ro,Let's Chill,spotify:track:4dSb5MzW56WYBp6FxXlGpD,247453,19,2000-10-10
+223,Pearl City,Hawaii,Natalia Kills,Saturday Night,spotify:track:33PjZY2GPvncJGdgXgj3sj,285333,38,2013-01-01
+224,Pearl City,Hawaii,Action Bronson,Actin' Crazy,spotify:track:3clX2NMmjaAHmBjeTSa9vV,239466,56,2015-03-23
+225,Pearl City,Hawaii,The Cleaners from Venus,A European Girl,spotify:track:0CcK96C0yY0yMsh1MTaEfc,188560,2,2014
+226,Pearl City,Hawaii,Spitty,When Wilt Thou Bloom?,spotify:track:6AeMLL6IhiZCGiVRbSttlk,361639,0,2017-09-15
+227,Pearl City,Hawaii,"Denzel Curry, Guapdad 4000",Lil Scammer That Could,spotify:track:2nSKol7UyxwffI6jLYTuUd,186000,64,2020-06-26
+228,Pearl City,Hawaii,The Ting Tings,Fine & Dandy,spotify:track:15HdqwI5ObalgNifiHP3KR,271226,30,2018-10-26
+229,Pearl City,Hawaii,土屋 アンナ,Sweet Rishi Boy,spotify:track:0HESXxxcgSDPg4MYP3182X,300360,1,2009-07-01
+230,Pearl City,Hawaii,Marshall Magic,Diamond Fool,spotify:track:49Uny4ii2rkKuXIjbHamsU,199456,4,2018-01-15
+231,Pearl City,Hawaii,Gabriel Teodros & SoulChef,Greeny Jungle (feat. Shakiah),error,error,error,error
+232,Pearl City,Hawaii,The Coup,Me and Jesus the Pimp in a '79 Granada Last Night,spotify:track:1UI0zKmwoih5srnh3HF5Av,430466,33,1998
+233,Pearl City,Hawaii,Angels of Light,New York Girls,spotify:track:3jVfTyIZCoDYKwTtLR4YaR,491920,19,2001-03-05
+234,Pearl City,Hawaii,Carina Round,Overcome,spotify:track:6NqUqNlPnPsjiicmQ41EuD,259839,8,2004-01-01
+235,Pearl City,Hawaii,Swingers,Five O'Clock Shadow,error,error,error,error
+236,Pearl City,Hawaii,Briskeby,Cellophane Eyes,error,error,error,error
+237,Pearl City,Hawaii,Delinquent Habits,Beijing,error,error,error,error
+238,Pearl City,Hawaii,Gill Landry,Mexico,spotify:track:40AKrtEbSTmZipM2HnFXiC,207773,28,2007-01-30
+239,Pearl City,Hawaii,M. Craft,Snowbird,spotify:track:6CJTbb5cJpQGi3D88N1gKo,329879,4,2006-05-22
+240,Pearl City,Hawaii,King Tee,Advertisement,spotify:track:6FcBmjHm9EaJnwuuck8PLp,233373,10,1995-03-28
+241,Pearl City,Hawaii,Dave Carter,41 Thunderer,spotify:track:12CPmLuKgdwbC0aNsJ6RTj,303800,8,2001
+242,Pearl City,Hawaii,Moonspell,Vampiria,spotify:track:3WvEldmFjjLhd1ITIl0FMk,335893,33,1995
+243,Pearl City,Hawaii,Fort Minor,Kenji,spotify:track:6H503HrJOogVycvQkq2SuG,231480,48,2005-11-21
+244,Pearl City,Hawaii,The Distillers,Drain the Blood,spotify:track:3kYWrBoFBQGctF0UwgP8N1,189706,51,2003-10-07
+245,Pearl City,Hawaii,Natalia Kills,Saturday Night [Edited],error,error,error,error
+246,Pearl City,Hawaii,Natalia Kills,Saturday Night [Explicit],error,error,error,error
+247,Pearl City,Hawaii,First Born,Caught in the Wind,spotify:track:5zp2Euyz9zoIhDYALmagc7,224266,0,2005-03-01
+248,Pearl City,Hawaii,Unlinked Artist,Country Girls,spotify:track:00OW0MQ60wqw2hFoIhcwQ7,249400,0,2007-06-15
+249,Pearl City,Hawaii,Lil' Flip,Texas Takeover,spotify:track:34EDwh8RBCfSVMOx0gfZjY,213546,10,2009
+250,Pearl City,Hawaii,Jerry Leger,Mansion Round The Bend,spotify:track:5S9knbfR9gSwnjoqqS68kn,232320,0,2008-10-07
+251,Pearl City,Hawaii,Gangsta Boo,Money and the Powder,spotify:track:4OOiXzZFJQAhTnJAmBur67,262506,12,1998-09-29
+252,Pearl City,Hawaii,Bree Sharp,A Cheap and Evil Girl,spotify:track:13qcYq1Oc5totrkRZTgNlI,248506,19,1999
+253,Pearl City,Hawaii,Morningwood,New York Girls,spotify:track:0bMDJo0KLifcXwkukco980,176626,29,2006-01-01
+254,Pearl City,Hawaii,Real Live,Money and Shows,spotify:track:7c0QHVOJ5NdSxSxJNVzmTc,234066,9,1996-06-01
+255,Pearl City,Hawaii,McGruff,What Part of the Game,spotify:track:62XbVBz3h6mVCJWGPDyFYd,293000,3,1998-01-01
+256,Pearl City,Hawaii,St. Lunatics,Batter Up,spotify:track:7vqcO0Bzj0UXiS0AHpv0Ty,194626,47,2013-05-13
+257,Pearl City,Hawaii,Jamie T.,So Lonely Was the Ballad,spotify:track:6B2ewsFZtqaecclXkZ41To,230493,20,2007-01-01
+258,Pearl City,Hawaii,Soulja Boy,Blowing Me Kisses,spotify:track:3CYwWDoKCBzdXngixnvwu1,199506,45,2010-01-01
+259,Pearl City,Hawaii,Kreayshawn,Gucci Gucci,spotify:track:1ea97AUSazu2QZw9BnHJqK,187840,54,2012-09-14
+260,Pearl City,Hawaii,The Panic Division,Easy Target,spotify:track:48F2P3BKaoavnEhCFo0h2p,255093,3,2005
+261,Pearl City,Hawaii,DJ Bling,Batter Up,spotify:track:7mjWDVYguGK15ZraX9C7oJ,330626,0,2003
+262,Pearl City,Hawaii,Craig G,Girl Fever,spotify:track:4GCgtRoPYercluYzUwZykf,223840,1,1991-02-05
+263,Pearl City,Hawaii,Mick Jenkins,Dehydration,spotify:track:4wI44Qnj9LB2VHJiJElMcJ,219174,36,2014-08-12
+264,Pearl City,Hawaii,Dre Dog,Scottie 15,spotify:track:5jX5EcUN1NTtYOkiqAjmMB,315506,31,1998-02-14
+265,Pearl City,Hawaii,Ari Herstand,Cabarete,spotify:track:2q4OHE84Pt1uPUcg7VMeLN,223133,5,2018-02-09
+266,Pearl City,Hawaii,Beige,Mercury,spotify:track:7vDDZ7LZpMraRDCNTxEGPB,129217,0,2020-05-01
+267,Pearl City,Hawaii,Shwayze,Polaroid,spotify:track:5H4qNL38lIfTIfKDj4THf2,286960,37,2008-01-01
+268,Pearl City,Hawaii,Tony Matterhorn,Man from Mars,spotify:track:1DprzXNxZ2oD0ZFPMMhBSf,276760,8,2006-11-14
+269,Pearl City,Hawaii,Young Chozen,All Falls Down,spotify:track:6OPqpTpB1heZrZ4HRyqkDg,177323,1,2019-08-30
+270,Pearl City,Hawaii,IshDARR,Time Shawty,spotify:track:4PIMZgSNkNgGECJmIopdec,221217,24,2016-10-07
+271,Pearl City,Hawaii,Psy 4 de la Rime,La vie m'a appris,spotify:track:1X2SLTcGuHMeEViT0FQl3D,328573,19,2005-09-27
+272,Pearl City,Hawaii,PA Sports,Intro [Keine Tränen],spotify:track:0by2kSa4bJ5l5ULMSif70C,110404,32,2019-10-04
+273,Pearl City,Hawaii,Ann Wilson,I Am The Highway,spotify:track:5hOaHbmx8aK7dIT5c53YJr,295129,12,2018-09-14
+274,Pearl City,Hawaii,The Okee Dokee Brothers,The Bullfrog Opera,spotify:track:40jZFJBVYMzxdEpMptacUM,181240,37,2012-05-15
+275,Hilo,Hawaii,Bishop,Hi-Lo (Hollow),spotify:track:4pfcHOvZAf9f3dYMPcdfQc,251986,53,2018-04-20
+276,Hilo,Hawaii,Joey Ayala,Lason,spotify:track:3CayN9E8n9llaqKfJv3MAM,145253,3,2015
+277,Hilo,Hawaii,Paul Desmond,"Hi-Lili, Hi-Lo",spotify:track:4c8LL9HKOP5tWodnyaAH4W,282200,28,1997-08-26
+278,Hilo,Hawaii,Bill Evans,"Hi Lili, Hi Lo (For Ellaine)",spotify:track:1E7N8xy24wj2fcBXf3FPhO,438240,11,1975-01-01
+279,Hilo,Hawaii,The Everly Brothers,"Hi-Lili, Hi-Lo",spotify:track:27wS2L9pPfFWsxZGcas4Tr,106933,5,1961
+280,Hilo,Hawaii,Ray Conniff,"Hi-Lili, Hi-Lo",spotify:track:7a3YeeLEiZRTmr7SUY1ZM0,149360,5,1972
+281,Hilo,Hawaii,The Four Seasons,"Hi-Lili, Hi-Lo",spotify:track:4KKN9npEYrywm7Xmj5OTPL,144893,15,1963-02-01
+282,Hilo,Hawaii,Gene Vincent,"Hi-Lili, Hi-Lo",spotify:track:4LovX2FQMfdxSsfoxodv1f,168826,1,1994-01-18
+283,Hilo,Hawaii,Duane Eddy,"Hi-Lili, Hi-Lo",error,error,error,error
+284,Hilo,Hawaii,Johnny Mathis,"Hi-Lili, Hi-Lo",spotify:track:203PqT0FHRvVPzQcZPhYbd,209480,2,1963-06-01
+285,Hilo,Hawaii,Chet Atkins,"Hi-Lili, Hi-Lo",error,error,error,error
+286,Hilo,Hawaii,Slim Whitman,Hi Lili Hi Lo,spotify:track:7vBkdTcX2s8Gm8SkZFCJyP,130479,0,2014-12-15
+287,Hilo,Hawaii,Mantovani Orchestra,"Hi-Lili, Hi-Lo",spotify:track:4wJfGt7y4wcSjM3Q6fOkik,117435,7,2013-09-03
+288,Hilo,Hawaii,Hansel,Maria Teresa y Danilo,spotify:track:5D1P4P7IxymGprWdbaq8N4,287626,52,2002-03-19
+289,Hilo,Hawaii,Antílopez,La Necrológica De Un Amorío,spotify:track:2pNsKbwdiIZ7SO58NaZUx6,202546,30,2010-10-10
+290,Hilo,Hawaii,Roger Williams,"Hi-Lili, Hi-Lo",error,error,error,error
+291,Hilo,Hawaii,Arthur Lyman,"Hi-Lili, Hi-Lo",spotify:track:0UDKmXPZfJcIX85Vh4an5C,109506,6,1960
+292,Hilo,Hawaii,Gordon Jenkins,"Hi-Lili, Hi-Lo",spotify:track:6WXsP5nR7SZETxnS5mYawh,134226,0,1963-11-26
+293,Hilo,Hawaii,Manfred Mann,"Hi-Lili, Hi-Lo",spotify:track:5bwgQdbmpbAizVfK17nKJw,162013,17,1965-01-01
+294,Hilo,Hawaii,Jimmy Durante,"Hi-Lili, Hi-Lo",spotify:track:1TDA4UPqYye1Jy4hf3Zawb,180706,23,1964
+295,Hilo,Hawaii,Jimmy Durante,"Hi-Lili, Hi-Lo [From Lili]",spotify:track:1TDA4UPqYye1Jy4hf3Zawb,180706,23,1964
+296,Hilo,Hawaii,Etta Jones,"Hi-Lili, Hi-Lo",spotify:track:3ESqOXxjNcxLCNb2i5rNGi,216493,22,1997-01-01
+297,Hilo,Hawaii,Norman Luboff,"Hi-Lili, Hi-Lo",spotify:track:5IczlAj3XsBtSbFjKHZOGR,223111,0,2011-04-19
+298,Hilo,Hawaii,Eydie Gorme,"Hi-Lili, Hi-Lo [From ""Lili""]",spotify:track:1DO4LQtnVavMDhrkam3o8C,198200,0,2002
+299,Hilo,Hawaii,Anne Murray,Hi-Lili Hi-Lo,spotify:track:5zYDAhnDnUxRUguQxB0EdD,126360,32,2001-01-01
+300,Hilo,Hawaii,Polly Bergen,Hi-Lili-Hi-Lo,spotify:track:5l7lHdp9XIsVuGpV1SM5Bw,227333,1,1963-01-01
+301,Hilo,Hawaii,Sylvia Syms,"Hi-Lili, Hi-Lo",spotify:track:4ckiN6vM9vWqtR8T59zksM,322066,0,1991-01-01
+302,Hilo,Hawaii,Tammy Grimes,"Hi-Lili, Hi-Lo",spotify:track:2IyJaOUYEEd4tUeBzD4VGl,142000,0,1963-12-10
+303,Hilo,Hawaii,Bobby Scott,"Hi-Lili, Hi-Lo",spotify:track:2AWVstcuvNlsD0OhfsExdM,143656,0,2016-02-23
+304,Hilo,Hawaii,Allan K,Ayoko Na Sa'yo,spotify:track:1W0NCgc1H6CQfHiLOz9oQI,261399,2,2002-01-06
+305,Hilo,Hawaii,Patti Page,Left Right Out of Your Heart,spotify:track:2FoUadIRzR44ZmPPlhYLop,141400,4,1997-01-01
+306,Hilo,Hawaii,Norma Winstone,Hi Lili Hi Lo,spotify:track:3yYZipMprXDP1LusUlYtBm,268133,2,1987-02-01
+307,Hilo,Hawaii,Serendipity Singers,"Hi-Lili, Hi-Lo",spotify:track:105ADde1dj4gvxpCDmfauH,150666,0,1967-02-13
+308,Hilo,Hawaii,Joni James,"Hi-Lilli, Hi-Lo",error,error,error,error
+309,Hilo,Hawaii,Shelley Fabares,"Hi-Lilli, Hi-Lo",spotify:track:1kbkmTWfkRsdullIQ4R6sQ,131626,3,1962
+310,Hilo,Hawaii,Unlinked Artist,"Hi-Lili, Hi-Lo",error,error,error,error
+311,Hilo,Hawaii,Arthur Murray Orchestra,"Hi-Lili, Hi-Lo",spotify:track:6eUJMNpYB22uWMNo3RBFhm,162826,0,1999-04-12
+312,Hilo,Hawaii,Marcela Viejo,Furia,spotify:track:0pjA4e3zMuIkPol4fXJLU1,199417,11,2018-11-02
+313,Hilo,Hawaii,Leslie Caron,"Hi-Lili, Hi-Lo",spotify:track:4wJfGt7y4wcSjM3Q6fOkik,117435,7,2013-09-03
+314,Hilo,Hawaii,Django Bates,Hi Lili Hi Lo,error,error,error,error
+315,Hilo,Hawaii,Alan Price,"Hi-Lili, Hi-Lo",spotify:track:1RSDa5T6eFZNYSI1iloYZn,168533,18,2016-07-29
+316,Hilo,Hawaii,Shelby Flint,"Hi-Lili, Hi-Lo",spotify:track:4SubsKvIUnHp6QHAxPmVAp,143173,8,1961
+317,Hilo,Hawaii,Portia Nelson,"Hi-Lili, Hi-Lo",spotify:track:1yBqFZYfbKnD0ksSQH06Qm,169533,0,1999-11-16
+318,Hilo,Hawaii,Barbara McNair,"Hi-Lili, Hi-Lo [From Lili]",error,error,error,error
+319,Hilo,Hawaii,Jacqueline Dankworth,Hi Lili Hi Lo,spotify:track:6cGzgOkpjdyV1mvYCM3Yfz,98133,0,2003
+320,Hilo,Hawaii,Deanna Witkowski,"Hi-Lilli, Hi-Lo",error,error,error,error
+321,Hilo,Hawaii,Nate Birkey,"Hi Lili, Hi Lo",spotify:track:4VQWCmD4krqO2wDrNiPxWI,287386,0,2001
+322,Hilo,Hawaii,Reader's Digest Children's Treasury,"Hi-Lili, Hi-Lo",spotify:track:3BS9aljkVNA3Eh7D3O9OPQ,241520,0,2008-02-19
+323,Hilo,Hawaii,Juanes,Laberinto,spotify:track:4kEu26tL4b9W6gSV2IuQWR,203986,25,2014-01-01
+324,Hilo,Hawaii,"Julian Trono, Lindsay De Vera",Kapit Lang,spotify:track:7F85TBclaixlrXWZXwPtAz,207021,2,2016-02-07
+325,Hilo,Hawaii,John Arpin,"Hi-Lili, Hi-Lo",spotify:track:203PqT0FHRvVPzQcZPhYbd,209480,2,1963-06-01
+326,Hilo,Hawaii,Joyce Carr,"Hi-Lili, Hi-Lo",spotify:track:5kCCmvcUc9VrgstV2UTNno,177282,0,1981
+327,Hilo,Hawaii,Muriel Anderson,"Hi-Lili, Hi-Lo",spotify:track:2DMjA0Ba6C8i2mdo2mWWv8,161466,1,1989
+328,Hilo,Hawaii,Robin Spielberg,Hi Lilli Hi Lo [From Lily],error,error,error,error
+329,Hilo,Hawaii,New Stanton Band,Hi-Lili Hi-Lo,spotify:track:0UDKmXPZfJcIX85Vh4an5C,109506,6,1960
+330,Hilo,Hawaii,Gary Schnitzer,Hi Lillie Hi Lo,error,error,error,error
+331,Hilo,Hawaii,Earl Rose,"Hi-Lilli, Hi-Lo",error,error,error,error
+332,Hilo,Hawaii,Russ Conway,"Hi-Lili, Hi-Lo",spotify:track:6xQwLC8JXYNHRnZrcLSCsU,199266,3,2020-03-20
+333,Hilo,Hawaii,João Donato,"Hi-Lili, Hi-Lo",spotify:track:33SIwCJiyyLpqITZBD9m3c,352866,1,1997-07-01
+334,Hilo,Hawaii,Academy Film Orchestra,"Hi-Lili, Hi-Lo [From Lili]",spotify:track:1TDA4UPqYye1Jy4hf3Zawb,180706,23,1964
+335,Hilo,Hawaii,Chim Kothari,"Hi-Lili, Hi-Lo",error,error,error,error
+336,Hilo,Hawaii,Karen Stachel,"Hi-Lili, Hi-Lo",spotify:track:0nni92VvhXMzvMuAixs9MN,170000,0,1993-01-01
+337,Hilo,Hawaii,Lowe,Hi-Lili Hi-Lo,error,error,error,error
+338,Hilo,Hawaii,Juan Karlos,Sana Kung Pwede Lang,spotify:track:1IfPJPQvgB6WrEQpUB5Kdn,190338,33,2017-01-27
+339,Hilo,Hawaii,Shelby Flint,"Hi Lili, Hi-Lo",spotify:track:4SubsKvIUnHp6QHAxPmVAp,143173,8,1961
+340,Hilo,Hawaii,John Anderson,Hawaia in Hawaii,error,error,error,error
+341,Hilo,Hawaii,Triángulo de Amor Bizarro,Salud y Belleza,spotify:track:4pVGd80LjLXoAxOfFjQ0p0,283960,3,2007-01-01
+342,Hilo,Hawaii,Siakol,Konti Na Lang,spotify:track:0SR1P27VTkT9BnnbRkmo3y,297506,29,2010-06-01
+343,Hilo,Hawaii,Sergio Dalma,La Mujer de Mi Vida,spotify:track:2wcx24ovaerUZSffI8PX8A,306173,19,1993-01-01
+344,Hilo,Hawaii,Pablo Alborán,Cuerda al Corazón,spotify:track:5BYy9BCGHZ7L0cHbNC0uy3,218560,50,2017-11-17
+345,Hilo,Hawaii,Amaral,En el Río,spotify:track:7ac9lRONwRy7vRkZBCCQB6,223186,27,2005-03-14
+346,Hilo,Hawaii,Marco Antonio Solís,O Me Voy o Te Vas,spotify:track:5HfJ5uKjuwike6nQxN5H3X,291946,59,2016-09-02
+347,Hilo,Hawaii,Yuridia,Me Olvidaras,spotify:track:0an4qoESjM0wiV6eL7Za5g,255013,33,2013-04-16
+348,Hilo,Hawaii,Bohemia Suburbana,Yo Te VI,spotify:track:1GrwBuif2Q3xja49vFs0KB,335533,21,1999-10-19
+349,Hilo,Hawaii,"Virlán García, Christian Gómez",Hilo de Media,spotify:track:1g90ITwwVtpwTJXY8W0Hh4,234730,34,2016-02-24
+350,Hilo,Hawaii,Soapdish,Kung Pwede Lang,spotify:track:1fl3iYqZuyFnU6yKFZQt2T,194768,36,2017-02-10
+351,Hilo,Hawaii,Celia Cruz,Que le Den Candela,spotify:track:7DEVriObPjboQZqO9gQC3J,231400,0,2020-07-24
+352,Hilo,Hawaii,Juan Luis Guerra,El Niágara en Bicicleta,spotify:track:4qsuWRmELXhtTyZSxrgcnB,265360,55,2019-07-25
+353,Hilo,Hawaii,"Nicky Jam, Arcángel, J Balvin, Anuel AA",Ven y Hazlo Tú,spotify:track:3NbwRR74N1FykCWETcEk3j,262500,62,2019-05-16
+354,Hilo,Hawaii,Ricardo Arjona,Ella y El,spotify:track:7k5Q9Ns2WaCCL45XTBCUlU,373800,43,1996-08-20
+355,Hilo,Hawaii,Noelia,Yo No Lo Entiendo,spotify:track:5bn8F55bJn7VMAn1pliCKy,262480,4,2018-01-05
+356,Hilo,Hawaii,Alejandro Sanz,El Silencio de los Cuervos,spotify:track:11caxTyKqqbADnDakW1RNB,273838,40,2015-05-04
+357,Hilo,Hawaii,"Alejandro Fernández, David Bisbal",Abriré La Puerta,spotify:track:0DjnlLskmEjm5mbgo24WwD,216659,56,2019-08-29
+358,Hilo,Hawaii,La Adictiva Banda San José De Mesillas,Hilo De Papel,spotify:track:3Q4oPCXce5Hql3bIOLPDN0,196946,15,2013-01-28
+359,Hilo,Hawaii,Iggy Pop,La Uva,spotify:track:6IuTcY9EeVFymVlUwsKCqw,213786,7,2015-09-18
+360,Hilo,Hawaii,Ricardo Montaner,La Gloria De Dios,spotify:track:2GiDouUwTiD7Rsm0v0vS83,380506,52,2013-12-03
+361,Hilo,Hawaii,Alejandro Fernández,Abriré La Puerta,spotify:track:0DjnlLskmEjm5mbgo24WwD,216659,56,2019-08-29
+362,Hilo,Hawaii,Juan Luis Guerra,El Niágara en Bicicleta [Live],error,error,error,error
+363,Hilo,Hawaii,Pignoise,Todavía Me Da,spotify:track:60wxhtJWPWLYxU7daHQ9Eo,242922,25,2015-10-09
+364,Hilo,Hawaii,Gepe,357,spotify:track:6jyP1BhWN7pdwgQgvuAb9g,215640,16,2007-04-18
+365,Hilo,Hawaii,Regine Velasquez,Promdi,spotify:track:1pw7R1o3zNBXJT6NNZg9hr,244533,6,1989-11-11
+366,Hilo,Hawaii,Laura Pausini,Solo Nubes,spotify:track:1wR37j6p1L6rfZPDefVMvb,253200,21,2015-11-06
+367,Hilo,Hawaii,Miranda!,Iman,spotify:track:4Isw7cWsUoDuBp0xCtcymD,262280,45,2002-11-01
+368,Hilo,Hawaii,Mägo de Oz,Pensatorium,spotify:track:28MJuG1OnaoLIKQUHVTgKv,422840,45,2014-10-21
+369,Hilo,Hawaii,Kase.O,Repartiendo Arte [Instrumental; Instrumental],spotify:track:1qKa9KszNHYHXJZyJ4eQK2,282684,11,2016-10-01
+370,Hilo,Hawaii,Charles Ans,A Paso Lento,spotify:track:5fUkzmm6HnPDDZKwnQcNUG,224733,44,2015-01-29
+371,Hilo,Hawaii,Beatríz Luengo,Caprichosa,spotify:track:6vRFYuiw07EPyNQbgKBauX,213920,48,2018-05-18
+372,Hilo,Hawaii,Taburete,Al Alba,spotify:track:6LJkafJ2TCcJGfxsVGg7sv,195295,33,2016-11-18
+373,Hilo,Hawaii,Tito Nieves,O Me Voy O Te Vas,spotify:track:5ZAhWa5A8cr5Ph0BR8dyQl,291640,18,2007-01-01
+374,Hilo,Hawaii,Timbiriche,Magico Amor,spotify:track:4FnG8X0UANwF8Ifiy6h6gV,219400,46,2009-01-01
+375,Hilo,Hawaii,Timbiriche,Ya Estaba Escrito,spotify:track:2nsQinMUlt10zoNNgDEtJ0,251653,40,2009-01-01
+376,Hilo,Hawaii,Timbiriche,Mágico Amor,spotify:track:4FnG8X0UANwF8Ifiy6h6gV,219400,46,2009-01-01
+377,Hilo,Hawaii,Lucero,Marioneta,spotify:track:6NxXW0QLSYGBGcATR5NgHZ,198533,10,1991-01-01
+378,Hilo,Hawaii,Miguel Bosé,Puede Que,spotify:track:2hPdCEUGbqKmAUY4MT7p9Z,282213,37,2012-09-04
+379,Hilo,Hawaii,El Barbero,Si la Vieran Bailar,spotify:track:0uVZ3HHk9ZFe3owbRBVuW7,239506,36,2005-10-01
+380,Hilo,Hawaii,Sr. Trigger,Huir,spotify:track:3z5p9ygykYORiduJyz8SxI,252832,14,2016-09-14
+381,Hilo,Hawaii,Solo Valencia,ADIOS,spotify:track:6BBuUfwlrecv9UPyRhA9YD,242290,0,2016-05-09
+382,Hilo,Hawaii,Las Trampas,Superposición,spotify:track:5ggp6Zz5h7YBWeaWHyR7t1,239895,3,2017-11-24
+383,Hilo,Hawaii,Silent Sanctuary,Balewala,spotify:track:2K9OUbLXCfGvlGvnIhc1cg,190256,22,2019-09-23
+384,Hilo,Hawaii,Fémina,Agradezco,spotify:track:3H4FCuCyAVZVgGCkYSLEu3,294112,33,2019-04-05
+385,Hilo,Hawaii,리쌍,SPAIN,spotify:track:3H4FCuCyAVZVgGCkYSLEu3,294112,33,2019-04-05
+386,Hilo,Hawaii,Fenna Frei,Bajo el Agua,spotify:track:1RoUmTQnw1RtX6B9CKYZVs,279044,0,2019-06-12
+387,Hilo,Hawaii,Dayang,Jambatan Tamparuli,spotify:track:2xoP4YG6iwT5k9ZbItjdZ3,201280,3,2005-01-17
+388,Hilo,Hawaii,"Love Yi, Merca Bae",BALACLAVA III,spotify:track:0QJnNyGDzAJesJmGbIRK4G,191678,29,2020-02-21
+389,Hilo,Hawaii,Ebe Dancel,Telepono,spotify:track:5vBpfFXz0KgrkEpkQ7NA2D,284853,28,2020-02-29
+390,Hilo,Hawaii,Celest,Marrakesh,spotify:track:7axGcNlqi84fEg1MFliovS,261197,15,2020-02-07
+391,Hilo,Hawaii,Stellar Band,Jambatan Tamparuli,spotify:track:2mydayz3igOXkU4I9bIXKb,221283,4,2013-09-10
+392,Hilo,Hawaii,"Rayo y Toby, Akim, BCA, Rike Music",Contra La Pared,spotify:track:08T63XnNU5vHTr7F2Us4V6,230973,30,2020-06-12
+393,Hilo,Hawaii,Radio Tarifa,La Mosca,spotify:track:0U94UogFYWu1oCNrTf0o7C,257346,12,2002-08-28
+394,Hilo,Hawaii,"Lido Pimienta, Sexteto Tabala",Quiero Que Me Salves,spotify:track:1HP551QE86o7zA5T7Bp0Pb,371964,36,2020-04-17
+395,Hilo,Hawaii,Mala Rodríguez,Caída Libre,spotify:track:4XhXTzKtxdspUnc9Vj1n32,208146,24,2007-06-26
+396,Hilo,Hawaii,La Oreja de Van Gogh,Dos Cristales,spotify:track:3sGDMtGxmQutsgWlumQIFN,264640,10,1999-06-15
+397,Hilo,Hawaii,Azucar Moreno,Volvería a Nacer,error,error,error,error
+398,Hilo,Hawaii,Tatiana,Witzy Witzy Arana,spotify:track:4vU5PBkor6NoomFkeJAhW6,212946,36,2006-08-03
+399,Hilo,Hawaii,Sergio Vega,Necesito Dueña,spotify:track:5nQusPyVdSNdpBJdX5uSq4,181506,50,2006-09-26
+400,Hilo,Hawaii,Sergio Vega,Necesito Dueña [DVD],error,error,error,error
+401,Hilo,Hawaii,Sergio Vega,Necesito Dueña [Ranchera Version],spotify:track:5nQusPyVdSNdpBJdX5uSq4,181506,50,2006-09-26
+402,Hilo,Hawaii,Timbiriche,Ya Estaba Escrito [En Vivo],spotify:track:5bGW9HYDHKQCymeqKmitiw,243240,30,2017-12-08
+403,Hilo,Hawaii,H2O,Hi-Lo,spotify:track:4pfcHOvZAf9f3dYMPcdfQc,251986,53,2018-04-20
+404,Hilo,Hawaii,Diamante Eléctrico,Nefertiti,spotify:track:1Q0RwlsrZ15GtjYonq8BoY,216951,22,2019-09-27
+405,Hilo,Hawaii,"Mala Rodríguez, Farina, Beatriz Luengo",Caprichosa [Remix],spotify:track:3yQczL1308Thk0DfR4r5C5,224503,31,2018-09-21
+406,Hilo,Hawaii,Río Roma,Hilo Rojo,spotify:track:5c17sD5ibjougPh0bNnBTj,222666,63,2019-09-18
+407,Hilo,Hawaii,"Francisca Valenzuela, Diamante Eléctrico",Nefertiti,spotify:track:1Q0RwlsrZ15GtjYonq8BoY,216951,22,2019-09-27
+408,Hilo,Hawaii,"Mark B., Secreto ""El Famoso Biberón""",Dame Banda,spotify:track:3lSjcTblaKRbx4aHWXMWCH,244000,51,2019-06-21
+409,Hilo,Hawaii,La Vela Puerca,Casi Todo,spotify:track:4j8KVDMrMFzuWYnBAEeOFf,158819,41,2018-05-18
+410,Hilo,Hawaii,A Tribe Called Quest,Keeping It Moving,spotify:track:3YQCClOSBrbKkeAhmGvkoP,218533,40,1996-07-30
+411,Hilo,Hawaii,Shakira,Antología,spotify:track:1I1DRPWM8iIYEbsuGMbaR3,251053,67,2002
+412,Hilo,Hawaii,Cristian Castro,Con Ella,spotify:track:4qk5H2bURoUfGGX5bUNcs2,292600,31,2001-01-02
+413,Hilo,Hawaii,Intocable,Dímelo De Frente,spotify:track:2cHLFItdBmhr9RBQdfZ1bD,206826,46,2019-03-15
+414,Hilo,Hawaii,Gilberto Santa Rosa,Un Poco Mas,spotify:track:7yxRQJbqRLgP5rj45F3Bdw,294973,17,1988
+415,Hilo,Hawaii,Carlos Baute,Amar a Dos,spotify:track:3oYXKtYn2JLFUafeM8lu9p,232226,19,2002-02-26
+416,Hilo,Hawaii,Roque Valero,Vengo a Contar Contigo,spotify:track:2YSeI71gO0UY1k1Gx2ZvlH,230173,25,2004
+417,Hilo,Hawaii,Cultura Profética,Sube el Humo,spotify:track:7ChGr8JqBeKaOhgvattRGs,281760,50,2005-10-05
+418,Hilo,Hawaii,Marea,El Perro Verde,spotify:track:0cUOhWti8cKkKXZDCfrnmE,243239,51,2007-12-04
+419,Hilo,Hawaii,Ana Belén,Si Te Vas,spotify:track:6maiL3KokCDCVpZWhTOObW,173080,5,2007-03-01
+420,Hilo,Hawaii,Hermética,Desde el Oeste,spotify:track:4WQueDu80Z9fzTfzwg2RbO,193333,32,2002
+421,Hilo,Hawaii,Los Traileros del Norte,Me Mocho Un Dedo [Nomás De Gacho],spotify:track:3a3S5bj727T192MZBFiwxs,156794,24,2012-02-07
+422,Hilo,Hawaii,Inspector,Las Tijeras,spotify:track:6iBnnUGwBXCbPqgSnV3RAW,266773,38,2014-07-31
+423,Hilo,Hawaii,Sexy Zebras,La Flaca,spotify:track:4c8f5yt0wsAVd8gq7L1k8T,206133,10,2015-03-31
+424,Hilo,Hawaii,Chancha Via Circuito,La  Revancha De Chancha,spotify:track:5ECb9E6M4VsySHwB7Zq21n,231688,39,2010-08-20
+425,Hilo,Hawaii,iLe,Triángulo,spotify:track:7EefMjvRV5llLOWQLIDOv5,218866,40,2016-06-03
+426,Hilo,Hawaii,Rapsusklei,60 Veces Por Minuto,spotify:track:40NI6iS8GO4kO9LkLiHoM9,208000,43,2016-11-11
+427,Hilo,Hawaii,Zenet,Fuiste Tú,spotify:track:7bqSTF1fIQBFCekaQwGTag,286487,31,2016-09-16
+428,Hilo,Hawaii,Antonio Orozco,Hoy,spotify:track:772L2S4VCWZmmUbOw2qcEE,236746,1,2020-07-24
+429,Hilo,Hawaii,Juaninacka,Primavera,spotify:track:6eMoFBE3NwSBShkyZveFjU,240466,7,2011-06-07
+430,Hilo,Hawaii,ZPU,¿No te Pasa?,spotify:track:18pThxRqXTU509SjfycQ5z,249985,33,2013-11-11
+431,Hilo,Hawaii,Fredi Leis,La Faraona,spotify:track:0iDTDqcnQDZED1MNvmxSoh,227500,41,2019-10-22
+432,Hilo,Hawaii,Melendi,Para Que No Se Escapen Tus Mariposas,spotify:track:6UfiaiKYlWlrfzeX4d31N1,247066,42,2018-03-09
+433,Hilo,Hawaii,Chayin Rubio,O Me Voy O Te Vas,spotify:track:3yFrwa7EPum14wBKCQ43Fx,243306,35,2020-03-06
+434,Hilo,Hawaii,Macaco,Caballo Blanco,spotify:track:5uifWhPVNCyg0n6PhjjT05,258999,46,2020-05-22
+435,Hilo,Hawaii,Victor Manuelle,No Soy Quien [Salsa],spotify:track:0kXhBhuvtu9nnIOY3czOo9,280360,3,2008-06-10
+436,Hilo,Hawaii,Gilberto Santa Rosa,Cuando a Ti Te de la Gana,spotify:track:6edTuxn99MeYL8MiXJJOQ9,280520,15,2012-11-12
+437,Hilo,Hawaii,Marc Anthony,Barco a la Deriva,spotify:track:2HY4eyBNXYPXg5ucjptySr,273360,38,2006-06-30
+438,Hilo,Hawaii,"Nicky Jam, Mozart, Chencho Corleone, Daddy Yankee, Arcángel, De la Ghetto, Gente de Zona, Cosculluela, El Micha, Zion, Maldy, J Balvin, Farruko, Alexio , Kafu Banton, Secreto ""El Famoso Biberón""",Alerta Roja,spotify:track:0ow0iHH8tmFY8OZQUUnW26,197412,0,2017-10-20
+439,Hilo,Hawaii,Eminem,Normal,spotify:track:0evt4UZbdhnHtcAnxkm6A1,222477,64,2018-08-31
+440,Hilo,Hawaii,Los Tucanes de Tijuana,Comandante de Interpol,spotify:track:1Wx3PoOvXrj2bsKGP3PF4Y,156560,8,2002-05-27
+441,Hilo,Hawaii,Juan Luis Guerra,Rompiendo Fuentes,spotify:track:2xocUGdQwCFR7k7WAd8x5s,266320,34,2019-07-24
+442,Hilo,Hawaii,Ricardo Arjona,Señora de las Cuatro Décadas,spotify:track:2JvYDGWN21QQOdtUlRdg7w,301906,59,2013-01-21
+443,Hilo,Hawaii,Ricardo Arjona,Senora de las cuatro decadas,spotify:track:2JvYDGWN21QQOdtUlRdg7w,301906,59,2013-01-21
+444,Hilo,Hawaii,Prince Royce,Besos Mojados,spotify:track:3OvZEfWnVNmWyxILJSSUF1,185771,50,2020-02-07
+445,Hilo,Hawaii,Ricardo Montaner,Este Amor,spotify:track:1YuGDMtwDyaZGnIOano0BW,263760,28,1997-10-22
+446,Hilo,Hawaii,Cypress Hill,Dead Men Tell No Tales,spotify:track:2HgC7P6g7uXwxCcCxxBsvz,167866,21,1998-10-06
+447,Hilo,Hawaii,Ricardo Montaner,Cuando a Mi Lado Estas,spotify:track:6SPdfavRtaklGkKu3re7de,279706,45,2008-01-01
+448,Hilo,Hawaii,Ricardo Montaner,Grito de Dolor,spotify:track:2hlXCmoSMs6f3y2H9vq5Qw,202080,17,2005-01-01
+449,Hilo,Hawaii,Ricardo Arjona,Señora de las Cuatro Décades [Nueva Versión],error,error,error,error
+450,Hilo,Hawaii,Don Omar,Ronca,spotify:track:3XaFdB9TrrD6ZVKs61zltw,301133,44,2004-01-01
+451,Hilo,Hawaii,Ricardo Montaner,Asi,spotify:track:2rkHZlTbgRRciAFEWzPKrc,240026,19,2005-01-01
+452,Hilo,Hawaii,Ricardo Montaner,Atame,spotify:track:1OIMbViJHfE0HFb3xlsMqn,272573,17,2003-03-06
+453,Hilo,Hawaii,Alejandro Fernández,Nada de Ti,spotify:track:3h8gmRDq0QfiZ02CvO3FXz,186040,30,2009-01-01
+454,Hilo,Hawaii,Gerardo Ortíz,Pelo Chino,spotify:track:5gmtvpelaYSPfZSHKrzNkb,171160,37,2010-08-03
+455,Hilo,Hawaii,José José,Rosa de Fuego,spotify:track:4Qv0C1Ohtnn9zvF25ew81f,234466,28,1979-10-26
+456,Hilo,Hawaii,Shakira,Antología [El Dorado World Tour],spotify:track:2mL5iXm6eMJIsbiWhqXrMc,243000,44,2019-11-13
+457,Hilo,Hawaii,José Feliciano,Pobre de El,spotify:track:487cNgYy8SiNRZuXHREp8S,261826,12,1993-01-01
+458,Hilo,Hawaii,Luis Fonsi,Dejame O Dame Amor,spotify:track:3YHexBD5Xpja5VFTjiBgvR,192866,10,2000-01-01
+459,Hilo,Hawaii,Israel Kamakawiwo'ole,Kuhio Bay,spotify:track:4UG1Owsi1kVltDr88Rxx2W,211866,34,1993-11-01
+460,Hilo,Hawaii,"Carlos Vives, Ziggy Marley, Elkin Robinson",El Hilo,spotify:track:73MVpByUJzvT5GFNkss7ik,228450,51,2020-05-22
+461,Hilo,Hawaii,Alejandro Sanz,Cuando Nadie Me Ve,spotify:track:5PczsbMK39oiVxkh8akIdC,308560,57,2011-10-19
+462,Hilo,Hawaii,Twista,Gotta Have It,spotify:track:0TJMzUdVdNmx9ISMMkEFqA,209360,26,2005-01-01
+463,Hilo,Hawaii,Alejandro Sanz,La Fuerza del Corazón,spotify:track:5c1w6xM8pFvXhMXQVUY42Q,307053,63,1995-09-26
+464,Hilo,Hawaii,Talib Kweli,Ridin',spotify:track:7t5DUKkPMzg2PKPDedwNjQ,273893,17,2005-01-01
+465,Hilo,Hawaii,Larry Hernandez,El Ejecutor,spotify:track:65rVN43aVylZNFMiZ48zi3,182506,43,2014-07-22
+466,Hilo,Hawaii,Café Tacuba,Espuma,spotify:track:4UCY6HbexJVKQ8gVstoEe7,225800,28,2012-01-01
+467,Hilo,Hawaii,Ry Cooder,Steel Guitar Heaven,spotify:track:3hiIE9rq4kAkNG2ikIFrxq,220426,11,2008-06-20
+468,Hilo,Hawaii,Alejandro Sanz,La Quiero a Morir,spotify:track:0PRKHIlK5k8FSYljNgZMdK,200520,42,2011-05-10
+469,Hilo,Hawaii,Roxette,Timida [Vulnerable],spotify:track:6LYD2b4tsLatuNldqXsy6k,286573,34,1996-12-02
+470,Hilo,Hawaii,Ricardo Montaner,La Fuerza del Corazón,spotify:track:2dw1crPEJlmftTCWZXNTnv,270733,27,2007-01-01
+471,Hilo,Hawaii,Banda Sinaloense MS de Sergio Lizarraga,El Pelo Chino,spotify:track:2RJGeLJi0SYcJ2mJS70NoJ,131373,38,2013-10-01
+472,Hilo,Hawaii,La Arrolladora Banda el Limón de René Camacho,Yo Feliz,spotify:track:5PjhzL3G6hJgJhactWecvF,130386,45,2018-03-23
+473,Hilo,Hawaii,Plan B,Piquete,spotify:track:659kOOOWsAuCpA2nAoLoWE,256533,41,2015-09-04
+474,Hilo,Hawaii,Farruko,Prófugo Federal,error,error,error,error
+475,Hilo,Hawaii,"Farruko, Químico Ultra Mega",Kilo Kilo,spotify:track:7vdqZAHF5pVMULddTEa9fb,234826,30,2017-09-15
+476,Hilo,Hawaii,Laura Pausini,Se Fue,spotify:track:6LU8uRM2fPgaHKD18I0Azk,280666,51,2019-11-08
+477,Hilo,Hawaii,Laura Pausini,Gente (Ordinary People),spotify:track:7iHcKIWTv0JNKmxkCoPGJi,277333,33,2001-10-08
+478,Hilo,Hawaii,Enrique Bunbury,Alicia (Expulsada Al Pais de las Maravillas),spotify:track:2B62QB3qfZmsrFuaIJFOkX,222533,45,1997-11-13
+479,Hilo,Hawaii,Lila Downs,Mi Corazon Me Recuerda,spotify:track:345ZCDsog2Ug9v5mkup5LE,273333,19,2001-07-03
+480,Hilo,Hawaii,Mayday!,Serge's Song,spotify:track:4QYk9SKTNkSjhtiscmJRUR,165840,19,2014-06-10
+481,Hilo,Hawaii,Gloria Trevi,Lloran Mis Muñecas,error,error,error,error
+482,Hilo,Hawaii,Raphael,La Fuerza del Corazón,spotify:track:6Npd39C3CNeehJN2bwzSIx,312413,35,2011-10-19
+483,Hilo,Hawaii,Los Invasores de Nuevo León,El Corrido De Machete,spotify:track:6R8vTe4C9A0icLy1JOOLfo,189453,33,2012-01-01
+484,Hilo,Hawaii,Eros Ramazzotti,Ahora Somos,spotify:track:1ChR9ORZLQF1gfXbMy994Z,232960,16,2012-01-01
+485,Hilo,Hawaii,Alejandro Sanz,Cuando Nadie Me Ve / Cai,spotify:track:7Mp40FvCRtbiE1QO6yb6ij,406640,46,2017-12-08
+486,Hilo,Hawaii,Eros Ramazzotti,En Primer Plano,spotify:track:5kZQnU3bS5fx15uPMGl0r1,221146,28,2018-11-22
+487,Hilo,Hawaii,Lila Downs,El Silencio,spotify:track:3V3EHpTY0UIha38z4mOjOp,268676,34,2020-05-15
+488,Hilo,Hawaii,Timbiriche,Rompecabezas,spotify:track:5j8XQOz29TZPI3jrT6BDHA,173013,43,2009-01-01
+489,Hilo,Hawaii,Pedro Fernández,La Mujer Que Amas,spotify:track:0aTu8aTjhDrqwCCdRZjdg5,295226,37,2009-01-01
+490,Hilo,Hawaii,Grupo Límite,Juguete,spotify:track:7wa9cynSsT7XWzs6e3g2yL,174013,30,1996-01-01
+491,Hilo,Hawaii,Diana Reyes,Se Fue,spotify:track:72Q043nEJdqxd5JRZ5U1R3,233053,24,2014-01-21
+492,Hilo,Hawaii,Vicentico,Llégale a Mi Guarida,spotify:track:4OowI28FILoY8lw06PRltx,263373,24,2007-04-23
+493,Hilo,Hawaii,"Karol G, Anuel AA",Dices Que Te Vas,spotify:track:0QHOIQxRlIPYPJ1HLgIN8S,202053,65,2019-05-03
+494,Hilo,Hawaii,Calle 13,Muerte en Hawaii,spotify:track:3kNVYo6BJE9AENxzokM9YC,189866,70,2010-11-19
+495,Hilo,Hawaii,Death Grips,Flies,spotify:track:2zyBojnQswXrorlyGghkwP,152612,41,2018-06-22
+496,Hilo,Hawaii,Jarabe de Palo,Alicia (Expulsada Al País de las Maravillas),error,error,error,error
+497,Hilo,Hawaii,Isabel Pantoja,Arrepentida,spotify:track:5RnYUcJ134F89WDrsMaCTk,221933,5,1996-01-01
+498,Hilo,Hawaii,Vybz Kartel,The Cure (Fi Bad Mind),spotify:track:3wBNY7ZWgtyMLNVVc23WFf,167585,5,2013-09-24
+499,Hilo,Hawaii,Kany García,Libre,spotify:track:2B33haDtYvhFgK8u2mr49E,158240,26,2016-05-20
+500,Hilo,Hawaii,Juanjo Guzman,Mala (Rumba Latina),spotify:track:2wShZ17iaKDSqwlz79uMUu,213029,0,2013-09-03
+501,Hilo,Hawaii,Luja,Amores de Cristal,spotify:track:6OMujSCiX65fXiYBI8HWAC,228310,39,2014-06-01
+502,Hilo,Hawaii,ATL,Algo Irreal,spotify:track:3aErRSS9DMqL5IsiopRrAH,218619,24,2015-07-24
+503,Hilo,Hawaii,Victor Jara,Romance del Enamorada y de la Muerte [Song of the Lover and of DeAth],error,error,error,error
+504,Hilo,Hawaii,Miguel Mateos,Cortar Hasta el Hueso,spotify:track:1LF2LaX0VXzm2BwryrnuLg,273666,19,1996-06-04
+505,Hilo,Hawaii,Calle 13,La Madre de los Enanos,spotify:track:2qpbcsb8HqQ4TmLIOwC9QW,241426,31,2005
+506,Hilo,Hawaii,Miguel Bosé,Encanto,spotify:track:0OnM0jY8NxMA1phqp6urX7,248120,34,2014-11-04
+507,Hilo,Hawaii,Balún,Entrela,error,error,error,error
+508,Hilo,Hawaii,Astrolabio,Big Bang,spotify:track:2WSLgvQgCL2b0pTSnH4KBK,313640,0,2015-02-02
+509,Hilo,Hawaii,Jeeiph,Ping Pong,spotify:track:5ba8juL1vkTBuUThTaVX7w,160694,33,2018-12-07
+510,Hilo,Hawaii,"Cheb Rubën, Sceno, Prok",Pistola y Cuchillo,spotify:track:4k2JOJ40qJrFTS0dDpy6R4,246056,32,2018
+511,Hilo,Hawaii,Yemil,Henny,spotify:track:5VdTYUbQbNoWCAwNdEtWl4,197040,34,2019-02-04
+512,Hilo,Hawaii,"Los Chotgun, Max Chinasky",El Mundo Es Mío,spotify:track:2hGVGe7hEwCWAYHl7m1I6d,180674,22,2018-09-07
+513,Hilo,Hawaii,Juris,Dear Ate Charo,spotify:track:48gU7ycNpyIxEOJl7RN10E,263332,25,2019-05-31
+514,Hilo,Hawaii,Noel Cabangon,Araw Gabi,spotify:track:6Qksi6WHS84wLaFClhTMVH,294960,37,2014
+515,Hilo,Hawaii,Granuja,Días de Perros,spotify:track:6Y279nOMn5B8FR7Qb86P5j,212045,30,2019-10-25
+516,Hilo,Hawaii,Julieta Venegas,Gente Decente,spotify:track:3jmi0goxkXcTokGr5ilLP1,168386,34,2019-11-22
+517,Hilo,Hawaii,Roel Cortez,"Almusal, Tanghalian, Hapunan",spotify:track:3nkpuG5PrG469CkaZiUP1F,243626,17,1996
+518,Hilo,Hawaii,Sofia Coll,Prisionera (A Tu Compás),spotify:track:6lInmFz1Kr2ZVYZcytUDZI,213750,5,2019-08-14
+519,Hilo,Hawaii,Viajes Berlier,Vida Inteligente,spotify:track:52n0G4EoFIoXgk0FjL6sBa,216930,6,2020-02-28
+520,Hilo,Hawaii,Louly,Lo Que Yo Quería,spotify:track:5OHJTmfuNIQ79E0yPfkBCG,202600,22,2020-03-06
+521,Hilo,Hawaii,MADY,BUCLE DE TIEMPO,spotify:track:5pQMNtSwQAwqrs1RV63kCt,208006,0,2020-05-02
+522,Hilo,Hawaii,Florante,Eto Na Naman,spotify:track:6WTBqABE40VQFc3zsSZSlS,224551,6,2008-02-04
+523,Hilo,Hawaii,La Décima Banda,Y Sigues Siendo Tú,spotify:track:0QY0G1wCr4cZxyxmdI2NRF,196858,43,2020-07-17
+524,Hilo,Hawaii,"Bayani Agbayani, ASOP",Hallelujah,spotify:track:0XvFqvKhf0KAt0rL4VCtOC,237479,18,2018-02-09
+525,Hilo,Hawaii,Marta Sánchez,Dime la Verdad,spotify:track:2WXlqw1BiklN5dZrEcL6BC,249533,36,1995-01-01
+526,Hilo,Hawaii,Jowell & Randy,Soltura [Bonus Track],error,error,error,error
+527,Hilo,Hawaii,RiverMaya,Hilo,error,error,error,error
+528,Hilo,Hawaii,Alejandro Lerner,Confesiones Frente Al Espejo,spotify:track:6neJSC8dtu4ztkRutMKrTU,279426,18,2002-01-01
+529,Hilo,Hawaii,Rogelio Martínez,Tú y Yo,spotify:track:4Vk8zn7QdwCbf1QaLsiLwU,188013,17,2001-01-01
+530,Hilo,Hawaii,Guillermo Davila,Barco a la Deriva,spotify:track:4Ba89y8KxlCUoKDS5hVIoI,215666,26,2007-01-01
+531,Hilo,Hawaii,Jorge Drexler,Telón,spotify:track:3eliUpZq7Z9YFlAgdZTXFH,155200,31,2010-03-15
+532,Hilo,Hawaii,Jorge Drexler,La Trama y el Desenlace,spotify:track:563EHELbGcAwXlAHbWmK3f,246013,57,2010-03-15
+533,Hilo,Hawaii,Los Planetas,Desorden,spotify:track:6TNpXiBFcw46HJVWGgGY9Q,241173,20,1995-05-15
+534,Hilo,Hawaii,Gustavo Cerati,Dominó,spotify:track:2JkD6FDEJOoxnK2qKJiL3K,198053,42,2009-03-12
+535,Hilo,Hawaii,Snowblink,"Bulb, For Later",spotify:track:5lW8VEsnzm3INUgfCco9vA,242491,1,2010-11-08
+536,Hilo,Hawaii,Sôber,La Araña,spotify:track:73zUvUuT7BFeiyMG3m1tgF,250800,25,2011-05-02
+537,Hilo,Hawaii,Sôber,Superbia,spotify:track:4YFcENDr8E4ux592O5cjwl,302333,21,2018-05-04
+538,Hilo,Hawaii,Los Nocheros,La Cerrillana,spotify:track:5sTfEDYhFwAhFq6NCcl3YQ,187904,14,2020-07-24
+539,Hilo,Hawaii,Illya Kuryaki and the Valderramas,Amor,spotify:track:1ofvq6C31dm9bl9reVTWua,245373,30,2000-01-01
+540,Hilo,Hawaii,Macaco,Con La Mano Levantá,spotify:track:1yDwcbcbTEOUoQUaPK0IbK,202746,50,2010-11-23
+541,Hilo,Hawaii,"Jorge Drexler, Mon Laferte",Asilo,spotify:track:41gpbNDcsSh4r8YgVMbQqh,183880,59,2017-09-22
+542,Hilo,Hawaii,Unlinked Artist,Juguete,spotify:track:0HqhvMKdfZCqVhJmCvJqeO,145146,0,2007-09-11
+543,Hilo,Hawaii,Miguel Bosé,El Ilusionista,spotify:track:1C1LOFzoNqgdCVGpE0v8U2,252226,20,2004-04-20
+544,Hilo,Hawaii,Hector el Father,Ronca,spotify:track:3XaFdB9TrrD6ZVKs61zltw,301133,44,2004-01-01
+545,Hilo,Hawaii,Arc Angel,Por Amar a Ciegas,spotify:track:2BrfJdTXohQRtWBKsBTIp0,234026,62,2008-12-09
+546,Hilo,Hawaii,Tego Calderón,Punto y Aparte,spotify:track:388YhDYxPvaDIZQHWqpB4E,206493,62,2009-11-10
+547,Hilo,Hawaii,Azucar Moreno,Comeme la Piel a Besos,error,error,error,error
+548,Hilo,Hawaii,Julieta Venegas,Dejaré,spotify:track:4C0jelLVaDy8WfL9MdZJPo,150594,35,2017-12-08
+549,Hilo,Hawaii,Mónica Naranjo,Libre Amar,spotify:track:3PskicsL79Npb21tJu3dsD,235200,21,2019-10-11
+550,Hilo,Hawaii,Arcángel,Por Amar a Ciegas [Remix],spotify:track:7cYiFt7c31cBKiK6LVXKSY,210736,21,2013-04-30
+551,Hilo,Hawaii,La Chica,El Camino,spotify:track:5oX3yKX1a4oMBMadXkqaN2,183680,24,2020-01-17
+552,Hilo,Hawaii,La Séptima Banda,O Me Voy O Te Vas,spotify:track:2WOXraIt0rxF2k5hwJZDjA,208013,33,2017-04-21
+553,Hilo,Hawaii,Tiziano Ferro,13 ANOS,spotify:track:4AYimjkk4DiLQUTe2r9g2V,210826,23,2016-07-29
+554,Hilo,Hawaii,Arcángel,Por Amar a Ciegas [Hip-Hop Version],spotify:track:4Bp7qGgLHb6P7Nmbl4Vczn,235693,44,2008-12-09
+555,Hilo,Hawaii,Pala,Esto vale todo,spotify:track:13AMXwjBXkHr9AxETHM3V6,287800,3,2007-05-16
+556,Hilo,Hawaii,Fito Páez,Buena Estrella,spotify:track:2CHZqOXLKMASwN898Ltw4J,266400,34,1999-07-27
+557,Hilo,Hawaii,Vetusta Morla,Rey Sol,spotify:track:2g5oBi9JFLtYZ6N4JEW8FR,207720,41,2008-04-21
+558,Hilo,Hawaii,Manzanita,La Quiero a Morir,spotify:track:0loxOLrtuQBxkqdoTKTIj2,207960,55,1980
+559,Hilo,Hawaii,Fito Páez,Eso Que Llevas Ahi,spotify:track:7GISug8mfNCcgMq1XEV44L,224506,33,2009-03-12
+560,Hilo,Hawaii,Sentidos Opuestos,Mirame,spotify:track:5aaAsCJD03TQm1Q4KV00kU,242040,42,1997-01-01
+561,Hilo,Hawaii,Francis Cabrel,La Quiero A Morir,spotify:track:0AzP1kDLhmQGBQXTEt25Cw,164360,46,1998-04-06
+562,Hilo,Hawaii,Divididos,Gol de Mujer,spotify:track:0Y9jlJ2FDCtbgyIkMUZKud,288956,22,2016-11-04
+563,Hilo,Hawaii,Los Reyes del Camino,La Fuerza del Corazon,spotify:track:4ySysvFFLbgEv6sPsnp5Ld,232226,39,2001-01-01
+564,Hilo,Hawaii,Cuca,Necesito Cirugia,spotify:track:5A0mEmoox4hPbZrYYGJkIZ,195466,22,1992-10-23
+565,Hilo,Hawaii,Andrés Cepeda,Siempre Estás Tú,spotify:track:6WtCl2ZyH7f3PMLF4X3n7D,211931,25,2012-07-06
+566,Hilo,Hawaii,María Artés Lamorena,Te Amo,spotify:track:0MhXyLHLkVA2PjT7rqhMX8,219120,36,2017-12-09
+567,Hilo,Hawaii,Hugo Salazar,"Adivina, Adivinanza",spotify:track:3Q9NTkDl03NF807GhwQ8lT,201546,19,2016-05-20
+568,Hilo,Hawaii,"Celso Piña, Serko Fu, La Dame Blanche",Dos Caras,spotify:track:4tAyKC4rN1XtTBzjGpJ9xu,201773,8,2018-05-25
+569,Hilo,Hawaii,Mike Díaz,Uní-Versos,spotify:track:3Kwj7qYe318g8FyTKwoXdl,159533,21,2018-09-05
+570,Hilo,Hawaii,Callalily,Buhay,spotify:track:3LB3USn3i03Yt4IqDmCza1,260560,12,2012
+571,Hilo,Hawaii,Aiza Seguerra,Araw Gabi,spotify:track:5UGUpErCtfaO0bv8kvReu4,317280,40,2015
+572,Hilo,Hawaii,Rafael Lechowski,Acto III: El Diario,spotify:track:4pBaxedrh7PfVwFAsXq8UO,590693,24,2016-11-01
+573,Hilo,Hawaii,"Tempo, Juanka, Myke Towers, Pacho El Antifeka, RKo",Bajo Investigación,spotify:track:6lPhyaKFGWudiTXECLvvXs,259037,30,2019-02-22
+574,Hilo,Hawaii,"Sarah Geronimo, JMakata",Tagu-Taguan,spotify:track:0WfJ7BOOud6RAsl1EkNUOJ,248493,23,2018-04-13
+575,Hilo,Hawaii,"Bryant Myers, Almighty, Jon Z, El Alfa, Myke Towers",Acapella,spotify:track:6ivvoCQhPCfsqgy8gY0oy3,306946,50,2019-05-14
+576,Hilo,Hawaii,"Frijo, Bizarrap",Frijo: BZRP Music Sessions #10,spotify:track:5z2pkfNzSL9Ad87xcQQEdw,130912,65,2019-07-21
+577,Hilo,Hawaii,"Nina Rodriguez, Nanpa Básico",Feel Better,spotify:track:1yBGqT7X8omorRerwxtmNJ,190770,21,2019-08-09
+578,Hilo,Hawaii,El Alfa,Pomposo [Remix],spotify:track:38I8OemgIPYHdP5uBNY8BO,225600,56,2019-02-22
+579,Hilo,Hawaii,"Fabiana Cantilo, Natalie Pérez",Pegaditos,spotify:track:64vB9IDAqDz4n03nvTENdM,201522,52,2019-09-06
+580,Hilo,Hawaii,"Miky Woodz, Jon Z, Jay Menez",No Me Ronke,spotify:track:3wZGqsIjAMd9w0nrxG4xby,206000,37,2019-12-12
+581,Hilo,Hawaii,"Duki, Frijo, Santoz",Impala,spotify:track:2Qyw31R2cnaEFgdHwBcT98,250583,57,2019-11-22
+582,Hilo,Hawaii,"Pimp Flaco, Kinder Malo, Duki, C.R.O.",Tengo Lo Ke Kiero,error,error,error,error
+583,Hilo,Hawaii,Jaba,Alam Mo Ba?,spotify:track:4kjL27J2qpi047YLacX1LG,191653,0,2015-05-22
+584,Hilo,Hawaii,Tessa Ia,Acicálame,spotify:track:5Ew6ieSRFMoGZlF3rWtDNM,202053,52,2016
+585,Hilo,Hawaii,XXL Irione,Una Cerveza,spotify:track:02Jhx4bZHthNBt4hawWyKd,204982,12,2020-05-05
+586,Hilo,Hawaii,"Crudo Means Raw, Granuja, Métricas Frías, Mañas Rufino",Rapiña,spotify:track:2jLlz8W0Ox29bFEi8Hdde0,215172,28,2017-03-31
+587,Hilo,Hawaii,Sienná,Multitudes,spotify:track:7qOFXD8r9JEM6sa7w7acVC,240758,16,2020-01-24
+588,Hilo,Hawaii,Xantos,La Calma,spotify:track:0jC0Ui22IvncORwVF02HiU,199414,8,2017-11-10
+589,Hilo,Hawaii,"Meme, Ruzzi",Nave Espacial,error,error,error,error
+590,Hilo,Hawaii,"Noel Schajris, MC Aese",Más Que Suerte,spotify:track:4EhgNSqMGY7zxca08wYfGP,222000,24,2018-10-12
+591,Hilo,Hawaii,"Recycled J, Selecta",Bambino,spotify:track:4VMMc4Yb50aH9qK2j2M1Ba,156000,55,2018-11-16
+592,Hilo,Hawaii,Regine Velasquez,Araw Gabi [Acoustic],error,error,error,error
+593,Hilo,Hawaii,"Shadow Blow, Jowell, Zion, El Alfa, Yomel El Meloso",Pomposo,spotify:track:38I8OemgIPYHdP5uBNY8BO,225600,56,2019-02-22
+594,Hilo,Hawaii,Yeng Constantino,Wag Kang Magtatanong,spotify:track:4Gw9uUZmNoaRa76agXTKSj,213946,27,2009-10-08
+595,Hilo,Hawaii,"Pablo Chill-E, Jeeiph",Un Par,spotify:track:1P6XcdMFWrFkjyr9DmCerA,183063,35,2019-07-26
+596,Hilo,Hawaii,"Noel Schajris, Jesús Molina",Más Que Suerte,spotify:track:3GMU2iOT3gu2mPhondczes,203153,20,2019-08-16
+597,Hilo,Hawaii,Nonoy Zuniga,Araw Gabi,spotify:track:0he77N7uBMsTqOPGkq4E0P,264733,36,2008-11-20
+598,Hilo,Hawaii,Residente,Mis Disculpas,spotify:track:6g9pbZC0f40ZmHgq8xsAn6,488470,55,2017-06-20
+599,Hilo,Hawaii,Grupo Codiciado,Yo Solo Me Entiendo,spotify:track:0osH72Rzte7K5n204iFK0q,230034,34,2018-02-02
+600,Hilo,Hawaii,Session Road,Walang Lungkot,spotify:track:1FVcOTfkI7WScQrOcoLAOP,216871,5,1999-11-08
+601,Hilo,Hawaii,"Diamante Eléctrico, LosPetitFellas",Oro,spotify:track:4dI0gr2tJqit5gg69AJvTK,216224,43,2019-11-22
+602,Hilo,Hawaii,"Dayme Y El High, Lito Kirino, Cazzu, Alemán",Lo Tengo,spotify:track:4SuBaJVPJ0ttWJBoKwswWX,243356,49,2018-11-30
+603,Hilo,Hawaii,"Gera MX, Teeam Revolver, Bipo Montana, Neto Peña, Santa Fe Klan, Yoss Bones, Toser One, Rich Vagos, Alzada, Geassassin",Cypher,spotify:track:0M8HCM6ztBgsF150J7oCBt,482926,64,2019-12-04
+604,Hilo,Hawaii,Bizarrap,Kodigo - Bzrp Freestyle Sessions #1,spotify:track:1rDYBeBEcLwH79UJ4XeItV,213785,49,2018-11-17
+605,Hilo,Hawaii,Mau y Ricky,QUÉ DIRÍAS?,spotify:track:3HPvXWekjDqIppRxhpHkDT,183613,65,2020-02-13
+606,Hilo,Hawaii,"Al2 El Aldeano, Silvito El Libre",Repuesto,spotify:track:5hsOPbWIIrtEf8BqqjC5DT,259534,20,2019-12-27
+607,Hilo,Hawaii,Rocksteddy,Tagumpay,spotify:track:7vcm8AsKm3MS2k0kzyCUHr,199473,12,2020-01-03
+608,Hilo,Hawaii,Tessa Ia,Hombres,spotify:track:1d4rkyvU9g1lVrXIZqv3Oq,162746,29,2016
+609,Hilo,Hawaii,Rozalén,Aves Enjauladas,spotify:track:7vi5ATzi8QEwPb2flP5V2J,213909,57,2020-04-16
+610,Hilo,Hawaii,"Duina Del Mar, Lof",Por Si Las Dudas,spotify:track:2XaUNp5zFwIAP9dPrHQkX0,229609,27,2020-05-22
+611,Hilo,Hawaii,"COS, Jnske, Yuri Dope, Jae K, NEXXFRIDAY",Ikot,spotify:track:5V9fQOrVyo5F0tZQ5SP22E,263783,44,2019-04-21
+612,Hilo,Hawaii,"Santa Fe Klan, Bardero$",Tengo Sed [Remix],spotify:track:1IOGyfhWVMoGmHWkFYAFUT,210747,49,2020-07-07
+613,Hilo,Hawaii,Doble Porción,Manías,spotify:track:3UxjXklHd1v3H2nsm5XMxv,239126,39,2020-07-10
+614,Hilo,Hawaii,"LosPetitFellas, Lido Pimienta",De Dios o Del Diablo,spotify:track:7ah9fIcjQ4GyCD4sVaheTQ,441103,35,2020-07-24
+615,Hilo,Hawaii,Presuntos Implicados,Andas Junto a Mi,spotify:track:2uiGdoWJXXagNCYDEnf8KL,239266,8,2017-09-01
+616,Hilo,Hawaii,Los Jaivas,Amor Americano,spotify:track:6zHN5mpkkggONw5nS9Q9aK,326306,40,1981
+617,Hilo,Hawaii,Botellita de Jerez,Alármala de Tos,spotify:track:35QgVhylUmV5oPk8RFk0ne,336533,38,1996-09-03
+618,Hilo,Hawaii,CKY,Drunken Freestyle,error,error,error,error
+619,Hilo,Hawaii,Mikel Erentxun,Loco de Atar,error,error,error,error
+620,Hilo,Hawaii,Los Secretos,Pero a Tu Lado,spotify:track:3JOXwHPhtdRU3kYKcf64Gj,195226,62,1995-01-01
+621,Hilo,Hawaii,Panteón Rococó,Fugaz,spotify:track:3UymFgXyRZun9nBxj4tiVI,348320,55,2016-06-24
+622,Hilo,Hawaii,Luar na Lubre,Versos de Luz,error,error,error,error
+623,Hilo,Hawaii,Elbicho,Bulería del Día,spotify:track:6wGJGmueYSo2oSGyNEdaAs,257760,30,2003-06-13
+624,Hilo,Hawaii,Despistaos,Ruido,spotify:track:6xjaKFSVBEvUnBXvul7r5U,171626,30,2008-10-14
+625,Hilo,Hawaii,Héroes del Silencio,Los Placeres de la Pobreza,spotify:track:0f8Hi2EhqSWkabarO3pMTP,300160,33,1993-11-15
+626,Hilo,Hawaii,Joaquín Sabina,Juegos de Azar,spotify:track:7clvsRSVrkMkr3ESGlEsQ8,203000,26,1988-08-29
+627,Hilo,Hawaii,Joaquín Sabina,Rap del Optimista,spotify:track:0gqhvwOjAm68QmKqku8hjq,266000,23,1988-08-29
+628,Hilo,Hawaii,Ismael Serrano,Fragilidad,spotify:track:6BzVVrvBHDzXDdbsqmhtBQ,279653,18,2005-01-01
+629,Hilo,Hawaii,Villanos,Barrilete,spotify:track:5tH5b6B5KdQMvyOn4rEERu,215866,9,2005
+630,Hilo,Hawaii,Sui Generis,Instituciones,spotify:track:4lbb8zGHPUwWNQkzBBYrl3,288826,36,2008-05-27
+631,Hilo,Hawaii,La Barranca,La Caída,spotify:track:6sXfG5Uv7sUNpJfuE8mAuO,209800,20,1997
+632,Hilo,Hawaii,Silvio Rodríguez,El Matador,spotify:track:3bNd4ZLGyStlxwl4Sro2EJ,270178,21,2006-01-01
+633,Hilo,Hawaii,Silvio Rodríguez,Epistolario del Subdesarrollo,spotify:track:1A3VH1Xoh78EsLojdDrRW2,226215,20,2006-01-01
+634,Hilo,Hawaii,Silvio Rodríguez,Espistolario de Subdesarrollo [Multimedia Track],error,error,error,error
+635,Hilo,Hawaii,Cheka,Bien Guillao,spotify:track:4qmWjVrvASViL1LjDHv5FC,220906,1,2006-01-01
+636,Hilo,Hawaii,La Vela Puerca,Clarobscuro,spotify:track:7rHQNKFxpWK2CcNq6A9Tfh,308666,2,2020-07-17
+637,Hilo,Hawaii,Pescado Rabioso,Cantata de Puentes Amarillos,spotify:track:7BCQ7bfdNpCdLmlvEGUfSG,547960,54,1973-05-07
+638,Hilo,Hawaii,Luis Alberto Spinetta,La Luz de la Manzana,spotify:track:7FhW8AOJwy5QXK5O24KC4a,377573,8,1988-07-04
+639,Hilo,Hawaii,Azrael,Volver a Nacer,spotify:track:2AQerJg3Tqg4JEqsyj0j9w,305586,1,2017-06-01
+640,Hilo,Hawaii,Fito Páez,Romance de La Pena Negra,spotify:track:15uIQfFHAS4kEfLTZJOJCD,158093,17,2005-05-20
+641,Hilo,Hawaii,Estopa,Lunes,spotify:track:0OkjxuoIL6MY2BxuQwGwx0,182333,48,2005-11-16
+642,Hilo,Hawaii,Jowell & Randy,Soltura,spotify:track:0EwZIICLPaiW6bkkJjYY6f,192280,23,2007-06-19
+643,Hilo,Hawaii,Los Cafres,Barrilete,spotify:track:4gBHDY57jJt4b3k4c0nMHO,302546,36,2013-10-22
+644,Hilo,Hawaii,Melendi,Caminando por La Vida,spotify:track:3v1dCP3hk2djfWryqfp7sx,211680,64,2006-08-14
+645,Hilo,Hawaii,Plastilina Mosh,Paso Fino,spotify:track:7c7ybgbmzDnAfI7uk0ZO2B,369879,30,2018-08-31
+646,Hilo,Hawaii,La Fuga,Mil Lagrimas,spotify:track:2FHlStSLDudMOAViGwfvmu,198008,0,2016-02-12
+647,Hilo,Hawaii,Abel Pintos,A Veces Pasa,spotify:track:0wx2gIZPQAcZFYjScluuWH,207413,20,2005-11-15
+648,Hilo,Hawaii,Los Nocheros,Juan de LA Calle,spotify:track:0JseuFrshLtBDs26BRa8xJ,214389,15,2020-07-24
+649,Hilo,Hawaii,Los Nocheros,Del Gris al Azul,spotify:track:4BaVxC6KpxVaawA5T8f00Z,221760,15,2020-07-24
+650,Hilo,Hawaii,Los Nocheros,Sin Complejos,spotify:track:047lS89sTahNQwWxkXNFOk,187904,15,2020-07-24
+651,Hilo,Hawaii,"Franco ""El Gorila""",Camila,spotify:track:2Un2RPpfYf561fke3rxQga,246640,25,2009-01-01
+652,Hilo,Hawaii,Maldita Nerea,Seis,spotify:track:1yaxgBGBKKgStOuFweh62w,301160,15,2009-05-07
+653,Hilo,Hawaii,Cartel de Santa,Con el corazón,spotify:track:3ISovErzlCqqH11YsjsG4V,359173,35,2010-05-25
+654,Hilo,Hawaii,Ana Belén,Canción Pequeña,spotify:track:1pcThjGRfslR9IHrTkOGtQ,256240,13,2011-11-15
+655,Hilo,Hawaii,Ismael Serrano,Te Odio,spotify:track:7oYjxaQdsZevStjlhDJKXi,270453,27,2018-11-09
+656,Hilo,Hawaii,Indio Solari,Nike Es la Cultura,spotify:track:7GWwDxXV3c7lmTzQ3e0QrE,390973,40,2004
+657,Hilo,Hawaii,Melendi,De Repente Desperté,spotify:track:1cGOP158WesIqued270rGg,309773,47,2012-11-13
+658,Hilo,Hawaii,Rosana,Como Un Guante,spotify:track:6JoevEfCw6q5m2NWvgcsJN,258346,16,2011-11-04
+659,Hilo,Hawaii,Rayden,Matemática de la Carne,spotify:track:0DnDZlGXlZCiK4vPtHcbQl,226973,48,2014-11-04
+660,Hilo,Hawaii,María Artés Lamorena,Te amo,spotify:track:0MhXyLHLkVA2PjT7rqhMX8,219120,36,2017-12-09
+661,Hilo,Hawaii,Estopa,Estatua de Sal,spotify:track:7sZVbzzc1IlePQbD7ccybd,203400,32,2016-05-20
+662,Hilo,Hawaii,Niña Pastori,La Quiero a Morir,spotify:track:0w6wExWSDO9lVXRQDuhdNv,210613,43,2015-11-06
+663,Hilo,Hawaii,Los Rebujitos,Por Ti,spotify:track:0UZvlXPkGtpTEHhR8f3cE7,220184,42,2016-05-20
+664,Hilo,Hawaii,David Calzado & Su Charanga Habanera,Arriba De Lo Mal Hecho,spotify:track:59uXxtTviFXmDe5yMt4mO7,253257,34,2015
+665,Hilo,Hawaii,Cesar Mesa,La Quiero a Morir,spotify:track:5yY1WXzCXV8CjbJi5ymM63,206960,5,2007-01-01
+666,Hilo,Hawaii,Izal,Los Seres Que Me Llenan,spotify:track:6g0eaWPfmhdPqMINtyfIzz,251866,48,2015-09-18
+667,Hilo,Hawaii,Celtas Cortos,Hora de Aventuras,spotify:track:5byvBg24kGgeWAKzhEHLz1,236480,21,2014-09-16
+668,Hilo,Hawaii,Porta,Tela de Araña,spotify:track:2NtA9phziFTy0sOohkqXKM,243916,42,2016-10-21
+669,Hilo,Hawaii,Los Punsetes,Tu Puto Grupo,spotify:track:40MnBN4QUonDSKlL849jMf,201707,31,2017-01-01
+670,Hilo,Hawaii,Malú,Cuerpo A Cuerpo,spotify:track:6AqL6wYipvePOep47KV7jj,199987,34,2018-09-21
+671,Hilo,Hawaii,Rayden,Los Dioses También Sangran,spotify:track:0xx0bmlgqTVKldvGXpY8D1,300373,32,2019-01-18
+672,Hilo,Hawaii,Rayden,Mangata,spotify:track:2P1Sy2zuOyGT8p8urhWJX1,289274,25,2019-01-18
+673,Hilo,Hawaii,Pereza,Matar Al Cartero,spotify:track:2Pb3o2UOkTffuIax8JB7T7,207186,30,2005-04-07
+674,Hilo,Hawaii,Luis Alberto Spinetta,Pies De Atril,error,error,error,error
+675,Hilo,Hawaii,Don Patricio,La Culpa,spotify:track:17vnzFrYtnxViwNKCqDx7f,164096,42,2019-01-27
+676,Hilo,Hawaii,"Falsalarma, Lasai",Warrior,spotify:track:2ME35iUrNAdETVnKrbKqai,243466,22,2018-01-19
+677,Hilo,Hawaii,El Momo,Sol de Marzo,spotify:track:3yuYvSF70fI1vQZN0lyyse,261373,27,2017-05-26
+678,Hilo,Hawaii,El Momo,Nightcrawler,spotify:track:7HduAFEV3w2VNIiV8XVBMU,222573,15,2017-05-26
+679,Hilo,Hawaii,"Macaco, Niño de Elche, Jose Luis Algar, Inma Cuesta",Ovejas Negras,spotify:track:6fTbbcQjITtmf8BVkj8d2C,316941,41,2019-05-24
+680,Hilo,Hawaii,"Natalia Lacunza, Guitarricadelafuente",Nana Triste,spotify:track:41KT7XIktLKQxDBBJ1I7Ey,187016,2,2020-07-17
+681,Hilo,Hawaii,David DeMaría,Séptimo Cielo,spotify:track:70Nnv19ATpdMTYGLvErd4Y,221880,33,2016-04-01
+682,Hilo,Hawaii,Nach,Urbanología,spotify:track:0QvjS6HJz1XyZoGcbFFnKt,485500,45,2015-03-03
+683,Hilo,Hawaii,La Bien Querida,Te Quiero,spotify:track:2dArQmvREm53P3X4MzJGiT,235102,34,2019-09-27
+684,Hilo,Hawaii,Bebe,Bala Perdida,spotify:track:4RQPsav8bzr1je7GJ65JNq,211000,30,2016-09-16
+685,Hilo,Hawaii,Estopa,Despertar,spotify:track:6hntdXnVWmxtwwBdmRqDoh,193453,43,2019-10-18
+686,Hilo,Hawaii,"Nach, Falsalarma",Mi Peor Enemigo,spotify:track:3dlcfcacMC1atG3ncWZnWR,345466,30,2019-11-08
+687,Hilo,Hawaii,Surfistas Del Sistema,Modo Despegar,spotify:track:1lr3CWBoYPYOmgktzn0gWo,318626,43,2015-03-03
+688,Hilo,Hawaii,Kamikazee,Wala,spotify:track:4QsX9omkXFIDVFwCdPR1bE,326000,27,2015
+689,Hilo,Hawaii,Circo,Cascarón,spotify:track:0HvvMZp6lPAFy7MM2Z9RQ5,231906,20,2005
+690,Hilo,Hawaii,Residente,Una Leyenda China,spotify:track:534SMMNlixsiLrw7sJWx6y,269786,42,2017-03-31
+691,Hilo,Hawaii,Residente,Dagombas en Tamale,spotify:track:6dABTmyCBksFEW76oTOr5q,235573,47,2017-03-31
+692,Hilo,Hawaii,Niña Pastori,Cuando Nadie Me Ve,spotify:track:7Mp40FvCRtbiE1QO6yb6ij,406640,46,2017-12-08
+693,Hilo,Hawaii,El Barrio,Torpe Canción,spotify:track:0b4fvNuA8vzlOKUbKC6oJO,295133,51,2017-10-27
+694,Hilo,Hawaii,"Fuerza de Tijuana, Virlán García",Soy el Mismo,spotify:track:1Dc2OUXy4B2KAxNSC7Y4Yg,157013,39,2017-08-22
+695,Hilo,Hawaii,Manolo García,Humo De Abrojos,spotify:track:7dVcIh2tAlhXSM8Rhghvza,250192,23,2018-11-30
+696,Hilo,Hawaii,Mireya Bravo,Cuando Nadie Me Ve,spotify:track:2dp0NxQSqPqRbJp1NUaFVC,135658,24,2017-11-28
+697,Hilo,Hawaii,Pereza,Pienso en Aquella Tarde,spotify:track:5dncXckT4fSDlyEL9QgzuY,172600,56,2003-07-11
+698,Hilo,Hawaii,El Momo,Cierzo,spotify:track:4RNzwmpazXiuIFM3AVI98M,197053,22,2017-05-26
+699,Hilo,Hawaii,"Capaz, Julia Martín",Juega y Gana,spotify:track:58p93BI4wzgnfXqV9nviys,253710,16,2018-04-20
+700,Hilo,Hawaii,Neus Ferri,Aquí me Tienes,spotify:track:403gOHRUekWiE55HAr0Gjs,214959,2,2017-02-24
+701,Hilo,Hawaii,iLe,Ñe Ñe Ñé,spotify:track:4SjRyukjcdc095b8UfXHea,187430,34,2019-05-10
+702,Hilo,Hawaii,ZPU,He Venido a Verte,spotify:track:02ypZRUd6ryODvcLsl7omG,170199,36,2013-11-11
+703,Hilo,Hawaii,Macaco,No Nos Pararán,spotify:track:6DdzHR5cQ089cBBKG2d7zm,257384,27,2019-05-24
+704,Hilo,Hawaii,David DeMaría,Otras Vidas,spotify:track:3wPJ5emZ2S0royCbg5V8Lt,207370,23,2013-09-03
+705,Hilo,Hawaii,"Nach, Samuel O' Kane",Ellos y Yo,spotify:track:2p28U04GOYtGSJ50LZ9tcl,219642,30,2015-03-03
+706,Hilo,Hawaii,Rogelio Martínez,Y Sigues Siendo Tú,spotify:track:3JA5Q0vCNxK7b3ZLXQD0eT,194426,50,1999
+707,Hilo,Hawaii,La Vida Boheme,El Milagro del Sur,spotify:track:6O2nVc22NpFF9MApiNyCv5,264013,16,2017-03-24
+708,Hilo,Hawaii,Duncan Dhu,Marionetas,spotify:track:2qOwCce7ZUoIil2qgrvmZS,208266,2,2003
+709,Hilo,Hawaii,Revolver Cannabis,Me Les Pelo a la Otra Vida,spotify:track:3f5RVIGgPrK3D9p4gpXXXu,176266,36,2017-04-27
+710,Hilo,Hawaii,Antonio Carmona,Vida,spotify:track:1TT79CdA2V7ATeQPFq25jh,259101,26,2017-03-31
+711,Hilo,Hawaii,Rozalén,Alivio,error,error,error,error
+712,Hilo,Hawaii,Fyahbwoy,Me Toman Por el Enemigo,spotify:track:1cVo66IGZ2jEeIErPmdAt6,206135,14,2018-03-23
+713,Hilo,Hawaii,Amaia,Porque Apareciste,spotify:track:4Y0iI4E4VurYtsQjAkliLw,174730,40,2019-09-19
+714,Hilo,Hawaii,Session Road,Ok Naman Tayo,spotify:track:0ehcbLzmVmYqheJAaUON48,204826,3,2011-07-26
+715,Hilo,Hawaii,Sharlene,Aerofobia,spotify:track:18RHHP6tTYvgrL7SGu03o6,186173,30,2019-11-01
+716,Hilo,Hawaii,"Duki, Marcianos Crew, Lucho SSJ",La Jefatura,spotify:track:2lllz0GoFtRdHMaqGlqcoL,211928,48,2019-11-01
+717,Hilo,Hawaii,Cultura Profética,La Fibra Humana,spotify:track:5jMH6YMfeWfCgnhCqaqpIg,327525,41,2019-11-01
+718,Hilo,Hawaii,Rayden,No Tengas Miedo,spotify:track:73RG9h8l7AgDlxmOwHHKQl,197773,40,2020-02-07
+719,Hilo,Hawaii,Virlán García,Soy El Mismo,spotify:track:0jNdXCT3ftJOKr2KX289tC,176512,47,2015-07-27
+720,Hilo,Hawaii,Sotomayor,Tu Cuerpo y El Mío,spotify:track:46eD4OgC1KyrMylWo6Ja0m,181498,23,2020-02-14
+721,Hilo,Hawaii,Nacha Pop,Tu Mejor Momento,spotify:track:5QapF1JN79rBh5KAKDCtrH,205133,10,2017-01-13
+722,Hilo,Hawaii,Jovanny Cadena y Su Estilo Privado,Antologia,spotify:track:50BlcthjRidQzUGYk1qm98,238794,59,2017-10-17
+723,Hilo,Hawaii,Banda La Ejecutiva de Mazatlán Sinaloa,A Poco No Quisieras,spotify:track:1K5wDpSUgu5FDgjuVbPUlw,169240,34,2020-05-15
+724,Hilo,Hawaii,Rubén Pozo,Ozono,spotify:track:2cDqym4X3Ee7pNJqycAU0a,193333,18,2012-04-25
+725,Kailua,Hawaii,Bing Crosby,You Took Advantage of Me,spotify:track:1umL394y6IyeD9aZHuhjhL,173640,7,2014-04-18
+726,Kailua,Hawaii,June Christy,You Took Advantage of Me,spotify:track:7nNdvopMVfghi5pVNEIZlA,148960,1,1992-01-01
+727,Kailua,Hawaii,Anita O'Day,You Took Advantage of Me,spotify:track:2JMDKQxGa00mfyjAqp2dzM,141483,0,2017-07-04
+728,Kailua,Hawaii,Pharrell Williams,Neon Guts,spotify:track:1MJErNPIQUoEMu4YUUmecm,258789,65,2017-08-25
+729,Kailua,Hawaii,Neil Sedaka,You Took Advantage of Me,spotify:track:4ULTHg0TxcxaK7gB5iKUsY,191973,7,1960-12-30
+730,Kailua,Hawaii,Bix Beiderbecke,You Took Advantage of Me,spotify:track:1umL394y6IyeD9aZHuhjhL,173640,7,2014-04-18
+731,Kailua,Hawaii,Pete Townshend,Let's Get Pretentious,spotify:track:2Da17O6d3sM69cx59DxCm5,216173,6,1993-06-15
+732,Kailua,Hawaii,The Hi-Lo's,You Took Advantage of Me,spotify:track:57QKh0uKSgnR5zelOlvjZx,157753,0,2011-09-30
+733,Kailua,Hawaii,Bobby Short,You Took Advantage of Me,spotify:track:0UkzZ3rWtamveTPxPBAi9X,201573,5,2005-05-17
+734,Kailua,Hawaii,Lee Wiley,You Took Advantage of Me,spotify:track:3PlViT8qxmzTQyltopS4wV,172615,2,1986
+735,Kailua,Hawaii,The Hi-Lo's,You Took Adavantage of Me,spotify:track:3ijTt8pJ6TymUVw8axnG80,123880,17,2020-06-01
+736,Kailua,Hawaii,Paul Whiteman Orchestra,You Took Advantage of Me [From Present Arms],spotify:track:3V93o8IfaL1gFLP9qzYHdJ,179042,0,2011-02-03
+737,Kailua,Hawaii,Paul Whiteman & His Orchestra,You Took Advantage of Me,spotify:track:1umL394y6IyeD9aZHuhjhL,173640,7,2014-04-18
