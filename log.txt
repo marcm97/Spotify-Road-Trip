@@ -17,3 +17,15 @@ July 11th:
 - bugs:
     - duplicates songs
     - song length and uri correspond to different songs which messes up the length of the playlist
+    
+  July 26th:
+  - fixed bugs from last time
+  - lyrics api didn't work for lyrics within songs; so webscraped instead
+  - created a database for each state which comprises of songs from each state with lrics containing the name of the state as well as the names of the 5 largest cities
+  
+  - bugs/issues:
+    - easier authetication; figure out how to refresh tokens
+    - figure out setup for frontend/backend with flask api and how to authenticate
+    - see if the popularity is actually sampling by weight - doesn't seem like it is
+    - create finer granulation - include other columns like danceability, loudness, pop, key .... from querying spotify
+    
