@@ -1,4 +1,4 @@
-# Create a list of songs about places that you're driving through on your roadtrip
+# Goal: Help users get a better sense of the history and culture of the cities that they are driving through, through personalized spotify playlists that comprise of songs that highlight the best of these cities
 
 ## Components
 * webscrape from various sources
