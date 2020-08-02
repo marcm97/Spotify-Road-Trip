@@ -1,22 +1,27 @@
-# Create a list of songs about all places in America
+# Create a list of songs about places that you're driving through on your roadtrip
 
 ## Components
 * webscrape from various sources
 * query from spotify api  
-* song name; spotify uri
+* use google maps to find route
+* build UI
 
 ## TODO
 * [ ] need to improve quality of queries
-    * ~1000/10000 songs weren't able to be queried from spotify
+    * ~10% of songs scraped weren't able to be queried from spotify
     * try out the fuzzy wuzzy api?
+    * besides songs that just contain the names of cities that you pass through, also find songs about things associated with a city
+    https://relatedwords.org/relatedto/ or word2vec?
 
 ## Open Questions
-* instead of csv, with 10,000+ songs would a db be better?
+* instead of csv, with 100,000+ songs would a db be better?
 * Figure out how to extract places from route:
     * Using `reverse_geocode` is extremely slow - need to find a better way
+* How can we geotag songs at a granular level (exact location)
+* can we get songs ordered in such a way that we hear them as we pass through?
 
 ## Notes
-* Spotify authentication
+* Spotify authentication, Spotipy
 
 * Map
 http://amunategui.github.io/yelp-v3-cross-country-trip/index.html
