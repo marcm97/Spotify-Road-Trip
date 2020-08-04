@@ -5,8 +5,8 @@ import pandas as pd
 import spotipy
 import uuid
 
-from generate_playlist import create_playlist
-from generate_playlist import add_songs
+from utils.generate_playlist import create_playlist
+from utils.generate_playlist import add_songs
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.urandom(64)
@@ -46,10 +46,7 @@ def index():
     post = {
         "username": spotify.me()["display_name"],
         "sign_out": '/sign_out',
-        "playlists": '/playlists',
-        "generate_playlist": '/generate_playlist',
-        "currently_playing": '/currently_playing',
-        "current_user": '/current_user'
+        "generate_playlist": '/generate_playlist'
     }
     return render_template('home.html', posts=post)
 
@@ -64,71 +61,15 @@ def sign_out():
     session.clear()
     return redirect('/')
 
-
-@app.route('/playlists')
-def playlists():
-    auth_manager = spotipy.oauth2.SpotifyOAuth(cache_path=session_cache_path())
-    if not auth_manager.get_cached_token():
-        return redirect('/')
-
-    spotify = spotipy.Spotify(auth_manager=auth_manager)
-    return spotify.current_user_playlists()
-
-
 @app.route('/generate_playlist', methods=['POST'])
 def generate_playlist():
+    # Gets data from the home page
     data = request.get_json()
     playlist_name=data["playlist_name"]
     origin =data["origin"]
     destination = data["destination"]
     print("Ok this is a post method \n" +  playlist_name + "\n" + origin + "\n" + destination)
     return f"<h2>HTML Ok this is a post method {origin} {destination}</h2>"\
-
-    '''
-    auth_manager = spotipy.oauth2.SpotifyOAuth(cache_path=session_cache_path())
-    if not auth_manager.get_cached_token():
-        return redirect('/')
-    
-    spotify = spotipy.Spotify(auth_manager=auth_manager)
-    
-    username = spotify.current_user()['id']
-    playlist_id = create_playlist("newYork", spotify, username)  # TODO: Allow user to input
-    duration = 30 * 60 * 1000  # TODO: Get time from google map
-    states = ["New York"]  # TODO: Return states from google map
-    # TODO: weight towards destination state/cities
-
-    count = len(states)
-    for state in states:
-        songs = pd.read_csv("./final_datasets/" + state + ".csv")  # TODO: read from github instead of local
-        songs = songs[songs["uris"] != "error"]
-        songs = songs[songs["popularity"] != "0"]
-        add_songs(playlist_id, songs, duration / count, spotify, username)
-  
-    return jsonify(spotify.playlist(playlist_id))
-   
-    return origin + ' ' + destination
-    '''
-
-@app.route('/currently_playing')
-def currently_playing():
-    auth_manager = spotipy.oauth2.SpotifyOAuth(cache_path=session_cache_path())
-    if not auth_manager.get_cached_token():
-        return redirect('/')
-    spotify = spotipy.Spotify(auth_manager=auth_manager)
-    track = spotify.current_user_playing_track()
-    if not track is None:
-        return track
-    return "No track currently playing."
-
-
-@app.route('/current_user')
-def current_user():
-    auth_manager = spotipy.oauth2.SpotifyOAuth(cache_path=session_cache_path())
-    if not auth_manager.get_cached_token():
-        return redirect('/')
-    spotify = spotipy.Spotify(auth_manager=auth_manager)
-    return jsonify(spotify.current_user())
-
 
 '''
 Following lines allow application to be run more conveniently with
