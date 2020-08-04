@@ -1,4 +1,7 @@
-# Goal: Help users get a better sense of the history and culture of the cities that they are driving through, through personalized spotify playlists that comprise of songs that highlight the best of these cities
+# Spotify Road Trip Playlist Generator
+
+## Goal
+Help users get a better sense of the history and culture of the cities that they are driving through, through personalized spotify playlists that comprise of songs that highlight the best of these cities
 
 ## Components
 * webscrape from various sources
