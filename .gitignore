@@ -10,3 +10,8 @@
 # Spotify credentials
 spotifyID.txt
 spotifySecret.txt
+
+# caches
+.spotify_caches
+.ipynb_checkpoints
+.flask_session
