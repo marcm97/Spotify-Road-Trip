@@ -1,30 +1,5 @@
-"""
-Prerequisites
-
-    pip3 install spotipy Flask Flask-Session
-
-    // from your [app settings](https://developer.spotify.com/dashboard/applications)
-    export SPOTIPY_CLIENT_ID=client_id_here
-    export SPOTIPY_CLIENT_SECRET=client_secret_here
-    export SPOTIPY_REDIRECT_URI='http://127.0.0.1:8080' // must contain a port
-    // SPOTIPY_REDIRECT_URI must be added to your [app settings](https://developer.spotify.com/dashboard/applications)
-    OPTIONAL
-    // in development environment for debug output
-    export FLASK_ENV=development
-    // so that you can invoke the app outside of the file's directory include
-    export FLASK_APP=/path/to/spotipy/examples/app.py
- 
-    // on Windows, use `SET` instead of `export`
-
-Run app.py
-
-    python3 -m flask run --port=8080
-    NOTE: If receiving "port already in use" error, try other ports: 5000, 8090, 8888, etc...
-        (will need to be updated in your Spotify app and SPOTIPY_REDIRECT_URI variable)
-"""
-
 import os
-from flask import Flask, session, request, redirect
+from flask import Flask, session, request, redirect, render_template, jsonify
 from flask_session import Session
 import pandas as pd
 import spotipy
@@ -64,17 +39,19 @@ def index():
     if not auth_manager.get_cached_token():
         # Step 2. Display sign in link when no token
         auth_url = auth_manager.get_authorize_url()
-        return f'<h2><a href="{auth_url}">Sign in</a></h2>'
+        return render_template('login.html', signin_url=auth_url)
 
     # Step 4. Signed in, display data
     spotify = spotipy.Spotify(auth_manager=auth_manager)
-    return f'<h2>Hi {spotify.me()["display_name"]}, ' \
-           f'<small><a href="/sign_out">[sign out]<a/></small></h2>' \
-           f'<a href="/generate_playlist">generate playlist</a> | ' \
-           f'<a href="/playlists">my playlists</a> | ' \
-           f'<a href="/currently_playing">currently playing</a> | ' \
-		   f'<a href="/current_user">me</a>' \
-
+    post = {
+        "username": spotify.me()["display_name"],
+        "sign_out": '/sign_out',
+        "playlists": '/playlists',
+        "generate_playlist": '/generate_playlist',
+        "currently_playing": '/currently_playing',
+        "current_user": '/current_user'
+    }
+    return render_template('home.html', posts=post)
 
 @app.route('/sign_out')
 def sign_out():
@@ -98,18 +75,26 @@ def playlists():
     return spotify.current_user_playlists()
 
 
-@app.route('/generate_playlist')
+@app.route('/generate_playlist', methods=['POST'])
 def generate_playlist():
+    data = request.get_json()
+    playlist_name=data["playlist_name"]
+    origin =data["origin"]
+    destination = data["destination"]
+    print("Ok this is a post method \n" +  playlist_name + "\n" + origin + "\n" + destination)
+    return f"<h2>HTML Ok this is a post method {origin} {destination}</h2>"\
+
+    '''
     auth_manager = spotipy.oauth2.SpotifyOAuth(cache_path=session_cache_path())
     if not auth_manager.get_cached_token():
         return redirect('/')
-
+    
     spotify = spotipy.Spotify(auth_manager=auth_manager)
-
+    
     username = spotify.current_user()['id']
     playlist_id = create_playlist("newYork", spotify, username)  # TODO: Allow user to input
     duration = 30 * 60 * 1000  # TODO: Get time from google map
-    states = ["South Dakota"]  # TODO: Return states from google map
+    states = ["New York"]  # TODO: Return states from google map
     # TODO: weight towards destination state/cities
 
     count = len(states)
@@ -118,9 +103,11 @@ def generate_playlist():
         songs = songs[songs["uris"] != "error"]
         songs = songs[songs["popularity"] != "0"]
         add_songs(playlist_id, songs, duration / count, spotify, username)
-
-    return spotify.playlist(playlist_id)
-
+  
+    return jsonify(spotify.playlist(playlist_id))
+   
+    return origin + ' ' + destination
+    '''
 
 @app.route('/currently_playing')
 def currently_playing():
@@ -140,7 +127,7 @@ def current_user():
     if not auth_manager.get_cached_token():
         return redirect('/')
     spotify = spotipy.Spotify(auth_manager=auth_manager)
-    return spotify.current_user()
+    return jsonify(spotify.current_user())
 
 
 '''

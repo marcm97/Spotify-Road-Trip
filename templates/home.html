@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spotify Roadtrip playlist generator</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='map.css') }}">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"
+    type="text/javascript"></script>
+        <script src="{{ url_for('static', filename='map.js') }}"></script>
+    </head>
+    <body>
+        <h1>Spotify Roadtrip Playlist Generator</h1>
+        <h2>Celebrates the places you pass by!</h2>
+        <p>(We will come up with something better! :)</p><br>
+        <h3>Hi, {{posts.username}}!</h3>
+        <button onclick="window.location.href='{{posts.sign_out}}';">
+            Signout
+        </button>
+        <button onclick="window.location.href='{{posts.playlists}}';">
+            Playlists
+        </button>
+        <button onclick="window.location.href='{{posts.currently_playing}}';">
+            Currently playlist
+        </button>
+        <button onclick="window.location.href='{{posts.current_user}}';">
+            Me
+        </button>
+
+        <form>
+            <label>New playlist name: </label>
+            <input type="text" id="name" name="name">
+            <button onclick="getMapData()">Generate playlist</button>
+        </form>
+
+        <div style="display: none">
+            <input id="origin-input" name="origin-input" class="controls" type="text"
+                placeholder="Enter an origin location">
+    
+            <input id="destination-input" name="destination-input" class="controls" type="text"
+                placeholder="Enter a destination location">
+    
+            <div id="mode-selector" class="controls">
+              <input type="radio" name="type" id="changemode-walking" checked="checked">
+              <label for="changemode-walking">Walking</label>
+    
+              <input type="radio" name="type" id="changemode-transit">
+              <label for="changemode-transit">Transit</label>
+    
+              <input type="radio" name="type" id="changemode-driving">
+              <label for="changemode-driving">Driving</label>
+            </div>
+        </div>
+    
+        <div id="map"></div>
+    </body>
+</html>
