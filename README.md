@@ -50,7 +50,7 @@ http://amunategui.github.io/yelp-v3-cross-country-trip/index.html
         - must contain a port
         - `SPOTIPY_REDIRECT_URI` must be added to your [app settings](https://developer.spotify.com/dashboard/applications)
 
-- Add your Google API key in the [templates\home.html]() file
+- Add your Google API key in the [templates\home.html](https://github.com/marcm97/Spotify-Road-Trip/blob/599a3d2d291890108833487c551a8dfbb11c830a/templates/home.html#L7) file
 - Run app.py
     - `python3 -m flask run --port=8080`
         - If receiving `port already in use` error, try other ports: 5000, 8090, 8888, etc...
