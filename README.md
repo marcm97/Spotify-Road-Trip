@@ -35,3 +35,30 @@ http://amunategui.github.io/yelp-v3-cross-country-trip/index.html
 * Using the `dotenv` module to hide API keys:
 
         $ pip install python-dotenv
+
+## Prerequisites
+
+- `pip3 install spotipy Flask Flask-Session`
+- Set the environment variables from your [app settings](https://developer.spotify.com/dashboard/applications). On Windows, use `set` instead of `export`.
+    - `export SPOTIPY_CLIENT_ID=client_id_here`
+    - `export SPOTIPY_CLIENT_SECRET=client_secret_here`
+
+    - `export SPOTIPY_REDIRECT_URI=http://127.0.0.1:8080` 
+        - must contain a port
+        - `SPOTIPY_REDIRECT_URI` must be added to your [app settings](https://developer.spotify.com/dashboard/applications)
+
+- Add your Google API key in the [templates\home.html]() file
+- Run app.py
+    - `python3 -m flask run --port=8080`
+        - If receiving `port already in use` error, try other ports: 5000, 8090, 8888, etc...
+(will need to be updated in your Spotify app and SPOTIPY_REDIRECT_URI variable)
+
+#### Optional
+
+In development environment for debug output
+- `export FLASK_ENV=development`
+
+So that you can invoke the app outside of the file's directory include
+- `export FLASK_APP=/path/to/spotipy/examples/app.py`
+
+
