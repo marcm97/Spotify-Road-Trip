@@ -7,6 +7,8 @@ import uuid
 
 from utils.generate_playlist import create_playlist
 from utils.generate_playlist import add_songs
+from utils.route import states_along_route
+from utils.route import trip_duration_seconds
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.urandom(64)
@@ -69,7 +71,28 @@ def generate_playlist():
     origin =data["origin"]
     destination = data["destination"]
     print("Ok this is a post method \n" +  playlist_name + "\n" + origin + "\n" + destination)
-    return f"<h2>HTML Ok this is a post method {origin} {destination}</h2>"\
+    
+    auth_manager = spotipy.oauth2.SpotifyOAuth(cache_path=session_cache_path())
+    if not auth_manager.get_cached_token():
+        return redirect('/')
+    
+    spotify = spotipy.Spotify(auth_manager=auth_manager)
+    
+    username = spotify.current_user()['id']
+    playlist_id = create_playlist(playlist_name, spotify, username)
+    duration = trip_duration_seconds(origin, destination) * 1000 
+    print(duration)
+    states = list(states_along_route(origin, destination).keys())
+    print(states)
+    # TODO: weight towards destination state/cities
+    count = len(states)
+    for state in states: #TODO: Handle songs that are not available in spoyify
+        songs = pd.read_csv("./final_datasets/" + state + ".csv")  # TODO: read from github instead of local
+        songs = songs[songs["uris"] != "error"]
+        songs = songs[songs["popularity"] != "0"]
+        add_songs(playlist_id, songs, duration / count, spotify, username)
+  
+    return jsonify(spotify.playlist(playlist_id))
 
 '''
 Following lines allow application to be run more conveniently with

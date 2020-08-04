@@ -36,5 +36,8 @@ def add_songs(playListID, songs, duration, sp, username):
             song_set.add(bag.iloc[0, -5])
             uri = bag.iloc[0, -4]  # TODO: change to column name later
             song_length = int(bag.iloc[0, -3])
-            sp.user_playlist_add_tracks(username, playlist_id=playListID, tracks=[uri], position=None)
-            duration = duration - song_length
+            try:
+                sp.user_playlist_add_tracks(username, playlist_id=playListID, tracks=[uri], position=None)
+                duration = duration - song_length
+            except:
+                pass
