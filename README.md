@@ -49,6 +49,8 @@ http://amunategui.github.io/yelp-v3-cross-country-trip/index.html
     - `export SPOTIPY_REDIRECT_URI=http://127.0.0.1:8080` 
         - must contain a port
         - `SPOTIPY_REDIRECT_URI` must be added to your [app settings](https://developer.spotify.com/dashboard/applications)
+        
+    - `export MAPS_API_KEY=your_google_api_key `
 
 - Add your Google API key in the [templates\home.html](https://github.com/marcm97/Spotify-Road-Trip/blob/599a3d2d291890108833487c551a8dfbb11c830a/templates/home.html#L7) file
 - Run app.py
