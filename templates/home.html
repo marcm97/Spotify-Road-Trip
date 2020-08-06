@@ -1,21 +1,38 @@
+<style>
+    .modal {
+        overflow-y: auto;
+    }
+    </style>
+{% extends "base.html" %}
+
+{% block content %}
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Spotify Roadtrip playlist generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF=8">
+        <div class = "container">
+            <div class="row justify-content-center align-items-center">
+            <h1>Spotify Roadtrip Playlist Generator</h1>
+            </div>
+        </div>
+
         <link rel="stylesheet" href="{{ url_for('static', filename='map.css') }}">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRu6B0u24uYJsDntFiZLoXaWhH5uCy1kU&libraries=places&callback=initMap"
     type="text/javascript"></script>
         <script src="{{ url_for('static', filename='map.js') }}"></script>
+
     </head>
     <body>
-        <h1>Spotify Roadtrip Playlist Generator</h1>
         <h2>Celebrates the places you pass by!</h2>
         <p>(We will come up with something better! :)</p><br>
         <h3>Hi, {{posts.username}}!</h3>
         <button onclick="window.location.href='{{posts.sign_out}}';">
             Signout
         </button>
+
+        
 
         <div>
             <label>New playlist name: </label>
@@ -34,7 +51,18 @@
                 placeholder="Trip info" readonly>
         </div> 
     
-        <div id="map"></div>
+        <div class="row h-100">
+            <div class="col-lg-8">
+                <div id="map"></div>
+            </div>
+            <div class="col-lg-4">
+                <div id='edit_playlist' style="visibility: hidden;">
+                    <button onclick="removePlaylist()">Remove playlist</button>
+                    <button onclick="editPlaylist()">Edit playlist</button>
+                    <iframe id="playlist" src='' width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
 
         <div id='edit_playlist' style="visibility: hidden;">
             <button onclick="removePlaylist()">Remove playlist</button>
@@ -43,3 +71,6 @@
         </div>
     </body>
 </html>
+
+
+{% endblock %}

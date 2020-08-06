@@ -1,21 +1,23 @@
-song_city,song_state,song_artist,song_name
-Guam,Guam,Grey Daze,B12
-Guam,Guam,Jerry Jeff Walker,Wingin' It Home to Texas
-Guam,Guam,B-Legit,So International
-Guam,Guam,Laurie Anderson,Word of Mouth
-Guam,Guam,Bad Religion,World War III
-Guam,Guam,Tee Grizzley,No Effort
-Guam,Guam,Tee Grizzley,Country
-Guam,Guam,Animaniacs,Yakko's World
-Guam,Guam,Animaniacs,The Ballad of Magellan
-Guam,Guam,Hieroglyphics,Soweto
-Guam,Guam,雨音,肯定就是你
-Guam,Guam,许慧欣,肯定就是你
-Guam,Guam,Daby Touré,Khone
-Guam,Guam,Mariah,Perreito [Remix]
-Guam,Guam,DPR LIVE,To Whoever
-Guam,Guam,"billy woods, Kenny Segal",spongebob
-Guam,Guam,ユニコーン,ハヴァナイスデー
-Guam,Guam,Uncle Jim,Where's the Turkey
-Guam,Guam,Suburban Legends,Don Juan
-Guam,Guam,Vinnie Paz,Writings On Disobedience And Democracy
+,city,state,artist,song
+0,Guam,Guam,Grey Daze,B12
+1,Guam,Guam,Jerry Jeff Walker,Wingin' It Home to Texas
+2,Guam,Guam,Grey Daze,B12
+3,Guam,Guam,B-Legit,So International
+4,Guam,Guam,Laurie Anderson,Word of Mouth
+5,Guam,Guam,Bad Religion,World War III
+6,Guam,Guam,Tee Grizzley,Country
+7,Guam,Guam,Tee Grizzley,No Effort
+8,Guam,Guam,Animaniacs,Yakko's World
+9,Guam,Guam,Animaniacs,The Ballad of Magellan
+10,Guam,Guam,Hieroglyphics,Soweto
+11,Guam,Guam,雨音,肯定就是你
+12,Guam,Guam,许慧欣,肯定就是你
+13,Guam,Guam,"A Dinosaur, Former Fat Boys",Sperm Donor
+14,Guam,Guam,Daby Touré,Khone
+15,Guam,Guam,Mariah,Perreito [Remix]
+16,Guam,Guam,"billy woods, Kenny Segal",spongebob
+17,Guam,Guam,DPR LIVE,To Whoever
+18,Guam,Guam,ユニコーン,ハヴァナイスデー
+19,Guam,Guam,Uncle Jim,Where's the Turkey
+20,Guam,Guam,Suburban Legends,Don Juan
+21,Guam,Guam,Vinnie Paz,Writings On Disobedience And Democracy
