@@ -22,7 +22,8 @@ html, body {
 }
 
 #origin-input,
-#destination-input {
+#destination-input,
+#msg {
     background-color: #fff;
     font-family: Roboto;
     font-size: 15px;
@@ -38,15 +39,6 @@ html, body {
     border-color: #4d90fe;
 }
 
-#mode-selector {
-    color: #fff;
-    background-color: #4d90fe;
-    margin-left: 12px;
-    padding: 5px 11px 0px 11px;
-}
-
-#mode-selector label {
-font-family: Roboto;
-font-size: 13px;
-font-weight: 300;
+#msg {
+    width: 100%;
 }

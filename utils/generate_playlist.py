@@ -1,3 +1,9 @@
+import pandas as pd
+import os
+
+from utils.route import states_along_route
+from utils.route import trip_duration_seconds
+
 def search_playlist(sp, username, new_playlist):
     playListID = ""
     playlists = sp.user_playlists(username)
@@ -41,3 +47,14 @@ def add_songs(playListID, songs, duration, sp, username):
                 duration = duration - song_length
             except:
                 pass
+
+
+def make_roadtrip_playlist(origin, destination, playlist_id, sp, username):
+    duration = trip_duration_seconds(origin, destination) * 1000 
+    states = list(states_along_route(origin, destination).keys())  # TODO: weight towards destination state/cities
+    count = len(states)
+    for state in states: #TODO: Handle songs that are not available in spoyify
+        songs = pd.read_csv(os.path.join(os.path.dirname(__file__), "../final_datasets/" + state + ".csv"))  # TODO: read from github instead of local
+        songs = songs[songs["uris"] != "error"]
+        songs = songs[songs["popularity"] != "0"]
+        add_songs(playlist_id, songs, duration / count, sp, username)

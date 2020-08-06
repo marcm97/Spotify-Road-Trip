@@ -7,7 +7,7 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
       mapTypeControl: false,
       visible: true,
-      center: {lat: -33.8688, lng: 151.2195},
+      center: {lat: 40.730610, lng: -73.935242}, //New York City
       zoom: 13
   });
 
@@ -20,50 +20,31 @@ function AutocompleteDirectionsHandler(map) {
   this.map = map;
   this.originPlaceId = null;
   this.destinationPlaceId = null;
-  this.travelMode = 'WALKING';
+  this.travelMode = 'DRIVING';
   this.directionsService = new google.maps.DirectionsService;
   this.directionsRenderer = new google.maps.DirectionsRenderer;
   this.directionsRenderer.setMap(map);
 
   var originInput = document.getElementById('origin-input');
   var destinationInput = document.getElementById('destination-input');
-  var modeSelector = document.getElementById('mode-selector');
 
   var originAutocomplete = new google.maps.places.Autocomplete(originInput);
   // Specify just the place data fields that you need.
   originAutocomplete.setFields(['place_id']);
 
-  var destinationAutocomplete =
-      new google.maps.places.Autocomplete(destinationInput);
+  var destinationAutocomplete = new google.maps.places.Autocomplete(destinationInput);
   // Specify just the place data fields that you need.
   destinationAutocomplete.setFields(['place_id']);
-
-  this.setupClickListener('changemode-walking', 'WALKING');
-  this.setupClickListener('changemode-transit', 'TRANSIT');
-  this.setupClickListener('changemode-driving', 'DRIVING');
 
   this.setupPlaceChangedListener(originAutocomplete, 'ORIG');
   this.setupPlaceChangedListener(destinationAutocomplete, 'DEST');
 
   this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(originInput);
-  this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(
-      destinationInput);
-  this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(modeSelector);
+  this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(destinationInput);
 }
 
 // Sets a listener on a radio button to change the filter type on Places
 // Autocomplete.
-AutocompleteDirectionsHandler.prototype.setupClickListener = function(
-    id, mode) {
-  var radioButton = document.getElementById(id);
-  var me = this;
-
-  radioButton.addEventListener('click', function() {
-    me.travelMode = mode;
-    me.route();
-  });
-};
-
 AutocompleteDirectionsHandler.prototype.setupPlaceChangedListener = function(
     autocomplete, mode) {
   var me = this;
@@ -100,6 +81,16 @@ AutocompleteDirectionsHandler.prototype.route = function() {
       function(response, status) {
         if (status === 'OK') {
           me.directionsRenderer.setDirections(response);
+          var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
+          if (!directionsData) {
+            window.alert('Directions request failed');
+            return;
+          }
+          else {
+            document.getElementById('msg').innerHTML += " Driving distance is " + 
+                                    directionsData.distance.text + " (" + 
+                                    directionsData.duration.text + ").";
+          }
         } else {
           window.alert('Directions request failed due to ' + status);
         }
@@ -112,15 +103,26 @@ function getMapData(){
     "origin":document.getElementById('origin-input').value,
     "destination":document.getElementById('destination-input').value
   };
-  var dataJson = JSON.stringify(newData);
-  $.ajax({
-      type:'POST',
-      url:'/generate_playlist',
-      data:dataJson,
-      dataType: "json",
-      contentType: "application/json",
-      success: function(data, status){
-        console.log(data); 
-        console.log(status);} 
-  })
+  $.getJSON({
+        url: "/generate_playlist",
+        data: newData,
+        success: function(data){
+          document.getElementById("edit_playlist").style.visibility = "visible";
+          document.getElementById("playlist").src=data.src;
+        }
+    });
+}
+
+function removePlaylist(){
+  var playlist = {
+    "playlist":document.getElementById("playlist").src
+  };
+  $.getJSON({
+    url: "/remove_playlist",
+    data: playlist,
+    success: function(data){
+      document.getElementById("edit_playlist").style.visibility = "hidden";
+      document.getElementById("playlist").src="";
+    }
+});
 }

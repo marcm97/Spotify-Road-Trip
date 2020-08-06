@@ -18,7 +18,7 @@ def states_along_route(origin, destination):
                                         mode="driving",
                                         departure_time=now)
     threshold = 150000
-    result = []    
+    result = []
     legs = directions_result[0]['legs']
     
     for leg in legs:
