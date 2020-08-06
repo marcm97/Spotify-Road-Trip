@@ -2,16 +2,27 @@
 
 ## Goal
 Help users get a better sense of the history and culture of the cities that they are driving through, through personalized spotify playlists that comprise of songs that highlight the best of these cities
+Idea Origin - On road trips, besides listening to just music that you like; it's nice to hear every once in a while a song about a place that you're driving through
+
 
 ## Components
-* webscrape from various sources
-* query from spotify api  
-* use google maps to find route
-* build UI
 
+* Create a database of songs associated with their corresponding geo locations 
+   - https://en.wikipedia.org/wiki/List_of_songs_about_cities#United_States
+      * has a good list of songs, but is heavily biased towards smaller cities (eg. South Dakota has no representation :( )
+   - https://www.lyrics.com
+      * manually search by passing names of the big cities in each of the states
+      * more comprehensive, but a lot of false positives
+   - Besides just names of cities; it would be cool to have songs that are somehow related to a given city - for e.g. driving through S.D. you'd want to hear something about the Blackhills or Mount Rushmore - chances are that songs with words like these would have the name of one of the big cities in SD too, but it need not be the case. To capitalise on this maybe somehow use word vectors/https://relatedwords.org/relatedto/; This again leads to a lot of false positives
+
+* Use google maps to find route (It would be really nice to have an add-on that shows you songs about places within a certain radius of you!)
+
+* Create a personalised playlist based on user preferences (A favorite playlist? or top 100?) + route selected
+
+* Build a nice UI
 ## TODO
 * [ ] need to improve quality of queries
-    * ~10% of songs scraped weren't able to be queried from spotify
+    * ~15% of songs scraped weren't able to be queried from spotify
     * try out the fuzzy wuzzy api?
     * besides songs that just contain the names of cities that you pass through, also find songs about things associated with a city
     https://relatedwords.org/relatedto/ or word2vec?
