@@ -24,15 +24,18 @@ function AutocompleteDirectionsHandler(map) {
   this.directionsService = new google.maps.DirectionsService;
   this.directionsRenderer = new google.maps.DirectionsRenderer;
   this.directionsRenderer.setMap(map);
+  var options = {
+    componentRestrictions: {country: "us"}
+   };
 
   var originInput = document.getElementById('origin-input');
   var destinationInput = document.getElementById('destination-input');
 
-  var originAutocomplete = new google.maps.places.Autocomplete(originInput);
+  var originAutocomplete = new google.maps.places.Autocomplete(originInput, options);
   // Specify just the place data fields that you need.
   originAutocomplete.setFields(['place_id']);
 
-  var destinationAutocomplete = new google.maps.places.Autocomplete(destinationInput);
+  var destinationAutocomplete = new google.maps.places.Autocomplete(destinationInput, options);
   // Specify just the place data fields that you need.
   destinationAutocomplete.setFields(['place_id']);
 
@@ -87,7 +90,7 @@ AutocompleteDirectionsHandler.prototype.route = function() {
             return;
           }
           else {
-            document.getElementById('msg').innerHTML += " Driving distance is " + 
+            document.getElementById('tripInfo').innerHTML = " Driving distance is " + 
                                     directionsData.distance.text + " (" + 
                                     directionsData.duration.text + ").";
           }
@@ -96,33 +99,3 @@ AutocompleteDirectionsHandler.prototype.route = function() {
         }
       });
 };
-
-function getMapData(){
-  var newData = {
-    "playlist_name":document.getElementById('name').value,
-    "origin":document.getElementById('origin-input').value,
-    "destination":document.getElementById('destination-input').value
-  };
-  $.getJSON({
-        url: "/generate_playlist",
-        data: newData,
-        success: function(data){
-          document.getElementById("edit_playlist").style.visibility = "visible";
-          document.getElementById("playlist").src=data.src;
-        }
-    });
-}
-
-function removePlaylist(){
-  var playlist = {
-    "playlist":document.getElementById("playlist").src
-  };
-  $.getJSON({
-    url: "/remove_playlist",
-    data: playlist,
-    success: function(data){
-      document.getElementById("edit_playlist").style.visibility = "hidden";
-      document.getElementById("playlist").src="";
-    }
-});
-}

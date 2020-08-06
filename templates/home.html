@@ -23,6 +23,8 @@
     type="text/javascript"></script>
         <script src="{{ url_for('static', filename='map.js') }}"></script>
 
+        <script src="{{ url_for('static', filename='home.js') }}"></script>
+
     </head>
     <body>
         <h2>Celebrates the places you pass by!</h2>
@@ -40,15 +42,14 @@
             <button onclick="getMapData()">Generate playlist</button>
         </div>
 
+        <p id="msg"></p>
+        <p id="tripInfo"></p>
         <div style="display: none">
             <input id="origin-input" name="origin-input" class="controls" type="text"
                 placeholder="Enter an origin location">
     
             <input id="destination-input" name="destination-input" class="controls" type="text"
                 placeholder="Enter a destination location">
-
-            <input id="msg" name="msg" class="controls" type="text"
-                placeholder="Trip info" readonly>
         </div> 
     
         <div class="row h-100">

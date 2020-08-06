@@ -15,15 +15,15 @@ def search_playlist(sp, username, new_playlist):
 
 def create_playlist(playlist_name, sp, username):
     # See if playlist already exists
-    # if exists, return playlist id # TODO: if exists, prompt user again
+    # if exists, return playlist id 
     # else create new one
     playListID = search_playlist(sp, username, playlist_name)
 
     if (playListID == ""):
         sp.user_playlist_create(username, playlist_name, public=True)
         playListID = search_playlist(sp, username, playlist_name)
-
-    return playListID
+        return (playListID, True)
+    return (playListID, False)
 
 
 def add_songs(playListID, songs, duration, sp, username):
