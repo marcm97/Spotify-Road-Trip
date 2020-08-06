@@ -81,10 +81,13 @@ def generate_playlist():
     spotify = spotipy.Spotify(auth_manager=auth_manager)
     
     username = spotify.current_user()['id']
-    playlist_id = create_playlist(playlist_name, spotify, username)
+    playlist_id, is_new_playlist = create_playlist(playlist_name, spotify, username)
     playlist_src = "https://open.spotify.com/embed/playlist/" + playlist_id
+    if is_new_playlist == False:
+        return jsonify({'src':playlist_src, 'is_new_playlist':False})
+    
     make_roadtrip_playlist(origin, destination, playlist_id, spotify, username)
-    return jsonify({'src':playlist_src})
+    return jsonify({'src':playlist_src, 'is_new_playlist':True})
 
 
 @app.route('/remove_playlist', methods=['GET'])

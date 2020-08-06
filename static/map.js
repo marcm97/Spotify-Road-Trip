@@ -96,33 +96,3 @@ AutocompleteDirectionsHandler.prototype.route = function() {
         }
       });
 };
-
-function getMapData(){
-  var newData = {
-    "playlist_name":document.getElementById('name').value,
-    "origin":document.getElementById('origin-input').value,
-    "destination":document.getElementById('destination-input').value
-  };
-  $.getJSON({
-        url: "/generate_playlist",
-        data: newData,
-        success: function(data){
-          document.getElementById("edit_playlist").style.visibility = "visible";
-          document.getElementById("playlist").src=data.src;
-        }
-    });
-}
-
-function removePlaylist(){
-  var playlist = {
-    "playlist":document.getElementById("playlist").src
-  };
-  $.getJSON({
-    url: "/remove_playlist",
-    data: playlist,
-    success: function(data){
-      document.getElementById("edit_playlist").style.visibility = "hidden";
-      document.getElementById("playlist").src="";
-    }
-});
-}
