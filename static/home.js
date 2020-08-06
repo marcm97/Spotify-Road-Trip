@@ -9,17 +9,21 @@ function getMapData(){
         newData['origin'] == '' || 
         newData["destination"] == '') 
     {
-        document.getElementById('error').innerHTML="Origin, destination, and playlist name cannot be empty";
+        document.getElementById('msg').innerHTML="Origin, destination, and playlist name cannot be empty";
         return;
     }
+
+    document.getElementById('msg').innerHTML="Creating playlist...";
 
     $.getJSON({
           url: "/generate_playlist",
           data: newData,
           success: function(data){
             if(data.is_new_playlist == false){
-                document.getElementById('error').innerHTML="Playlist already exists. Enter a new name.";
+                document.getElementById('msg').innerHTML="Playlist already exists. Enter a new name.";
                 document.getElementById('name').value = "";
+            } else {
+                document.getElementById('msg').innerHTML="Playlist created.";
             }
             document.getElementById("edit_playlist").style.visibility = "visible";
             document.getElementById("playlist").src=data.src;
@@ -35,6 +39,7 @@ function getMapData(){
       url: "/remove_playlist",
       data: playlist,
       success: function(data){
+        document.getElementById('msg').innerHTML="Playlist removed.";
         document.getElementById("edit_playlist").style.visibility = "hidden";
         document.getElementById("playlist").src="";
       }

@@ -103,7 +103,6 @@ def remove_playlist():
     
     username = spotify.current_user()['id']
     playlist_id = playlist_name.split("/")[-1]
-    print(playlist_id)
     spotify.user_playlist_unfollow(username, playlist_id)
     return jsonify({'src':''})
 
