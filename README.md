@@ -77,4 +77,6 @@ In development environment for debug output
 So that you can invoke the app outside of the file's directory include
 - `export FLASK_APP=/path/to/spotipy/examples/app.py`
 
+#### References
+https://spotipy.readthedocs.io/en/2.13.0/
 
