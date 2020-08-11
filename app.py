@@ -34,7 +34,7 @@ def index():
         # Step 1. Visitor is unknown, give random ID
         session['uuid'] = str(uuid.uuid4())
 
-    auth_manager = spotipy.oauth2.SpotifyOAuth(scope='user-read-currently-playing playlist-modify-private user-library-read playlist-modify-public playlist-read-private',
+    auth_manager = spotipy.oauth2.SpotifyOAuth(scope='user-read-currently-playing playlist-modify-private user-library-read playlist-modify-public playlist-read-private user-top-read',
                                                 cache_path=session_cache_path(),
                                                 show_dialog=True)
 
