@@ -9,7 +9,7 @@ Idea Origin - On road trips, besides listening to just music that you like; it's
 
 * Create a database of songs associated with their corresponding geo locations 
    - https://en.wikipedia.org/wiki/List_of_songs_about_cities#United_States
-      * has a good list of songs, but is heavily biased towards smaller cities (eg. South Dakota has no representation :( )
+      * has a good list of songs, but is heavily biased against smaller cities (eg. South Dakota has no representation :( )
    - https://www.lyrics.com
       * manually search by passing names of the big cities in each of the states
       * more comprehensive, but a lot of false positives
@@ -77,4 +77,6 @@ In development environment for debug output
 So that you can invoke the app outside of the file's directory include
 - `export FLASK_APP=/path/to/spotipy/examples/app.py`
 
+#### References
+https://spotipy.readthedocs.io/en/2.13.0/
 
