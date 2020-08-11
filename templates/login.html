@@ -1,14 +1,59 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Spotify Roadtrip playlist generator</title>
-    </head>
-    <body>
-        <h1>Spotify Roadtrip Playlist Generator</h1>
-        <h2>Celebrates the places you pass by!</h2>
-        <p>(We will come up with something better! :)</p>
-        <button onclick="window.location.href='{{signin_url}}';">
-            Signin
-        </button>
-    </body>
+	<head>
+		<title>Spotify Road-trip Playlist Generator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style2 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Spotify Road Trip Playlist Generator</h1>
+							<p class="major">Celebrate the places you pass by!</p>
+							<ul class="actions">
+								<li><a href="#about" class="button big wide smooth-scroll-middle">Learn more</a></li>
+								<li><a href="{{signin_url}}" class="button big wide smooth-scroll-middle">Sign in with spotify</a></li>
+							</ul>
+						</div>
+                    </section>
+
+                <!-- About -->
+					<section class="wrapper style1 align-center" id="about">
+						<div class="inner">
+							<h2>About</h2>
+                            <p></p>
+						</div>
+					</section>
+                    
+                <!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+            <script src="{{ url_for('static', filename='js/util.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/home.main.js') }}"></script>
+	</body>
 </html>

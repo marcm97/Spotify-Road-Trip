@@ -1,77 +1,116 @@
-<style>
-    .modal {
-        overflow-y: auto;
-    }
-    </style>
-{% extends "base.html" %}
-
-{% block content %}
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="UTF=8">
-        <div class = "container">
-            <div class="row justify-content-center align-items-center">
-            <h1>Spotify Roadtrip Playlist Generator</h1>
-            </div>
-        </div>
+	<head>
+		<title>Spotify Road-trip Playlist Generator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/nav.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfGYCwHfbj696YVFX1h7nNYe0S7iQrWt4&libraries=places&callback=initMap"
+	type="text/javascript"></script>
+	</head>
+	<body class="is-preload">
 
-        <link rel="stylesheet" href="{{ url_for('static', filename='map.css') }}">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRu6B0u24uYJsDntFiZLoXaWhH5uCy1kU&libraries=places&callback=initMap"
-    type="text/javascript"></script>
-        <script src="{{ url_for('static', filename='map.js') }}"></script>
+		<div id="navbar">
+			<ul id="user" class="actions">
+				<li>Hi, {{posts.username}}!</li>
+			</ul>
+			<ul id="options" class="actions">
+				<li><a href="#main" class="button nav big wide smooth-scroll-middle">CREATE PLAYLIST</a></li>
+				<li><a href="#about" class="button nav big wide smooth-scroll-middle">ABOUT</a></li>
+				<li><a href="{{posts.sign_out}}" class="button nav big wide smooth-scroll-middle">SIGN OUT</a></li>
+			</ul>
+		</div>
 
-        <script src="{{ url_for('static', filename='home.js') }}"></script>
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" id="main">
+						<div class="content">
+							<h1>Spotify Road Trip Playlist Generator</h1>
+							<p id="tripInfo">Enter the following details</p>
+							<form>
+								<div class="fields">
+									<div class="field half">
+										<label for="origin-input">From: </label>
+										<input id="origin-input" name="origin-input" type="text" placeholder="Origin location">
+									</div>
+									<div class="field half">
+										<label for="destination-input">To: </label>
+										<input id="destination-input" name="destination-input" type="text"
+									placeholder="Destination location">
+									</div>
+									<div class="field">
+										<label for="name">New playlist name:</label>
+										<input type="text" id="name" name="name" placeholder="Your road trip playlist name">
+									</div>
+								</div>
+								<ul class="actions special">
+									<li><a onclick="getMapData()" class="button big wide smooth-scroll-middle">Generate Playlist</a></li>
+								</ul>
+							</form>
+						</div>
+						<div class="image">
+							<div id="map"></div>
+						</div>
+					</section>
 
-    </head>
-    <body>
-        <h2>Celebrates the places you pass by!</h2>
-        <p>(We will come up with something better! :)</p><br>
-        <h3>Hi, {{posts.username}}!</h3>
-        <button onclick="window.location.href='{{posts.sign_out}}';">
-            Signout
-        </button>
+				<!-- Playlist generated -->
+				<div id="generated_playlist">
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2></h2>
+							<p class="major"></p>
+							<p id="playlistInfo"></p>
+							<p id="msg"></p>
+							<ul class="actions">
+								<li><a href="#main" class="button big wide smooth-scroll-middle" onclick="removePlaylist()">Remove playlist</a></li>
+                    			<li><a class="button big wide smooth-scroll-middle" onclick="editPlaylist()">Edit playlist</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<iframe id="playlist" src='' width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</section>
+				</div>
 
-        
+				<!-- About -->
+					<section class="wrapper style1 align-center" id="about">
+						<div class="inner">
+							<h2>About</h2>
+							<p></p>
+						</div>
+					</section>
 
-        <div>
-            <label>New playlist name: </label>
-            <input type="text" id="name" name="name">
-            <button onclick="getMapData()">Generate playlist</button>
-        </div>
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
 
-        <p id="msg"></p>
-        <p id="tripInfo"></p>
-        <div style="display: none">
-            <input id="origin-input" name="origin-input" class="controls" type="text"
-                placeholder="Enter an origin location">
-    
-            <input id="destination-input" name="destination-input" class="controls" type="text"
-                placeholder="Enter a destination location">
-        </div> 
-    
-        <div class="row h-100">
-            <div class="col-lg-8">
-                <div id="map"></div>
-            </div>
-            <div class="col-lg-4">
-                <div id='edit_playlist' style="visibility: hidden;">
-                    <button onclick="removePlaylist()">Remove playlist</button>
-                    <button onclick="editPlaylist()">Edit playlist</button>
-                    <iframe id="playlist" src='' width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            </div>
-        </div>
+			</div>
 
-        <div id='edit_playlist' style="visibility: hidden;">
-            <button onclick="removePlaylist()">Remove playlist</button>
-            <button onclick="editPlaylist()">Edit playlist</button>
-            <iframe id="playlist" src='' width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-    </body>
+		<!-- Scripts -->
+			<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/home.main.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/home.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/map.js') }}"></script>
+
+	</body>
 </html>
-
-
-{% endblock %}

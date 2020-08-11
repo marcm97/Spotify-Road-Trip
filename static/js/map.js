@@ -41,9 +41,6 @@ function AutocompleteDirectionsHandler(map) {
 
   this.setupPlaceChangedListener(originAutocomplete, 'ORIG');
   this.setupPlaceChangedListener(destinationAutocomplete, 'DEST');
-
-  this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(originInput);
-  this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(destinationInput);
 }
 
 // Sets a listener on a radio button to change the filter type on Places
@@ -57,7 +54,7 @@ AutocompleteDirectionsHandler.prototype.setupPlaceChangedListener = function(
     var place = autocomplete.getPlace();
 
     if (!place.place_id) {
-      window.alert('Please select an option from the dropdown list.');
+      document.getElementById('tripInfo').innerHTML = 'Please select an option from the dropdown list.';
       return;
     }
     if (mode === 'ORIG') {
@@ -86,7 +83,7 @@ AutocompleteDirectionsHandler.prototype.route = function() {
           me.directionsRenderer.setDirections(response);
           var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
           if (!directionsData) {
-            window.alert('Directions request failed');
+            document.getElementById('tripInfo').innerHTML = 'Directions request failed';
             return;
           }
           else {
@@ -95,7 +92,7 @@ AutocompleteDirectionsHandler.prototype.route = function() {
                                     directionsData.duration.text + ").";
           }
         } else {
-          window.alert('Directions request failed due to ' + status);
+          document.getElementById('tripInfo').innerHTML = 'Directions request failed due to ' + status;
         }
       });
 };

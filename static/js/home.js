@@ -1,15 +1,15 @@
 function getMapData(){
     var newData = {
-      "playlist_name":document.getElementById('name').value,
-      "origin":document.getElementById('origin-input').value,
-      "destination":document.getElementById('destination-input').value
+      "playlist_name": document.getElementById('name').value,
+      "origin": "Boston, MA, USA",  //document.getElementById('origin-input').value,
+      "destination":"New York, NY, USA" //document.getElementById('destination-input').value
     };
 
     if(newData["playlist_name"] == '' || 
         newData['origin'] == '' || 
         newData["destination"] == '') 
     {
-        document.getElementById('msg').innerHTML="Origin, destination, and playlist name cannot be empty";
+        document.getElementById('tripInfo').innerHTML="Origin, destination, and playlist name cannot be empty";
         return;
     }
 
@@ -19,14 +19,15 @@ function getMapData(){
           url: "/generate_playlist",
           data: newData,
           success: function(data){
+            document.getElementById('generated_playlist').style.display = "block";
             if(data.is_new_playlist == false){
                 document.getElementById('msg').innerHTML="Playlist already exists. Enter a new name.";
                 document.getElementById('name').value = "";
             } else {
                 document.getElementById('msg').innerHTML="Playlist created.";
             }
-            document.getElementById("edit_playlist").style.visibility = "visible";
             document.getElementById("playlist").src=data.src;
+            location.href = "#first";
           }
       });
   }
@@ -39,9 +40,9 @@ function getMapData(){
       url: "/remove_playlist",
       data: playlist,
       success: function(data){
-        document.getElementById('msg').innerHTML="Playlist removed.";
-        document.getElementById("edit_playlist").style.visibility = "hidden";
+        document.getElementById('tripInfo').innerHTML="Playlist removed.";
         document.getElementById("playlist").src="";
+        document.getElementById('generated_playlist').style.display = "none";
       }
   });
   }

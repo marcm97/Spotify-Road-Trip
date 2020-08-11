@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Spotify Road-trip Playlist Generator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Spotify Road Trip Playlist Generator</h1>
+				<p>Celebrate the places you place by!</p>
+			</header>
+
+		<!-- Signup Form -->
+			<form id="signup-form">
+				<input type="button" onclick="window.location.href='{{signin_url}}';" value="Signin with Spotify" />
+            </form>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/marcm97/Spotify-Road-Trip" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Spotify Road Trip Generator Project.</li></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{{ url_for('static', filename='js/login.js') }}"></script>
+
+	</body>
+</html>
