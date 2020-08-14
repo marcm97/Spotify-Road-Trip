@@ -54,7 +54,7 @@ AutocompleteDirectionsHandler.prototype.setupPlaceChangedListener = function(
     var place = autocomplete.getPlace();
 
     if (!place.place_id) {
-      document.getElementById('tripInfo').innerHTML = 'Please select an option from the dropdown list.';
+      document.getElementById('status').innerHTML = 'Please select an option from the dropdown list.';
       return;
     }
     if (mode === 'ORIG') {
@@ -83,16 +83,16 @@ AutocompleteDirectionsHandler.prototype.route = function() {
           me.directionsRenderer.setDirections(response);
           var directionsData = response.routes[0].legs[0]; // Get data about the mapped route
           if (!directionsData) {
-            document.getElementById('tripInfo').innerHTML = 'Directions request failed';
+            document.getElementById('status').innerHTML = 'Directions request failed';
             return;
           }
           else {
-            document.getElementById('tripInfo').innerHTML = " Driving distance is " + 
+            document.getElementById('status').innerHTML = " Driving distance is " + 
                                     directionsData.distance.text + " (" + 
                                     directionsData.duration.text + ").";
           }
         } else {
-          document.getElementById('tripInfo').innerHTML = 'Directions request failed due to ' + status;
+          document.getElementById('status').innerHTML = 'Directions request failed due to ' + status;
         }
       });
 };

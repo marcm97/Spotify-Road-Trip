@@ -1,33 +1,32 @@
 function getMapData(){
     var newData = {
       "playlist_name": document.getElementById('name').value,
-      "origin": "Boston, MA, USA",  //document.getElementById('origin-input').value,
-      "destination":"New York, NY, USA" //document.getElementById('destination-input').value
+      "origin": document.getElementById('origin-input').value,
+      "destination": document.getElementById('destination-input').value
     };
 
     if(newData["playlist_name"] == '' || 
         newData['origin'] == '' || 
         newData["destination"] == '') 
     {
-        document.getElementById('tripInfo').innerHTML="Origin, destination, and playlist name cannot be empty";
+        document.getElementById('status').innerHTML="Origin, destination, and playlist name cannot be empty";
         return;
     }
-
-    document.getElementById('msg').innerHTML="Creating playlist...";
 
     $.getJSON({
           url: "/generate_playlist",
           data: newData,
           success: function(data){
-            document.getElementById('generated_playlist').style.display = "block";
+            document.getElementById('show_playlist').style.display = "block";
             if(data.is_new_playlist == false){
-                document.getElementById('msg').innerHTML="Playlist already exists. Enter a new name.";
-                document.getElementById('name').value = "";
+                document.getElementById('playlistStatus').innerHTML= newData["playlist_name"] + " already exists";
             } else {
-                document.getElementById('msg').innerHTML="Playlist created.";
+                document.getElementById('playlistStatus').innerHTML= newData["playlist_name"] + " is created";
             }
+            
+            document.getElementById('playlistInfo').innerHTML="Add playlist info";
             document.getElementById("playlist").src=data.src;
-            location.href = "#first";
+            location.href = "#generated_playlist";
           }
       });
   }
@@ -36,13 +35,15 @@ function getMapData(){
     var playlist = {
       "playlist":document.getElementById("playlist").src
     };
+
+    var playlist_name = document.getElementById('name').value;
     $.getJSON({
       url: "/remove_playlist",
       data: playlist,
       success: function(data){
-        document.getElementById('tripInfo').innerHTML="Playlist removed.";
+        document.getElementById('status').innerHTML= playlist_name + " is removed";
         document.getElementById("playlist").src="";
-        document.getElementById('generated_playlist').style.display = "none";
+        document.getElementById('show_playlist').style.display = "none";
       }
   });
   }

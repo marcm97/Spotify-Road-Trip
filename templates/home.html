@@ -9,7 +9,7 @@
 		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfGYCwHfbj696YVFX1h7nNYe0S7iQrWt4&libraries=places&callback=initMap"
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"
 	type="text/javascript"></script>
 	</head>
 	<body class="is-preload">
@@ -19,7 +19,7 @@
 				<li>Hi, {{posts.username}}!</li>
 			</ul>
 			<ul id="options" class="actions">
-				<li><a href="#main" class="button nav big wide smooth-scroll-middle">CREATE PLAYLIST</a></li>
+				<li><a href="#home" class="button nav big wide smooth-scroll-middle">CREATE PLAYLIST</a></li>
 				<li><a href="#about" class="button nav big wide smooth-scroll-middle">ABOUT</a></li>
 				<li><a href="{{posts.sign_out}}" class="button nav big wide smooth-scroll-middle">SIGN OUT</a></li>
 			</ul>
@@ -28,10 +28,9 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 				<!-- One -->
-					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" id="main">
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" id="home">
 						<div class="content">
 							<h1>Spotify Road Trip Playlist Generator</h1>
-							<p id="tripInfo">Enter the following details</p>
 							<form>
 								<div class="fields">
 									<div class="field half">
@@ -52,6 +51,7 @@
 									<li><a onclick="getMapData()" class="button big wide smooth-scroll-middle">Generate Playlist</a></li>
 								</ul>
 							</form>
+							<p id="status"></p>
 						</div>
 						<div class="image">
 							<div id="map"></div>
@@ -59,16 +59,14 @@
 					</section>
 
 				<!-- Playlist generated -->
-				<div id="generated_playlist">
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+				<div id="show_playlist">
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="generated_playlist">
 						<div class="content">
-							<h2></h2>
-							<p class="major"></p>
-							<p id="playlistInfo"></p>
-							<p id="msg"></p>
+							<h2 id="playlistStatus"></h2>
+							<p id="playlistInfo" class="major"></p>
 							<ul class="actions">
-								<li><a href="#main" class="button big wide smooth-scroll-middle" onclick="removePlaylist()">Remove playlist</a></li>
-                    			<li><a class="button big wide smooth-scroll-middle" onclick="editPlaylist()">Edit playlist</a></li>
+								<li><a href="#home" class="button big wide smooth-scroll-middle" onclick="removePlaylist()">Remove this playlist</a></li>
+                    			<li><a class="button big wide smooth-scroll-middle" onclick="editPlaylist()">Edit playlist on spotify</a></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -81,7 +79,7 @@
 					<section class="wrapper style1 align-center" id="about">
 						<div class="inner">
 							<h2>About</h2>
-							<p></p>
+							<p class="major">Add technologies used, motivation, code link, footer</p>
 						</div>
 					</section>
 
