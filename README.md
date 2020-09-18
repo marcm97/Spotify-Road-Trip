@@ -2,6 +2,8 @@
 
 ## Goal
 Help users get a better sense of the history and culture of the cities that they are driving through, through personalized spotify playlists that comprise of songs that highlight the best of these cities
+
+
 Idea Origin - On road trips, besides listening to just music that you like; it's nice to hear every once in a while a song about a place that you're driving through
 
 
