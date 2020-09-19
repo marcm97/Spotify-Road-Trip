@@ -44,6 +44,9 @@ http://amunategui.github.io/yelp-v3-cross-country-trip/index.html
 
 * Flask APP
 
+## Prerequisites
+
+- `pip3 install spotipy Flask Flask-Session`
 * Python client for Google maps API: 
 
         $ pip install -U googlemaps
@@ -51,10 +54,6 @@ http://amunategui.github.io/yelp-v3-cross-country-trip/index.html
 * Using the `dotenv` module to hide API keys:
 
         $ pip install python-dotenv
-
-## Prerequisites
-
-- `pip3 install spotipy Flask Flask-Session`
 - Set the environment variables from your [app settings](https://developer.spotify.com/dashboard/applications). On Windows, use `set` instead of `export`.
     - `export SPOTIPY_CLIENT_ID=client_id_here`
     - `export SPOTIPY_CLIENT_SECRET=client_secret_here`
