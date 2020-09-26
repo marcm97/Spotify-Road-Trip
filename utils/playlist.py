@@ -1,4 +1,3 @@
-
 import random
 import pandas as pd
 import os
@@ -30,15 +29,16 @@ class Playlist:
         # See if playlist already exists
         # if exists, return playlist id
         # else create new one
-        if (self.playlist == ""):
+        # TODO: Complete this function
+        if (self.playlist_id == ""):
             self.spotify.user_playlist_create(self.username, self.playlist_name, public=True)
             self.search_playlist(self.spotify, self.username, self.playlist_name)
             return (self.playlist_id, True)
         return (self.playlist_id, False)
 
-    #def get_songs_for_state():
+    #def similarity_matrix():
         # creaate similarity matrix
-        # find the most similar/ppoular songs
+        # find the most similar/ppoular songs from users existing playlist
         # return song
 
     def make_roadtrip_playlist(self):
