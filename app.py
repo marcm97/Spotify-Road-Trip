@@ -3,9 +3,7 @@ from flask import Flask, session, request, redirect, render_template, jsonify, u
 from flask_session import Session
 import spotipy
 import uuid
-
-from utils.generate_playlist import create_playlist
-from utils.generate_playlist import make_roadtrip_playlist
+from utils.playlist import Playlist
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.urandom(64)
@@ -77,16 +75,15 @@ def generate_playlist():
     auth_manager = spotipy.oauth2.SpotifyOAuth(cache_path=session_cache_path())
     if not auth_manager.get_cached_token():
         return redirect('/')
-    
+
     spotify = spotipy.Spotify(auth_manager=auth_manager)
-    
+
     username = spotify.current_user()['id']
-    playlist_id, is_new_playlist = create_playlist(playlist_name, spotify, username)
-    playlist_src = "https://open.spotify.com/embed/playlist/" + playlist_id
-    if is_new_playlist == False:
-        return jsonify({'src':playlist_src, 'is_new_playlist':False})
-    
-    make_roadtrip_playlist(origin, destination, playlist_id, spotify, username)
+    playlist_data = Playlist(origin, destination, playlist_name, spotify, username)
+    playlist_src = "https://open.spotify.com/embed/playlist/" + playlist_data.playlist_id
+    #if is_new_playlist == False:
+    #    return jsonify({'src':playlist_src, 'is_new_playlist':False})
+    playlist_data.make_roadtrip_playlist()
     return jsonify({'src':playlist_src, 'is_new_playlist':True})
 
 
@@ -98,9 +95,9 @@ def remove_playlist():
     auth_manager = spotipy.oauth2.SpotifyOAuth(cache_path=session_cache_path())
     if not auth_manager.get_cached_token():
         return redirect('/')
-    
+
     spotify = spotipy.Spotify(auth_manager=auth_manager)
-    
+
     username = spotify.current_user()['id']
     playlist_id = playlist_name.split("/")[-1]
     spotify.user_playlist_unfollow(username, playlist_id)
