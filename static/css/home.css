@@ -1,0 +1,48 @@
+.banner.style1 .image {
+    width: 100%;
+}
+
+
+#origin-input{
+ left: 3%;
+}
+
+#destination-input{
+    left: 29%;
+}
+
+#name{
+    left: 55%;
+}
+
+ul.actions.special{
+    position: absolute;
+    z-index: 4;
+    width: 20%;
+    top: 1rem;
+    padding-left: 90%;
+}
+
+.button{
+    background-color: white;
+}
+   
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], select, textarea {
+    border-color: rgba(0, 0, 0, 0.8);
+    top:1rem;
+    position: absolute;
+    background-color: white;
+    width: 23%;
+    border-radius: 2rem;
+    z-index: 5;
+}
+
+.appftr {
+	background-color: rgba(0,0,0,1);
+}
+
+
+.icon {
+	color: rgba(255,255,255);
+	font-weight: bold;
+}
