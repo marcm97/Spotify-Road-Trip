@@ -7,8 +7,9 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
       mapTypeControl: false,
       visible: true,
-      center: {lat: 40.730610, lng: -73.935242}, //New York City
-      zoom: 13
+      //center: {lat: 40.730610, lng: -73.935242}, //New York City
+      center: {lat: 39.8283, lng: -98.5795},
+      zoom: 5
   });
 
   new AutocompleteDirectionsHandler(map);

@@ -52,8 +52,15 @@ def index():
     spotify = spotipy.Spotify(auth_manager=auth_manager)
     post["username"] = spotify.me()["display_name"]
     post["playlist_src"] = ''
-    return render_template('home.html', posts=post)
-
+    #return render_template('home.html', posts=post)
+    #playlists = spotify.user_playlists(spotify.current_user()['id'])
+    playlists = spotify.current_user_playlists()
+    list_playlists = []
+    for playlist in playlists["items"]:
+        list_playlists.append(playlist["name"])
+    list_playlists = sorted(list_playlists)
+    #print(playlists)
+    return render_template('home.html', posts=post,list_playlists = list_playlists)
 
 @app.route('/sign_out')
 def sign_out():
