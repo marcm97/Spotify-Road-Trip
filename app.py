@@ -77,10 +77,10 @@ def sign_out():
 @app.route('/generate_playlist', methods=['GET'])
 def generate_playlist():
     # Gets data from the home page
-    playlist_name=request.args.get("playlist_name")
+    selected_playlist = request.args.get("selected_playlist")
     origin =request.args.get("origin")
     destination = request.args.get("destination")
-    print(destination + " " + origin)
+    print(destination + " " + origin + " " + selected_playlist)
     auth_manager = spotipy.oauth2.SpotifyOAuth(cache_path=session_cache_path())
     if not auth_manager.get_cached_token():
         return redirect('/')
@@ -88,7 +88,7 @@ def generate_playlist():
     spotify = spotipy.Spotify(auth_manager=auth_manager)
     
     username = spotify.current_user()['id']
-    playlist_id, is_new_playlist = create_playlist(playlist_name, spotify, username)
+    playlist_id, is_new_playlist = create_playlist(selected_playlist, spotify, username)
     playlist_src = "https://open.spotify.com/embed/playlist/" + playlist_id
     if is_new_playlist == False:
         return jsonify({'src':playlist_src, 'is_new_playlist':False})

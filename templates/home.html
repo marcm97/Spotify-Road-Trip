@@ -43,12 +43,14 @@
 						
 						<!--<input type="text" id="name" name="name" placeholder="Your road trip playlist name">-->
 						
-						<select name="dropdown" id="dropdown" placeholder="Select Playlist" method="GET" action="/">
-							<option value="{{list_playlists[0]}}" selected>{{list_playlists[0]}}</option>
-							{% for playlist in list_playlists[1:] %}
+						<select name="dropdown" id="dropdown" placeholder="Add to a Playlist" method="GET" action="/">
+							<option value="Create new playlist">Create new playlist</option>
+							{% for playlist in list_playlists[0:] %}
 								<option value="{{playlist}}">{{playlist}}</option>
 							{% endfor %}
 						</select>
+
+						<p id="status"></p>
 						
 						<ul class="actions special">
 							<li><a onclick="getMapData()" class="button big wide">Generate Playlist</a></li>

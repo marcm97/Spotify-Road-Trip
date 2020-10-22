@@ -14,13 +14,13 @@ def search_playlist(sp, username, new_playlist):
     return playListID
 
 
-def create_playlist(playlist_name, sp, username):
+def create_playlist(selected_playlist, sp, username):
     # See if playlist already exists
     # if exists, return playlist id 
     # else create new one
-    playListID = search_playlist(sp, username, playlist_name)
-
-    if (playListID == ""):
+    playListID = search_playlist(sp, username, selected_playlist)
+    playlist_name = "Your roadtrip playlist"
+    if (selected_playlist == "Create new playlist"):
         sp.user_playlist_create(username, playlist_name, public=True)
         playListID = search_playlist(sp, username, playlist_name)
         return (playListID, True)
