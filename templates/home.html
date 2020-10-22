@@ -35,15 +35,16 @@
 						
 						
 					
-						<input class="originloc" id="origin-input" name="origin-input" type="text" placeholder="Origin location">
+						<input class="originloc" id="origin-input" name="origin-input" type="text" placeholder="Origin city">
 
 						<input id="destination-input" name="destination-input" type="text"
-						placeholder="Destination location">
+						placeholder="Destination city">
 						
 						
 						<!--<input type="text" id="name" name="name" placeholder="Your road trip playlist name">-->
 						
 						<select name="dropdown" id="dropdown" placeholder="Add to a Playlist" method="GET" action="/">
+							<option value="Add to new or existing playlist?" selected hidden>Add to new or existing playlist?</option>
 							<option value="Create new playlist">Create new playlist</option>
 							{% for playlist in list_playlists[0:] %}
 								<option value="{{playlist}}">{{playlist}}</option>

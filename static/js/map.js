@@ -26,7 +26,8 @@ function AutocompleteDirectionsHandler(map) {
   this.directionsRenderer = new google.maps.DirectionsRenderer;
   this.directionsRenderer.setMap(map);
   var options = {
-    componentRestrictions: {country: "us"}
+    componentRestrictions: {country: "us"},
+    types: ['(cities)']
    };
 
   var originInput = document.getElementById('origin-input');

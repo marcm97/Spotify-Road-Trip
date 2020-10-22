@@ -3,15 +3,13 @@ from flask import Flask, session, request, redirect, render_template, jsonify, u
 from flask_session import Session
 import spotipy
 import uuid
-
-from utils.generate_playlist import create_playlist
-from utils.generate_playlist import make_roadtrip_playlist
+from utils.playlist import Playlist
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.urandom(64)
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_FILE_DIR'] = './.flask_session/'
-#Session(app)
+Session(app)
 
 caches_folder = './.spotify_caches/'
 if not os.path.exists(caches_folder):
@@ -52,14 +50,13 @@ def index():
     spotify = spotipy.Spotify(auth_manager=auth_manager)
     post["username"] = spotify.me()["display_name"]
     post["playlist_src"] = ''
-    #return render_template('home.html', posts=post)
-    #playlists = spotify.user_playlists(spotify.current_user()['id'])
     playlists = spotify.current_user_playlists()
     list_playlists = []
     for playlist in playlists["items"]:
-        list_playlists.append(playlist["name"])
+        print(playlist["owner"]["display_name"])
+        if playlist["owner"]["display_name"] == post["username"]:
+            list_playlists.append(playlist["name"])
     list_playlists = sorted(list_playlists)
-    #print(playlists)
     return render_template('home.html', posts=post,list_playlists = list_playlists)
 
 @app.route('/sign_out')
@@ -80,7 +77,7 @@ def generate_playlist():
     selected_playlist = request.args.get("selected_playlist")
     origin =request.args.get("origin")
     destination = request.args.get("destination")
-    print(destination + " " + origin + " " + selected_playlist)
+    print("Origin: %s\nDestination: %s\nSelected playlist: %s" % (origin, destination, selected_playlist))
     auth_manager = spotipy.oauth2.SpotifyOAuth(cache_path=session_cache_path())
     if not auth_manager.get_cached_token():
         return redirect('/')
@@ -88,15 +85,13 @@ def generate_playlist():
     spotify = spotipy.Spotify(auth_manager=auth_manager)
     
     username = spotify.current_user()['id']
-    playlist_id, is_new_playlist = create_playlist(selected_playlist, spotify, username)
-    playlist_src = "https://open.spotify.com/embed/playlist/" + playlist_id
-    if is_new_playlist == False:
-        return jsonify({'src':playlist_src, 'is_new_playlist':False})
-    
-    make_roadtrip_playlist(origin, destination, playlist_id, spotify, username)
-    return jsonify({'src':playlist_src, 'is_new_playlist':True})
+    playlist_data = Playlist(origin, destination, selected_playlist, spotify, username)
+    playlist_src = "https://open.spotify.com/embed/playlist/" + playlist_data.playlist_id
+    playlist_data.make_roadtrip_playlist()
+    return jsonify({'src':playlist_src, 'playlist':playlist_data.selected_playlist})
 
 
+'''
 @app.route('/remove_playlist', methods=['GET'])
 def remove_playlist():
     # Gets data from the home page
@@ -112,7 +107,7 @@ def remove_playlist():
     playlist_id = playlist_name.split("/")[-1]
     spotify.user_playlist_unfollow(username, playlist_id)
     return jsonify({'src':''})
-
+'''
 
 '''
 Following lines allow application to be run more conveniently with
@@ -121,3 +116,6 @@ Following lines allow application to be run more conveniently with
 '''
 if __name__ == '__main__':
 	app.run(threaded=True, port=int(os.environ.get("PORT", 8080)))
+
+
+

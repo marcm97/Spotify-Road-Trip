@@ -7,6 +7,12 @@ function getMapData(){
       "selected_playlist": selected_playlist
     };
 
+    if(newData['selected_playlist'] == "Add to new or existing playlist?")
+    {
+      document.getElementById('status').innerHTML="Please select a playlist";
+      return;
+    }
+
     if( newData['origin'] == '' || 
         newData["destination"] == '') 
     {
@@ -27,6 +33,7 @@ function getMapData(){
             
             document.getElementById('playlistInfo').innerHTML="Add playlist info";
             document.getElementById("playlist").src=data.src;*/
+            document.getElementById('status').innerHTML = "Songs added \"" + data['playlist']+"\". Enjoy listening! :)"
             location.href = "#generated_playlist";
           }
       });
