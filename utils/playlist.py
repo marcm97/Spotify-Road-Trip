@@ -27,7 +27,7 @@ class Playlist:
         return playlist_id
     #
     def get_playlist_id(self):
-        playlist_name = "Soundtrack Your Ride - " + self.origin[:-5] + \
+        playlist_name = "Website name - " + self.origin[:-5] + \
             " to " + self.destination[:-5] + " - " + datetime.today().strftime('%Y-%m-%d')
         if (self.selected_playlist == "Create new playlist"):
             self.spotify.user_playlist_create(self.username, playlist_name, public=True)
