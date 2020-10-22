@@ -1,18 +1,19 @@
 import random
 import pandas as pd
 import os
+from datetime import datetime
 
 from utils.route import states_along_route
 from utils.route import trip_duration_seconds
 
 class Playlist:
-    def __init__(self, origin, destination, playlist_name, spotify, username):
+    def __init__(self, origin, destination, selected_playlist, spotify, username):
         self.origin = origin
         self.destination = destination
-        self.playlist_name = playlist_name
+        self.selected_playlist = selected_playlist
         self.spotify = spotify
         self.username = username
-        self.playlist_id = self.search_playlist_id()
+        self.playlist_id = self.get_playlist_id()
         self.states = list(states_along_route(self.origin, self.destination).keys())
         self.duration = trip_duration_seconds(self.origin, self.destination) * 1000*0.9
 
@@ -21,20 +22,17 @@ class Playlist:
         playlist_id = ""
         playlists = self.spotify.user_playlists(self.username)
         for playlist in playlists["items"]:
-            if (playlist["name"] == self.playlist_name):
+            if (playlist["name"] == self.selected_playlist):
                 playlist_id = playlist["id"]
         return playlist_id
     #
-    def create_playlist(self):
-        # See if playlist already exists
-        # if exists, return playlist id
-        # else create new one
-        # TODO: Complete this function
-        if (self.playlist_id == ""):
-            self.spotify.user_playlist_create(self.username, self.playlist_name, public=True)
-            self.search_playlist(self.spotify, self.username, self.playlist_name)
-            return (self.playlist_id, True)
-        return (self.playlist_id, False)
+    def get_playlist_id(self):
+        playlist_name = "Soundtrack Your Ride - " + self.origin[:-5] + \
+            " to " + self.destination[:-5] + " - " + datetime.today().strftime('%Y-%m-%d')
+        if (self.selected_playlist == "Create new playlist"):
+            self.spotify.user_playlist_create(self.username, playlist_name, public=True)
+            self.selected_playlist = playlist_name
+        return self.search_playlist_id()
 
     #def similarity_matrix():
         # creaate similarity matrix

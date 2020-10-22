@@ -6,7 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/nav.css') }}" />
-		<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}" />
 		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -29,56 +28,6 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 				<!-- One -->
-				<section class="banner style1 orient-left fullscreen onload-image-fade-in onload-content-fade-right" id="home">
-					<div class="image">
-						
-						
-						
-					
-						<input class="originloc" id="origin-input" name="origin-input" type="text" placeholder="Origin city">
-
-						<input id="destination-input" name="destination-input" type="text"
-						placeholder="Destination city">
-						
-						
-						<!--<input type="text" id="name" name="name" placeholder="Your road trip playlist name">-->
-						
-						<select name="dropdown" id="dropdown" placeholder="Add to a Playlist" method="GET" action="/">
-							<option value="Add to new or existing playlist?" selected hidden>Add to new or existing playlist?</option>
-							<option value="Create new playlist">Create new playlist</option>
-							{% for playlist in list_playlists[0:] %}
-								<option value="{{playlist}}">{{playlist}}</option>
-							{% endfor %}
-						</select>
-
-						<p id="status"></p>
-						
-						<ul class="actions special">
-							<li><a onclick="getMapData()" class="button big wide">Generate Playlist</a></li>
-						</ul>
-						
-						
-						<div id="map">
-						</div>
-						
-					</div>
-
-					
-				</section>
-
-				<!-- Footer -->
-				<footer class="wrapper style1 align-center appftr">
-					<div class="inner">
-						<ul class="icons">
-							<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-					</div>
-				</footer>
-				<!----
 					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" id="home">
 						<div class="content">
 							<h1>Spotify Road Trip Playlist Generator</h1>
@@ -108,9 +57,8 @@
 							<div id="map"></div>
 						</div>
 					</section>
-				-->
+
 				<!-- Playlist generated -->
-				<!---
 				<div id="show_playlist">
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="generated_playlist">
 						<div class="content">
@@ -126,8 +74,28 @@
 						</div>
 					</section>
 				</div>
-				-->
-				
+
+				<!-- About -->
+					<section class="wrapper style1 align-center" id="about">
+						<div class="inner">
+							<h2>About</h2>
+							<p class="major">Add technologies used, motivation, code link, footer</p>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center appftr">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
 
 			</div>
 

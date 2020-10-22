@@ -50,8 +50,14 @@ def index():
     spotify = spotipy.Spotify(auth_manager=auth_manager)
     post["username"] = spotify.me()["display_name"]
     post["playlist_src"] = ''
-    return render_template('home.html', posts=post)
-
+    playlists = spotify.current_user_playlists()
+    list_playlists = []
+    for playlist in playlists["items"]:
+        print(playlist["owner"]["display_name"])
+        if playlist["owner"]["display_name"] == post["username"]:
+            list_playlists.append(playlist["name"])
+    list_playlists = sorted(list_playlists)
+    return render_template('home.html', posts=post,list_playlists = list_playlists)
 
 @app.route('/sign_out')
 def sign_out():
@@ -68,10 +74,10 @@ def sign_out():
 @app.route('/generate_playlist', methods=['GET'])
 def generate_playlist():
     # Gets data from the home page
-    playlist_name=request.args.get("playlist_name")
+    selected_playlist = request.args.get("selected_playlist")
     origin =request.args.get("origin")
     destination = request.args.get("destination")
-    print(destination + " " + origin)
+    print("Origin: %s\nDestination: %s\nSelected playlist: %s" % (origin, destination, selected_playlist))
     auth_manager = spotipy.oauth2.SpotifyOAuth(cache_path=session_cache_path())
     if not auth_manager.get_cached_token():
         return redirect('/')
@@ -79,14 +85,13 @@ def generate_playlist():
     spotify = spotipy.Spotify(auth_manager=auth_manager)
 
     username = spotify.current_user()['id']
-    playlist_data = Playlist(origin, destination, playlist_name, spotify, username)
+    playlist_data = Playlist(origin, destination, selected_playlist, spotify, username)
     playlist_src = "https://open.spotify.com/embed/playlist/" + playlist_data.playlist_id
-    #if is_new_playlist == False:
-    #    return jsonify({'src':playlist_src, 'is_new_playlist':False})
     playlist_data.make_roadtrip_playlist()
-    return jsonify({'src':playlist_src, 'is_new_playlist':True})
+    return jsonify({'src':playlist_src, 'playlist':playlist_data.selected_playlist})
 
 
+'''
 @app.route('/remove_playlist', methods=['GET'])
 def remove_playlist():
     # Gets data from the home page
@@ -102,7 +107,7 @@ def remove_playlist():
     playlist_id = playlist_name.split("/")[-1]
     spotify.user_playlist_unfollow(username, playlist_id)
     return jsonify({'src':''})
-
+'''
 
 '''
 Following lines allow application to be run more conveniently with
@@ -111,3 +116,6 @@ Following lines allow application to be run more conveniently with
 '''
 if __name__ == '__main__':
 	app.run(threaded=True, port=int(os.environ.get("PORT", 8080)))
+
+
+

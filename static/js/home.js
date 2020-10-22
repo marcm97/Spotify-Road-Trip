@@ -1,15 +1,22 @@
 function getMapData(){
+    var e = document.getElementById("dropdown");
+    var selected_playlist = e.options[e.selectedIndex].text;
     var newData = {
-      "playlist_name": document.getElementById('name').value,
       "origin": document.getElementById('origin-input').value,
-      "destination": document.getElementById('destination-input').value
+      "destination": document.getElementById('destination-input').value,
+      "selected_playlist": selected_playlist
     };
 
-    if(newData["playlist_name"] == '' || 
-        newData['origin'] == '' || 
+    if(newData['selected_playlist'] == "Add to new or existing playlist?")
+    {
+      document.getElementById('status').innerHTML="Please select a playlist";
+      return;
+    }
+
+    if( newData['origin'] == '' || 
         newData["destination"] == '') 
     {
-        document.getElementById('status').innerHTML="Origin, destination, and playlist name cannot be empty";
+        document.getElementById('status').innerHTML="Origin, and destination cannot be empty";
         return;
     }
 
@@ -17,21 +24,22 @@ function getMapData(){
           url: "/generate_playlist",
           data: newData,
           success: function(data){
-            document.getElementById('show_playlist').style.display = "block";
+            /*document.getElementById('show_playlist').style.display = "block";
             if(data.is_new_playlist == false){
-                document.getElementById('playlistStatus').innerHTML= newData["playlist_name"] + " already exists";
+                document.getElementById('playlistStatus').innerHTML= newData["selected_playlist"] + " already exists";
             } else {
-                document.getElementById('playlistStatus').innerHTML= newData["playlist_name"] + " is created";
+                document.getElementById('playlistStatus').innerHTML= newData["selected_playlist"] + " is created";
             }
             
             document.getElementById('playlistInfo').innerHTML="Add playlist info";
-            document.getElementById("playlist").src=data.src;
+            document.getElementById("playlist").src=data.src;*/
+            document.getElementById('status').innerHTML = "Songs added \"" + data['playlist']+"\". Enjoy listening! :)"
             location.href = "#generated_playlist";
           }
       });
   }
   
-  function removePlaylist(){
+  /*function removePlaylist(){
     var playlist = {
       "playlist":document.getElementById("playlist").src
     };
@@ -53,4 +61,4 @@ function getMapData(){
     url = url.replace('embed/', '');
     var win = window.open(url, '_blank');
     win.focus();
-  }
+  }*/
